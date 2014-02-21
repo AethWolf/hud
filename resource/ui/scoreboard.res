@@ -110,7 +110,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"ScoreboardTeamNameLarge"
+		"font"			"VarsityText32"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"10" [!$OSX]
@@ -134,7 +134,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"ScoreboardTeamScore"
+		"font"			"VarsityText32"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"190"
@@ -160,7 +160,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"ScoreboardTeamScore"
+		"font"			"VarsityText32"
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -187,7 +187,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"ScoreboardMedium"
+		"font"			"VarsityText20"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"			"150"
@@ -209,7 +209,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"ScoreboardTeamNameLarge"
+		"font"			"VarsityText32"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"450" [!$OSX]
@@ -234,7 +234,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"ScoreboardTeamScore"
+		"font"			"VarsityText32"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"310"
@@ -260,7 +260,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"ScoreboardTeamScore"
+		"font"			"VarsityText32"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -287,7 +287,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"ScoreboardMedium"
+		"font"			"VarsityText20"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"			"350"
@@ -310,7 +310,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"VarsityText12"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"11"
@@ -334,7 +334,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"ScoreboardVerySmall"
+		"font"			"VarsityText12"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
 		"xpos"			"285"
@@ -375,6 +375,7 @@
 		"autoresize"	"3"
 		"linespacing"	"12"
 		"fgcolor"		"blue"
+		
 		
 		if_mvm
 		{
@@ -438,7 +439,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"ScoreboardVerySmall"
+		"font"			"VarsityText12"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -462,7 +463,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"ScoreboardVerySmall"
+		"font"			"VarsityText12"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -533,7 +534,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"VarsityText24"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -584,7 +585,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
-		"font"		"ScoreboardMedium"
+		"font"		"VarsityText24"
 		"labelText"		"%playerscore%"
 		"textAlignment"	"east"
 		"xpos"			"440"
@@ -733,7 +734,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"ScoreboardMedium"
+				"font"			"VarsityText24"
 			}
 		}
 
@@ -812,7 +813,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"ScoreboardMedium"
+				"font"			"VarsityText24"
 			}
 		}
 	}
@@ -840,7 +841,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -857,7 +858,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -874,7 +875,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -891,7 +892,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -908,7 +909,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -925,7 +926,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -942,7 +943,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"mapname"
-			"font"			"ScoreboardMedium"
+			"font"			"VarsityText16"
 			"labelText"		"%mapname%"
 			"textAlignment"		"east"
 			"xpos"			"435"
@@ -961,7 +962,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"gametype"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
 			"xpos"			"435"
@@ -980,7 +981,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -997,7 +998,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1014,7 +1015,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"			"200"	[$WIN32]
@@ -1031,7 +1032,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"			"200"	[$WIN32]
@@ -1048,7 +1049,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"			"200"	[$WIN32]
@@ -1065,7 +1066,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"			"200"	[$WIN32]
@@ -1082,7 +1083,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
 			"xpos"			"305"	[$WIN32]
@@ -1099,7 +1100,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
 			"xpos"			"305"	[$WIN32]
@@ -1116,7 +1117,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
 			"xpos"			"305"	[$WIN32]
@@ -1133,7 +1134,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
 			"xpos"			"305"	[$WIN32]
@@ -1150,7 +1151,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"			"326"	[$WIN32]
@@ -1167,7 +1168,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"			"326"	[$WIN32]
@@ -1184,7 +1185,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"			"326"	[$WIN32]
@@ -1201,7 +1202,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"			"326"	[$WIN32]
@@ -1218,7 +1219,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
 			"xpos"			"425"	[$WIN32]
@@ -1235,7 +1236,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
 			"xpos"			"425"	[$WIN32]
@@ -1252,7 +1253,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
 			"xpos"			"425"	[$WIN32]
@@ -1269,7 +1270,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
 			"xpos"			"425"	[$WIN32]
@@ -1286,7 +1287,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"north-east"
 			"xpos"			"445"	[$WIN32]
@@ -1302,7 +1303,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"north-west"		[$WIN32]
 			"xpos"			"560"	[$WIN32]
@@ -1319,7 +1320,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"north-east"
 			"xpos"			"445"	[$WIN32]
@@ -1336,7 +1337,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"ScoreboardVerySmall"
+			"font"			"VarsityText12"
 			"labelText"		"%bonus%"
 			"textAlignment"		"north-west"		[$WIN32]
 			"xpos"			"560"	[$WIN32]
@@ -1409,7 +1410,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SelectHintLabel"
-			"font"			"ScoreboardMedium"
+			"font"			"VarsityText24"
 			"xpos"			"25"
 			"xpos_lodef"	"37"
 			"ypos"			"2"
@@ -1451,7 +1452,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"GamerCardLabel"
-			"font"			"ScoreboardMedium"
+			"font"			"VarsityText24"
 			"xpos"			"170"
 			"xpos_lodef"	"177"
 			"ypos"			"2"
@@ -1493,7 +1494,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ReputationLabel"
-			"font"			"ScoreboardMedium"
+			"font"			"VarsityText24"
 			"xpos"			"403"
 			"xpos_lodef"	"377"
 			"ypos"			"2"

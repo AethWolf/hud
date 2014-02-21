@@ -507,7 +507,7 @@
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
+		"TextFont"		"VarsityText12"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
@@ -1377,4 +1377,22 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
+	
+	//Custom Crosshair shit
+	"CrossHairKonrWingsOutline"
+		{
+			"controlName" "CExLabel"
+			"fieldName" "KonrOutline"
+			"visible" "1"
+			"enabled" "1"
+			"zpos" "2"
+			"xpos" "c-16"
+			"ypos" "c-23"
+			"wide" "49"
+			"tall" "49"
+			"font" "KonrOutline"
+			"labelText" "i"
+			"textAlignment" "west"
+			"fgcolor" "CrosshairColor"
+		}
 }
