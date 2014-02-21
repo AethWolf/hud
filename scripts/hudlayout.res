@@ -78,7 +78,7 @@
 		"enabled"		"1"
 		"xpos"			"r550"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r200"	[$WIN32]
+		"ypos"			"r175"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
@@ -110,9 +110,9 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
+		"xpos"			"r450"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
+		"ypos"			"r121"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
@@ -504,7 +504,7 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"VarsityText12"
@@ -514,8 +514,8 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 220"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
+		"BaseBackgroundColor"	"46 43 42 75"		[$WIN32]
+		"LocalBackgroundColor"	"White"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
@@ -1386,13 +1386,13 @@
 			"visible" "1"
 			"enabled" "1"
 			"zpos" "2"
-			"xpos" "c-16"
-			"ypos" "c-23"
-			"wide" "49"
-			"tall" "49"
+			"xpos" 		 "c-108"
+			"ypos" 		 "c-99"
+			"wide" 		 "200"
+			"tall" 		 "200"
 			"font" "KonrOutline"
 			"labelText" "i"
-			"textAlignment" "west"
+			"textAlignment" "center"
 			"fgcolor" "CrosshairColor"
 		}
 }

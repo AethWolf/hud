@@ -247,14 +247,15 @@
 			"Soldier"
 			{
 				"fov"			"25"
-				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
-				"angles_y"		"220"
-				"angles_z"		"-10"
-				"origin_x"		"105"
-				"origin_y"		"-1"
-				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
+				"angles_x"		"-10"
+				"angles_x_minmode"	"-3"
+				"angles_y"		"170"
+				"angles_z"		"0"
+				"origin_x"		"145"
+				"origin_y"		"-5"
+				"origin_y_minmode"	"-8"
+				"origin_z"		"-90"
+				"origin_z_minmode"	"-50"
 			}
 			"Demoman"
 			{

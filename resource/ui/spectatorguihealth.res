@@ -11,7 +11,7 @@
 		"wide_minmode"	"14"
 		"tall"			"18"
 		"tall_minmode"	"14"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"5"
+		"xpos"			"99999"
 		"xpos_minmode"	"6"
 		"ypos"			"5"
 		"ypos_minmode"	"6"
@@ -82,7 +82,8 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"fgcolor"		"ForTesting_Magenta"
+		"fgcolor"		"White"
+		"font"			"VarsityText16"
 	}
 	"PlayerStatusPlayerLevel"
 	{
@@ -98,7 +99,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"	
-		"font"			"ScoreboardVerySmall"
+		"font"			"VarsityText12"
 		"fgcolor"		"TFOrange"
 	}							
 }

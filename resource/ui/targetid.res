@@ -76,11 +76,11 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetNameLabel"
-		"font"			"default"
+		"font"			"VarsityText16"
 		"font_minmode"	"TFFontLarge"
 		"xpos"			"34"
 		"xpos_minmode"	"20"
-		"ypos"			"12"
+		"ypos"			"9"
 		"ypos_minmode"	"5"
 		"zpos"			"1"
 		"wide"			"640"
@@ -98,11 +98,11 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"TFFontMedium"
+		"font"			"VarsityText12"
 		"font_minmode"	"DefaultVerySmall"
-		"xpos"			"34"
+		"xpos"			"5"
 		"xpos_minmode"	"30"
-		"ypos"			"17"	[$WIN32]
+		"ypos"			"22"	[$WIN32]
 		"ypos_minmode"	"12"	[$WIN32]
 		"ypos"			"22"	[$X360]
 		"ypos_hidef"		"25"	[$X360]
@@ -132,7 +132,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"HudFontSmall"
+		"TFFont"		"VarsityText12"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	

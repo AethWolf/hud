@@ -69,7 +69,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontMediumSmall"
+		"font"			"VarsityText20"
 		"font_lodef"	"HudFontMedium"
 	}
 }
