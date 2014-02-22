@@ -2446,7 +2446,24 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+		VarsityText36
+		{
+			"1"
+			{
+				"name"		"Varsity Regular"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		VarsityText40
+		{
+			"1"
+			{
+				"name"		"Varsity Regular"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
 		
 		//Crosshairs
 		"KonrOutline"

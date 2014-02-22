@@ -8,7 +8,7 @@
 		"xpos_lodef"	"34"
 		"xpos_hidef"	"4"
 		"ypos"			"31"
-		"wide"			"600"
+		"wide"			"900"
 		"wide_lodef"	"560"
 		"wide_hidef"	"620"
 		"tall"			"480"
@@ -19,7 +19,7 @@
 		"tabPosition"		"0"
 		"avatar_width"		"57"	[$WIN32]
 		"avatar_width"		"0"		[$X360]
-		"name_width"		"114"	[$WIN32]
+		"name_width"		"80"	[$WIN32]
 		"name_width"		"150"	[$X360]
 		"status_width"		"15"	[$WIN32]
 		"status_width"		"12"	[$X360]
@@ -37,13 +37,13 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"-2"
+		"xpos"			"535"
 		"xpos_hidef"	"18"
-		"ypos"			"9"
-		"wide"			"304"
+		"ypos"			"20"
+		"wide"			"275"
 		"wide_lodef"	"284"
 		"wide_hidef"	"294"
-		"tall"			"71"
+		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -61,14 +61,14 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"296"
+		"xpos"			"535"
 		"xpos_lodef"	"276"
 		"xpos_hidef"	"306"
-		"ypos"			"9"
-		"wide"			"304"
+		"ypos"			"245"
+		"wide"			"275"
 		"wide_lodef"	"284"
 		"wide_hidef"	"294"
-		"tall"			"71"
+		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -86,7 +86,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"0"
+		"xpos"			"500"
 		"xpos_hidef"	"14"
 		"ypos"			"60"
 		"zpos"			"-1"
@@ -96,7 +96,7 @@
 		"tall"			"388"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		
 		
@@ -113,7 +113,7 @@
 		"font"			"VarsityText32"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"10" [!$OSX]
+		"xpos"			"600" [!$OSX]
 		"xpos"			"15" [$OSX]
 		"xpos_hidef"		"40"
 		"ypos"			"23"	[$WIN32]
@@ -137,10 +137,10 @@
 		"font"			"VarsityText32"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"			"190"
+		"xpos"			"650"
 		"xpos_lodef"		"170"
 		"xpos_hidef"		"190"
-		"ypos"			"8" 
+		"ypos"			"12" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -164,10 +164,10 @@
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"			"191"
+		"xpos"			"650"
 		"xpos_lodef"	"171"
 		"xpos_hidef"	"191"
-		"ypos"			"9" 
+		"ypos"			"12" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -187,12 +187,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"VarsityText20"
+		"font"			"VarsityText16"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
-		"xpos"			"150"
+		"xpos"			"655"
 		"xpos_hidef"		"100"
-		"ypos"			"33"
+		"ypos"			"30"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"		"0"
@@ -212,11 +212,11 @@
 		"font"			"VarsityText32"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"450" [!$OSX]
+		"xpos"			"507" [!$OSX]
 		"xpos"			"445" [$OSX]
 		"xpos_lodef"	"446"
 		"xpos_hidef"	"488"
-		"ypos"			"23"	[$WIN32]
+		"ypos"			"225"	[$WIN32]
 		"ypos"			"29"	[$X360]
 		"wide"			"140"
 		"tall"			"34"
@@ -237,10 +237,10 @@
 		"font"			"VarsityText32"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
-		"xpos"			"310"
+		"xpos"			"730"
 		"xpos_lodef"	"290"
 		"xpos_hidef"	"330"
-		"ypos"			"8" 
+		"ypos"			"215" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -264,10 +264,10 @@
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
-		"xpos"			"311"
+		"xpos"			"730"
 		"xpos_lodef"	"291"
 		"xpos_hidef"	"331"
-		"ypos"			"9"
+		"ypos"			"215"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -287,13 +287,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"VarsityText20"
+		"font"			"VarsityText16"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
-		"xpos"			"350"
+		"xpos"			"610"
 		"xpos_lodef"	"376"
 		"xpos_hidef"	"418"
-		"ypos"			"33"
+		"ypos"			"232"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"	"0"
@@ -313,7 +313,7 @@
 		"font"			"VarsityText12"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
-		"xpos"			"11"
+		"xpos"			"25"
 		"xpos_hidef"	"31"
 		"ypos"			"60"
 		"ypos_lodef"	"62"
@@ -336,10 +336,10 @@
 		"fieldName"		"ServerTimeLeft"
 		"font"			"VarsityText12"
 		"labelText"		"%servertimeleft%"
-		"textAlignment"		"east"
-		"xpos"			"285"
+		"textAlignment"		"west"
+		"xpos"			"25"
 		"xpos_hidef"	"31"
-		"ypos"			"60"
+		"ypos"			"70	"
 		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
@@ -358,12 +358,12 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"5"
+		"xpos"			"550"
 		"xpos_lodef"	"10"
 		"xpos_hidef"	"30"
-		"ypos"			"72"
+		"ypos"			"50"
 		"zpos"			"20"
-		"wide"			"290"
+		"wide"			"250"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
@@ -373,7 +373,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"12"
+		"linespacing"	"10"
 		"fgcolor"		"blue"
 		
 		
@@ -386,12 +386,12 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"305"
+		"xpos"			"550"
 		"xpos_lodef"	"284"
 		"xpos_hidef"	"314"
-		"ypos"			"72"
+		"ypos"			"250"
 		"zpos"			"20"
-		"wide"			"290"
+		"wide"			"250"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
@@ -442,9 +442,9 @@
 		"font"			"VarsityText12"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
-		"xpos"			"115"
+		"xpos"			"25"
 		"xpos_hidef"	"135"
-		"ypos"			"357"	[$WIN32]
+		"ypos"			"80"	[$WIN32]
 		"ypos"			"277"	[$X360]
 		"zpos"			"4"
 		"wide"			"424"
@@ -515,11 +515,11 @@
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
 		"xpos_lodef"	"12"
-		"ypos"			"350"	[$WIN32]
+		"ypos"			"125"	[$WIN32]
 		"ypos"			"275"	[$X360]
 		"zpos"			"3"
-		"wide"			"92"
-		"tall"			"92"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -537,9 +537,9 @@
 		"font"			"VarsityText24"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
-		"xpos"			"115"
+		"xpos"			"65"
 		"xpos_lodef"	"105"
-		"ypos"			"377"	[$WIN32]
+		"ypos"			"150"	[$WIN32]
 		"ypos"			"302"	[$X360]
 		"zpos"			"3"
 		"wide"			"325"	[$WIN32]
@@ -570,7 +570,7 @@
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
@@ -588,10 +588,10 @@
 		"font"		"VarsityText24"
 		"labelText"		"%playerscore%"
 		"textAlignment"	"east"
-		"xpos"			"440"
+		"xpos"			"5"
 		"xpos_lodef"	"399"
 		"xpos_hidef"	"439"
-		"ypos"			"377"	[$WIN32]
+		"ypos"			"175"	[$WIN32]
 		"ypos"			"302"	[$X360]
 		"zpos"			"3"
 		"wide"			"140"
@@ -823,10 +823,10 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
-		"ypos"			"395"
+		"ypos"			"200"
 		"zpos"			"3"
 		"wide"			"600"
-		"tall"			"448"
+		"tall"			"600"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -841,10 +841,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"VarsityText12"
+			"font"			"VarsityText24"
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"		"east"
-			"xpos"			"80"
+			"xpos"			"0"
 			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
@@ -858,11 +858,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"VarsityText12"
+			"font"			"VarsityText24"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
-			"xpos"			"80"
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"0"
+			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -878,8 +878,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
-			"xpos"			"80"
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"0"
+			"ypos"			"35"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -895,8 +895,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
-			"xpos"			"80"
-			"ypos"			"30"	[$WIN32]
+			"xpos"			"0"
+			"ypos"			"45"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -909,10 +909,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"VarsityText12"
+			"font"			"VarsityText24"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
-			"xpos"			"180"
+			"xpos"			"100"
 			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
@@ -926,11 +926,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"VarsityText12"
+			"font"			"VarsityText24"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
-			"xpos"			"180"
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"100"
+			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -946,9 +946,9 @@
 			"font"			"VarsityText16"
 			"labelText"		"%mapname%"
 			"textAlignment"		"east"
-			"xpos"			"435"
+			"xpos"			"15"
 			"xpos_lodef"		"105"
-			"ypos"			"22"
+			"ypos"			"160"
 			"zpos"			"3"
 			"wide"			"145"
 			"tall"			"20"
@@ -965,9 +965,9 @@
 			"font"			"VarsityText12"
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
-			"xpos"			"435"
+			"xpos"			"15"
 			"xpos_lodef"	"105"
-			"ypos"			"32"
+			"ypos"			"175"
 			"zpos"			"3"
 			"wide"			"145"
 			"tall"			"20"
@@ -984,8 +984,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
-			"xpos"			"180"
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"100"
+			"ypos"			"35"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1001,8 +1001,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
-			"xpos"			"180"
-			"ypos"			"30"	[$WIN32]
+			"xpos"			"100"
+			"ypos"			"45"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1018,8 +1018,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
-			"xpos"			"200"	[$WIN32]
-			"ypos"			"0"	[$WIN32]
+			"xpos"			"-6"	[$WIN32]
+			"ypos"			"55"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1035,8 +1035,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
-			"xpos"			"200"	[$WIN32]
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"-6"	[$WIN32]
+			"ypos"			"65"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1052,8 +1052,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
-			"xpos"			"200"	[$WIN32]
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"-6"	[$WIN32]
+			"ypos"			"75"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1069,8 +1069,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
-			"xpos"			"200"	[$WIN32]
-			"ypos"			"30"	[$WIN32]
+			"xpos"			"-6"	[$WIN32]
+			"ypos"			"85"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1086,8 +1086,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
-			"xpos"			"305"	[$WIN32]
-			"ypos"			"0"	[$WIN32]
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"55"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1103,8 +1103,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
-			"xpos"			"305"	[$WIN32]
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"65"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1120,8 +1120,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
-			"xpos"			"305"	[$WIN32]
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"75"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1137,8 +1137,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
-			"xpos"			"305"	[$WIN32]
-			"ypos"			"30"	[$WIN32]
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"85"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1154,8 +1154,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"	[$WIN32]
-			"ypos"			"30"	[$WIN32]
+			"xpos"			"0"	[$WIN32]
+			"ypos"			"95"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
 			"tall"			"20"
@@ -1171,8 +1171,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"	[$WIN32]
-			"ypos"			"0"	[$WIN32]
+			"xpos"			"0"	[$WIN32]
+			"ypos"			"105"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1188,8 +1188,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"	[$WIN32]
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"0"	[$WIN32]
+			"ypos"			"115"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
 			"tall"			"20"
@@ -1205,8 +1205,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"	[$WIN32]
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"0"	[$WIN32]
+			"ypos"			"125"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
 			"tall"			"20"
@@ -1222,8 +1222,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"425"	[$WIN32]
-			"ypos"			"30"	[$WIN32]
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"95"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1238,9 +1238,9 @@
 			"fieldName"		"Invuln"
 			"font"			"VarsityText12"
 			"labelText"		"%invulns%"
-			"textAlignment"		"west"
-			"xpos"			"425"	[$WIN32]
-			"ypos"			"0"	[$WIN32]
+			"textAlignment"	"west"
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"105"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1256,8 +1256,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
-			"xpos"			"425"	[$WIN32]
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"115"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1273,8 +1273,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"425"	[$WIN32]
-			"ypos"			"10"	[$WIN32]
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"125"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1290,8 +1290,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"north-east"
-			"xpos"			"445"	[$WIN32]
-			"ypos"			"5"	[$WIN32]
+			"xpos"			"-15"	[$WIN32]
+			"ypos"			"140"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"110"
 			"autoResize"	"0"
@@ -1306,8 +1306,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"north-west"		[$WIN32]
-			"xpos"			"560"	[$WIN32]
-			"ypos"			"5"	[$WIN32]
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"140"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1323,8 +1323,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"north-east"
-			"xpos"			"445"	[$WIN32]
-			"ypos"			"15"	[$WIN32]
+			"xpos"			"-15"	[$WIN32]
+			"ypos"			"150"	[$WIN32]
 			"zpos"			"3"
 			"zpos"			"3"
 			"wide"			"110"
@@ -1340,8 +1340,8 @@
 			"font"			"VarsityText12"
 			"labelText"		"%bonus%"
 			"textAlignment"		"north-west"		[$WIN32]
-			"xpos"			"560"	[$WIN32]
-			"ypos"			"15"	[$WIN32]
+			"xpos"			"100"	[$WIN32]
+			"ypos"			"150"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"

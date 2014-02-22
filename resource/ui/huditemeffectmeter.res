@@ -5,7 +5,7 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r500"	[$WIN32]
+		"xpos"			"r515"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r162"	[$WIN32]
 		"ypos_minmode"	"r54"	[$WIN32]
@@ -59,14 +59,14 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"VarsityText12"
 	}
 
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
+		"font"					"VarsityText12"
 		"xpos"					"47"
 		"ypos"					"28"
 		"ypos_minmode"			"0"

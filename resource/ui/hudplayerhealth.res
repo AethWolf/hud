@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"VarsityText32"
+		"font"			"VarsityText40"
 		"fgcolor"		"White"
 	}								
 	"PlayerStatusBleedImage"
