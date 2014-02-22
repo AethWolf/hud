@@ -111,6 +111,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
 		"font"			"VarsityText32"
+		"fgcolor"		"HUDBlueTeamSolid"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"600" [!$OSX]
@@ -135,6 +136,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
 		"font"			"VarsityText32"
+		"fgcolor"		"HUDBlueTeamSolid"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"650"
@@ -210,6 +212,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
 		"font"			"VarsityText32"
+		"fgcolor"		"HUDRedTeamSolid"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"507" [!$OSX]
@@ -235,6 +238,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
 		"font"			"VarsityText32"
+		"fgcolor"		"HUDRedTeamSolid"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"730"
@@ -375,7 +379,6 @@
 		"autoresize"	"3"
 		"linespacing"	"10"
 		"fgcolor"		"blue"
-		
 		
 		if_mvm
 		{
