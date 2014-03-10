@@ -97,7 +97,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override" "64 64 64 128"
+		"bgcolor_override" "BGGrey"
 		
 		if_mvm
 		{
@@ -494,7 +494,7 @@
 		"ypos"			"125"	[$WIN32]
 		"ypos"			"297"	[$X360]
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"175"
 		"wide_lodef"	"539"
 		"wide_hidef"	"559"
 		"tall"			"300"
@@ -503,7 +503,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 153"
+		"fillcolor"		"0 0 0 128"
 		"PaintBackgroundType"	"0"
 		"border"		"comboboxborder"
 		
@@ -518,7 +518,7 @@
 		"fieldName"		"AvaNameShader"
 		"xpos"			"24"
 		"ypos"			"125"
-		"wide"			"200"
+		"wide"			"175"
 		"tall"			"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"

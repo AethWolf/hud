@@ -40,7 +40,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"VarsityText10"
 	}
 
 	"ChargeMeter"
@@ -87,7 +87,7 @@
 			"wide_minmode"	"14"
 			"tall"			"20"
 			"tall_minmode"	"14"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/ico_stickybomb_red"
 			"scaleImage"	"1"
@@ -99,7 +99,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"50"
+			"xpos"			"45"
 			"xpos_minmode"	"42"
 			"ypos"			"18"
 			"ypos_minmode"	"12"
@@ -116,7 +116,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
+			"font"			"VarsityText16"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 		}
@@ -124,7 +124,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"51"
+			"xpos"			"46"
 			"xpos_minmode"	"43"
 			"ypos"			"19"
 			"ypos_minmode"	"13"
@@ -141,7 +141,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
+			"font"			"VarsityText16"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"
@@ -170,7 +170,7 @@
 			"wide_minmode"	"14"
 			"tall"			"20"
 			"tall_minmode"	"14"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"	"1"
@@ -182,7 +182,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"50"
+			"xpos"			"45"
 			"xpos_minmode"	"42"
 			"ypos"			"18"
 			"ypos_minmode"	"12"
@@ -199,7 +199,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
+			"font"			"VarsityText16"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 		}
@@ -207,7 +207,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"51"
+			"xpos"			"46"
 			"xpos_minmode"	"43"
 			"ypos"			"19"
 			"ypos_minmode"	"13"
@@ -224,7 +224,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"HudFontMedium"
+			"font"			"VarsityText16"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"

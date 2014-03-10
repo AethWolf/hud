@@ -38,7 +38,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"VarsityText10"
 	}
 
 	"IndividualChargesLabel"
@@ -62,7 +62,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"VarsityText10"
 	}
 	
 	"ChargeMeter"

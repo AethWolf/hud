@@ -78,9 +78,9 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"VarsityText16"
 		"font_minmode"	"TFFontLarge"
-		"xpos"			"34"
+		"xpos"			"30"
 		"xpos_minmode"	"20"
-		"ypos"			"9"
+		"ypos"			"-1"
 		"ypos_minmode"	"5"
 		"zpos"			"1"
 		"wide"			"640"
@@ -100,9 +100,9 @@
 		"fieldName"		"TargetDataLabel"
 		"font"			"VarsityText12"
 		"font_minmode"	"DefaultVerySmall"
-		"xpos"			"5"
+		"xpos"			"55"
 		"xpos_minmode"	"30"
-		"ypos"			"22"	[$WIN32]
+		"ypos"			"10"	[$WIN32]
 		"ypos_minmode"	"12"	[$WIN32]
 		"ypos"			"22"	[$X360]
 		"ypos_hidef"		"25"	[$X360]
@@ -122,7 +122,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"3"
+		"xpos"			"25"
 		"xpos_minmode"	"0"
 		"ypos"			"2"
 		"ypos_minmode"	"0"
