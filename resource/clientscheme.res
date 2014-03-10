@@ -2400,7 +2400,24 @@ Scheme
 		}
 		
 	// Thar be custom fonts here
-	
+		VarsityText8
+		{
+			"1"
+			{
+				"name"		"Varsity Regular"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+			VarsityText10
+		{
+			"1"
+			{
+				"name"		"Varsity Regular"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
 		VarsityText12
 		{
 			"1"
