@@ -35,22 +35,21 @@
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"535"
+		"xpos"			"625"
 		"xpos_hidef"	"18"
 		"ypos"			"20"
-		"wide"			"275"
+		"wide"			"250"
 		"wide_lodef"	"284"
 		"wide_hidef"	"294"
-		"tall"			"50"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_blue_bg"
-		"image_lodef"	"../hud/score_panel_blue_bg_lodef"
-		"scaleImage"		"1"
+		"border"		"comboboxborder"
+		"bgcolor_override" "black"
 		
 		if_mvm
 		{
@@ -59,23 +58,22 @@
 	}
 	"RedScoreBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"535"
+		"xpos"			"625"
 		"xpos_lodef"	"276"
 		"xpos_hidef"	"306"
-		"ypos"			"245"
-		"wide"			"275"
+		"ypos"			"220"
+		"wide"			"250"
 		"wide_lodef"	"284"
 		"wide_hidef"	"294"
-		"tall"			"50"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_red_bg"
-		"image_lodef"	"../hud/score_panel_red_bg_lodef"
-		"scaleImage"		"1"
+		"border"		"comboboxborder"
+		"bgcolor_override" "black"
 		
 		if_mvm
 		{
@@ -86,19 +84,20 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"500"
+		"xpos"			"625"
 		"xpos_hidef"	"14"
-		"ypos"			"60"
+		"ypos"			"20"
 		"zpos"			"-1"
-		"wide"			"600"
+		"wide"			"250"
 		"wide_lodef"	"570"
 		"wide_hidef"	"590"
-		"tall"			"388"
+		"tall"			"440	"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+		"border"		"comboboxborder"
+		"bgcolor_override" "64 64 64 128"
 		
 		if_mvm
 		{
@@ -114,7 +113,7 @@
 		"fgcolor"		"HUDBlueTeamSolid"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"600" [!$OSX]
+		"xpos"			"675" [!$OSX]
 		"xpos"			"15" [$OSX]
 		"xpos_hidef"		"40"
 		"ypos"			"23"	[$WIN32]
@@ -139,7 +138,7 @@
 		"fgcolor"		"HUDBlueTeamSolid"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"			"650"
+		"xpos"			"725"
 		"xpos_lodef"		"170"
 		"xpos_hidef"		"190"
 		"ypos"			"12" 
@@ -166,7 +165,7 @@
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"			"650"
+		"xpos"			"725"
 		"xpos_lodef"	"171"
 		"xpos_hidef"	"191"
 		"ypos"			"12" 
@@ -192,7 +191,7 @@
 		"font"			"VarsityText16"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
-		"xpos"			"655"
+		"xpos"			"723"
 		"xpos_hidef"		"100"
 		"ypos"			"30"
 		"wide"			"100"
@@ -215,7 +214,7 @@
 		"fgcolor"		"HUDRedTeamSolid"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"507" [!$OSX]
+		"xpos"			"582" [!$OSX]
 		"xpos"			"445" [$OSX]
 		"xpos_lodef"	"446"
 		"xpos_hidef"	"488"
@@ -241,7 +240,7 @@
 		"fgcolor"		"HUDRedTeamSolid"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
-		"xpos"			"730"
+		"xpos"			"805"
 		"xpos_lodef"	"290"
 		"xpos_hidef"	"330"
 		"ypos"			"215" 
@@ -268,7 +267,7 @@
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
-		"xpos"			"730"
+		"xpos"			"805"
 		"xpos_lodef"	"291"
 		"xpos_hidef"	"331"
 		"ypos"			"215"
@@ -294,7 +293,7 @@
 		"font"			"VarsityText16"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
-		"xpos"			"610"
+		"xpos"			"692"
 		"xpos_lodef"	"376"
 		"xpos_hidef"	"418"
 		"ypos"			"232"
@@ -362,7 +361,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"550"
+		"xpos"			"625"
 		"xpos_lodef"	"10"
 		"xpos_hidef"	"30"
 		"ypos"			"50"
@@ -389,7 +388,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"550"
+		"xpos"			"625"
 		"xpos_lodef"	"284"
 		"xpos_hidef"	"314"
 		"ypos"			"250"
@@ -416,7 +415,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
-		"xpos"			"299"
+		"xpos"			"9999"
 		"xpos_lodef"	"279"
 		"xpos_hidef"	"309"
 		"ypos"			"70"
@@ -490,27 +489,43 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"10"
+		"xpos"			"24"
 		"xpos_hidef"	"30"
-		"ypos"			"372"	[$WIN32]
+		"ypos"			"125"	[$WIN32]
 		"ypos"			"297"	[$X360]
 		"zpos"			"2"
-		"wide"			"580"
+		"wide"			"200"
 		"wide_lodef"	"539"
 		"wide_hidef"	"559"
-		"tall"			"70"
+		"tall"			"300"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
+		"border"		"comboboxborder"
 		
 		if_mvm
 		{
 			"visible"		"1"
 		}
+	}
+	"AvaNameShader"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AvaNameShader"
+		"xpos"			"24"
+		"ypos"			"125"
+		"wide"			"200"
+		"tall"			"75"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"fillcolor"		"0 0 0 128"
 	}
 	"ClassImage"
 	{
@@ -597,7 +612,7 @@
 		"ypos"			"175"	[$WIN32]
 		"ypos"			"302"	[$X360]
 		"zpos"			"3"
-		"wide"			"140"
+		"wide"			"150"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -918,7 +933,7 @@
 			"xpos"			"100"
 			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
-			"wide"			"35"
+			"wide"			"50"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"

@@ -55,7 +55,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"5"
+		"xpos"			"9999"
 		"xpos_minmode"	"8"
 		"ypos"			"5"
 		"ypos_minmode"	"8"
