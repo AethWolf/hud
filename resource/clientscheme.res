@@ -2456,6 +2456,24 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		VarsityText26
+		{
+			"1"
+			{
+				"name"		"Varsity Regular"
+				"tall"		"26"
+				"antialias" "1"
+			}
+		}
+			VarsityText28
+		{
+			"1"
+			{
+				"name"		"Varsity Regular"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
 		VarsityText32
 		{
 			"1"
