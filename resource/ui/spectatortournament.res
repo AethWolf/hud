@@ -28,13 +28,91 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  			
+
+			"PanelBG"
+			{
+				"ControlName" "ImagePanel"
+				"fieldName" "PanelBG"
+				"xpos" "0"
+				"ypos" "0"
+				"zpos" "-1"
+				"wide" "175"
+				"tall" "22"
+				"autoResize" "0"
+				"pinCorner" "0"
+				"visible" "1"
+				"enabled" "1"
+				"fillcolor" "30 30 30 30"
+			}							  			
+			"PanelCoverTop"
+			{
+				"ControlName" "ImagePanel"
+				"fieldName" "PanelCoverTop"
+				"xpos" "0"
+				"ypos" "-2" // omp -- -1 for low-res grid.
+				"zpos" "3" // omp -- place above class image.
+				"wide" "175"
+				"tall" "4" // omp -- +1 for low-res grid.
+				"autoResize" "0"
+				"pinCorner" "0"
+				"visible" "1"
+				"enabled" "1"
+				"fillcolor" "30 30 30 255"
+			}
+
+			"PanelCoverBottom"
+			{
+				"ControlName" "ImagePanel"
+				"fieldName" "PanelCoverBottom"
+				"xpos" "0"
+				"ypos" "16"
+				"zpos" "3" // omp -- place above class image.
+				"wide" "175"
+				"tall" "4" // omp -- +1 for low-res grid.
+				"autoResize" "0"
+				"pinCorner" "0"
+				"visible" "1"
+				"enabled" "1"
+				"fillcolor" "30 30 30 255"
+			}
+
+			"PanelCoverLeft"
+			{
+				"ControlName" "ImagePanel"
+				"fieldName" "PanelCoverLeft"
+				"xpos" "0"
+				"ypos" "0"
+				"zpos" "-1"
+				"wide" "20"
+				"tall" "18"
+				"autoResize" "0"
+				"pinCorner" "0"
+				"visible" "1"
+				"enabled" "1"
+				"fillcolor" "30 30 30 255"
+			}
+
+			"PanelCoverRight"
+			{
+				"ControlName" "ImagePanel"
+				"fieldName" "PanelCoverRight"
+				"xpos" "171"
+				"ypos" "0"
+				"zpos" "-1"
+				"wide" "4" // omp -- +1 for low-res grid.
+				"tall" "18"
+				"autoResize" "0"
+				"pinCorner" "0"
+				"visible" "1"
+				"enabled" "1"	
+				"fillcolor" "30 30 30 255"
+			}
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"VarsityText12"
-				"xpos"			"20"
+				"font"			"VarsityText10"
+				"xpos"			"22"
 				"ypos"			"4"
 				"zpos"			"5"
 				"wide"			"100"
@@ -172,7 +250,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"VarsityText12"
-				"xpos"			"140"
+				"xpos"			"120"
 				"ypos"			"4"
 				"zpos"			"5"
 				"wide"			"23"
@@ -372,7 +450,7 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r270"
+		"xpos"			"9999"
 		"ypos"			"300"
 		"zpos"			"1"
 		"wide"			"270"
