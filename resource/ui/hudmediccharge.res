@@ -69,13 +69,13 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
-		"font"			"Default"
+		"font"			"VarsityText10"
 		"xpos"			"30"
 		"xpos_minmode"			"10"
 		"ypos"			"38"
 		"ypos_minmode"			"23"
 		"zpos"			"2"
-		"wide"			"186"
+		"wide"			"180"
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -84,7 +84,19 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"1"
+		"bgcolor_override"	"0 0 0 128"
+		"fgcolor_override"	"255 0 0 255"
 	}		
+	"MeterPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MeterPanel"
+		"border"		"comboboxborder"
+		"xpos"			"30"
+		"ypos"			"38"
+		"wide"			"180"
+		"tall"			"8"
+	}
 
 	"ChargeMeter1"
 	{	

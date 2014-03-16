@@ -1,11 +1,26 @@
 "Resource/UI/TargetID.res"
 {
+	"TargetBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TargetBG"
+		"xpos"			"0"
+		"ypos"			"13"
+		"zpos"			"-1"
+		"wide"			"640"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"BGGrey"
+	}
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"99999"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"50"
@@ -21,21 +36,21 @@
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"0"				// pixels inside the image
-		"src_corner_width"		"0"
+		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"9999"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"-36"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
+		"wide"			"640"
+		"tall"	 		"40"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -46,18 +61,18 @@
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"9999"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"-36"
 		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"30"
+		"wide"			"640"
+		"tall"	 		"40"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -68,53 +83,47 @@
 		"src_corner_height"		"23"				// pixels inside the image
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	
 	"TargetNameLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"VarsityText16"
-		"font_minmode"	"TFFontLarge"
-		"xpos"			"30"
-		"xpos_minmode"	"20"
-		"ypos"			"-1"
-		"ypos_minmode"	"5"
+		"font"			"VarsityText12"
+		"fgcolor"		"White"
+		"xpos"			"34"
+		"ypos"			"13"
 		"zpos"			"1"
 		"wide"			"640"
-		"tall"			"24"
+		"tall"			"14"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"		"North-West"
+		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
 	"TargetDataLabel"
 	{	
-		"ControlName"		"Label"
+		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
 		"font"			"VarsityText12"
-		"font_minmode"	"DefaultVerySmall"
-		"xpos"			"55"
-		"xpos_minmode"	"30"
-		"ypos"			"10"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
+		"fgcolor"		"White"
+		"xpos"			"34"
+		"ypos"			"27"
 		"zpos"			"1"
-		"wide"			"280"
-		"tall"			"15"
+		"wide"			"640"
+		"tall"			"9"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"textAlignment"		"Left"
+		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
@@ -122,17 +131,15 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"25"
-		"xpos_minmode"	"0"
-		"ypos"			"2"
-		"ypos_minmode"	"0"
+		"xpos"			"0"
+		"ypos"			"4"
 		"wide"			"32"
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"VarsityText12"
+		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"HudOffWhite"
 	}	
@@ -141,10 +148,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"34"
-		"xpos_minmode"	"30"
-		"ypos"			"21"
-		"ypos_minmode"	"19"
+		"xpos"			"30"
+		"ypos"			"27"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -158,10 +163,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"34"
-		"xpos_minmode"	"30"
-		"ypos"			"21"
-		"ypos_minmode"	"19"
+		"xpos"			"30"
+		"ypos"			"27"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -175,9 +178,9 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-5"
+		"xpos"			"9999" // omp -- fix glitch where this is visible in spectator view.
+		"ypos"			"9999"
+		"zpos"			"0"
 		"wide"			"32"
 		"tall"			"36"
 		"visible"		"1"
@@ -187,8 +190,8 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIconBG"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"0"
 			"wide"			"10"
 			"tall"			"36"
@@ -234,13 +237,12 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
+			"font"			"Futura9"
 			"xpos"			"0"
-			"ypos"			"22"
+			"ypos"			"27"
 			"zpos"			"1"
 			"wide"			"640"
-			"tall"			"24"
+			"tall"			"9"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"

@@ -16,10 +16,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CDamageAccountValue"
-		"font"			"VarsityText16"
+		"font"			"VarsityText20"
 		"fgcolor"		"255 0 0 255"
-		"xpos"			"c-140"
-		"ypos"			"c35"
+		"xpos"			"c-175"
+		"ypos"			"c47"
 		"zpos"			"5"
 		"wide"			"131"
 		"tall"			"33"

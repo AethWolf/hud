@@ -18,7 +18,7 @@
 		"enabled" "1"
 		"xpos"	"r400"	[$WIN32]
 		"xpos_minmode"	"r85"	[$WIN32]
-		"ypos"	"r190"	[$WIN32]
+		"ypos"	"r175"	[$WIN32]
 		"ypos_minmode"	"r36"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
@@ -78,11 +78,11 @@
 		"enabled"		"1"
 		"xpos"			"r550"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r175"	[$WIN32]
+		"ypos"			"r165"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
-		"wide"			"200"
+		"wide"			"210"
 		"tall"			"100"
 	}
 	
@@ -91,14 +91,14 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r450"	[$WIN32]
+		"xpos"			"r510"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos"			"r121"	[$WIN32]
 		"ypos_minmode"	"r40"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
+		"wide"			"150"
 		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
@@ -199,8 +199,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r450"	[$WIN32]
-		"ypos"					"r275"	[$WIN32]
+		"xpos"					"r475"	[$WIN32]
+		"ypos"					"r250"	[$WIN32]
 		"ypos_minmode"			"r134"	[$WIN32]
 		"xpos"					"r194"	[$X360]
 		"ypos"					"r174"	[$X360]
@@ -259,8 +259,8 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"300"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"wide"	 	"300"
+		"tall"	 	"75"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
@@ -279,8 +279,8 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"wide"	 	"300"
+		"tall"	 	"75"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
@@ -296,8 +296,8 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"35"
+		"wide"	 	"350"
+		"tall"	 	"75"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
 
@@ -1031,9 +1031,9 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r462"	[$WIN32]
+		"xpos"			"r475"	[$WIN32]
 		"xpos_minmode"	"r110"	[$WIN32]
-		"ypos"			"r175"	[$WIN32]
+		"ypos"			"r165"	[$WIN32]
 		"ypos_minmode"	"r30"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]

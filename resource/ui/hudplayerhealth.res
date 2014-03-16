@@ -7,7 +7,7 @@
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"200"		[$WIN32]
 		"xpos_minmode"	"-5"		[$WIN32]
-		"ypos"			"r240"	[$WIN32]
+		"ypos"			"r225"	[$WIN32]
 		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
@@ -75,7 +75,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"125"
+		"xpos"			"95"
 		"xpos_minmode"	"61"
 		"ypos"			"52"	[$WIN32]
 		"ypos"			"55"	[$X360]
