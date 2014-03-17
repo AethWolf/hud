@@ -18,7 +18,7 @@
 		"fieldName"		"CDamageAccountValue"
 		"font"			"VarsityText20"
 		"fgcolor"		"255 0 0 255"
-		"xpos"			"c-175"
+		"xpos"			"c-150"
 		"ypos"			"c47"
 		"zpos"			"5"
 		"wide"			"131"
