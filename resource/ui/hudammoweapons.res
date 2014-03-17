@@ -88,7 +88,7 @@
 		"font"			"VarsityText28"
 		"font_lodef"	"HudFontMedium"
 		"font_minmode"	"HudFontSmall"
-		"fgcolor"		"qualitycolorcompleted"
+		"fgcolor"		"QualityColorStrange"
 		"xpos"			"59"
 		"xpos_minmode"	"65"
 		"ypos"			"11"

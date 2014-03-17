@@ -247,7 +247,7 @@
 
 	"HudTournamentBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -258,7 +258,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"border"		"comboboxborder"
+		"bgcolor_override"	"BGGrey"
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
@@ -275,7 +276,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"HudFontSmall"
+		"font"			"VarsityText12"
+		"fgcolor"		"white"
 		"xpos"			"5"
 		"ypos"			"3"
 		"zpos"			"1"
@@ -297,7 +299,7 @@
 
 	"HudTournamentBLUEBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"HudTournamentBLUEBG"
 		"xpos"			"5"
 		"ypos"			"23"
@@ -308,7 +310,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		"border"		"comboboxborder"
+		"bgcolor_override"	"hudblueteam"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -325,7 +328,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"HudFontSmallest"
+		"font"			"VarsityText12"
 		"xpos"			"12"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -348,7 +351,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"VarsityText12"
 		"xpos"			"56"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -370,7 +373,7 @@
 
 	"HudTournamentREDBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"125"
 		"ypos"			"23"
@@ -381,7 +384,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_red"
+		"border"		"comboboxborder"
+		"bgcolor_override"	"hudredteam"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -398,7 +402,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"HudFontSmallest"
+		"font"			"VarsityText12"
 		"xpos"			"175"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -421,7 +425,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"VarsityText12"
 		"xpos"			"130"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -467,18 +471,19 @@
 
 	"HudTournamentBGHelp"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"HudTournamentBGHelp"
-		"xpos"			"0"
-		"ypos"			"51"
+		"xpos"			"25"
+		"ypos"			"57"
 		"zpos"			"-1"
-		"wide"			"250"
+		"wide"			"200"
 		"tall"			"17"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"border"		"comboboxborder"
+		"bgcolor_override"	"BGGrey"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -496,9 +501,9 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"TFFontSmall"
+		"font"			"VarsityText12"
 		"xpos"			"0"
-		"ypos"			"54"
+		"ypos"			"59"
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"1"
@@ -534,7 +539,7 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
 		"textAlignment"		"center"
@@ -577,7 +582,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"VarsityText24"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -596,7 +601,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
+		"font"			"VarsityText24"
 		"xpos"			"231"
 		"ypos"			"r54"
 		"wide"			"40"
