@@ -258,7 +258,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"300"
+		"ypos"		"250"
 		"wide"	 	"300"
 		"tall"	 	"75"
 		"tall_minmode"	 	"28"
