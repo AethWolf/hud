@@ -38,7 +38,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"DefaultSmall"
+			"font"			"VarsityText10"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

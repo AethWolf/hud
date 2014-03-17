@@ -280,7 +280,7 @@
 		"xpos"		"c-126"
 		"ypos"		"250"
 		"wide"	 	"300"
-		"tall"	 	"75"
+		"tall"	 	"67"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
