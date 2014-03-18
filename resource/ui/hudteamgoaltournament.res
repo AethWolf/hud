@@ -79,7 +79,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudStopWatchObjective"
-		"xpos"				"15"
+		"xpos"				"99999"
 		"ypos"				"105"
 		"zpos"				"1"
 		"wide"				"275"
@@ -210,7 +210,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudStopWatchObjectiveArrow"
-		"xpos"			"25"
+		"xpos"			"99999"
 		"ypos"			"30"
 		"zpos"			"-1"
 		"wide"			"80"

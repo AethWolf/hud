@@ -49,7 +49,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override" "black"
+		"bgcolor_override" "hudblueteam"
 		
 		if_mvm
 		{
@@ -73,7 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override" "black"
+		"bgcolor_override" "hudredteam"
 		
 		if_mvm
 		{
@@ -111,7 +111,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
 		"font"			"VarsityText32"
-		"fgcolor"		"HUDBlueTeamSolid"
+		"fgcolor"		"white"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
 		"xpos"			"675" [!$OSX]
@@ -136,7 +136,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
 		"font"			"VarsityText32"
-		"fgcolor"		"HUDBlueTeamSolid"
+		"fgcolor"		"white"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"725"
@@ -191,8 +191,9 @@
 		"fieldName"		"BlueTeamPlayerCount"
 		"font"			"VarsityText16"
 		"labelText"		"%blueteamplayercount%"
+		"fgcolor"		"white"
 		"textAlignment"		"west"
-		"xpos"			"723"
+		"xpos"			"730"
 		"xpos_hidef"		"100"
 		"ypos"			"30"
 		"wide"			"100"
@@ -212,7 +213,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
 		"font"			"VarsityText32"
-		"fgcolor"		"HUDRedTeamSolid"
+		"fgcolor"		"white"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"582" [!$OSX]
@@ -238,7 +239,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
 		"font"			"VarsityText32"
-		"fgcolor"		"HUDRedTeamSolid"
+		"fgcolor"		"white"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"805"
@@ -293,8 +294,9 @@
 		"fieldName"		"RedTeamPlayerCount"
 		"font"			"VarsityText16"
 		"labelText"		"%redteamplayercount%"
+		"fgcolor"		"white"
 		"textAlignment"		"east"
-		"xpos"			"692"
+		"xpos"			"700"
 		"xpos_lodef"	"376"
 		"xpos_hidef"	"418"
 		"ypos"			"232"

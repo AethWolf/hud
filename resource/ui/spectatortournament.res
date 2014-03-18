@@ -11,18 +11,18 @@
 		"enabled"		"1"
 				
 		"team1_player_base_offset_x"		"-425"
-		"team1_player_base_y"				"90"
+		"team1_player_base_y"				"5"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"20"
 		"team2_player_base_offset_x"		"-425"
-		"team2_player_base_y"				"290"
+		"team2_player_base_y"				"205"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"20"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"175"
+			"wide"			"180"
 			"tall"			"20"
 			"zpos"			"1"
 			
@@ -36,7 +36,7 @@
 				"xpos" "0"
 				"ypos" "0"
 				"zpos" "-1"
-				"wide" "175"
+				"wide" "180"
 				"tall" "22"
 				"autoResize" "0"
 				"pinCorner" "0"
@@ -49,15 +49,15 @@
 				"ControlName" "ImagePanel"
 				"fieldName" "PanelCoverTop"
 				"xpos" "0"
-				"ypos" "-2" // omp -- -1 for low-res grid.
+				"ypos" "0" // omp -- -1 for low-res grid.
 				"zpos" "3" // omp -- place above class image.
-				"wide" "175"
-				"tall" "4" // omp -- +1 for low-res grid.
+				"wide" "180"
+				"tall" "2" // omp -- +1 for low-res grid.
 				"autoResize" "0"
 				"pinCorner" "0"
 				"visible" "1"
 				"enabled" "1"
-				"fillcolor" "30 30 30 255"
+				"fillcolor" "white"
 			}
 
 			"PanelCoverBottom"
@@ -65,15 +65,15 @@
 				"ControlName" "ImagePanel"
 				"fieldName" "PanelCoverBottom"
 				"xpos" "0"
-				"ypos" "16"
+				"ypos" "18"
 				"zpos" "3" // omp -- place above class image.
-				"wide" "175"
-				"tall" "4" // omp -- +1 for low-res grid.
+				"wide" "185"
+				"tall" "2" // omp -- +1 for low-res grid.
 				"autoResize" "0"
 				"pinCorner" "0"
 				"visible" "1"
 				"enabled" "1"
-				"fillcolor" "30 30 30 255"
+				"fillcolor" "white"
 			}
 
 			"PanelCoverLeft"
@@ -83,29 +83,44 @@
 				"xpos" "0"
 				"ypos" "0"
 				"zpos" "-1"
-				"wide" "20"
+				"wide" "3"
 				"tall" "18"
 				"autoResize" "0"
 				"pinCorner" "0"
 				"visible" "1"
 				"enabled" "1"
-				"fillcolor" "30 30 30 255"
+				"fillcolor" "white"
+			}
+			"HPPanel"
+			{
+				"ControlName" "ImagePanel"
+				"fieldName" "HPPanel"
+				"xpos" "118"
+				"ypos" "3"
+				"zpos" "-1"
+				"wide" "30"
+				"tall" "16"
+				"autoResize" "0"
+				"pinCorner" "0"
+				"visible" "1"
+				"enabled" "1"
+				"fillcolor" "black"
 			}
 
 			"PanelCoverRight"
 			{
 				"ControlName" "ImagePanel"
 				"fieldName" "PanelCoverRight"
-				"xpos" "171"
+				"xpos" "178"
 				"ypos" "0"
 				"zpos" "-1"
-				"wide" "4" // omp -- +1 for low-res grid.
+				"wide" "3" // omp -- +1 for low-res grid.
 				"tall" "18"
 				"autoResize" "0"
 				"pinCorner" "0"
 				"visible" "1"
 				"enabled" "1"	
-				"fillcolor" "30 30 30 255"
+				"fillcolor" "white"
 			}
 			"playername"
 			{
@@ -141,8 +156,8 @@
 				"xpos"			"2"
 				"ypos"			"1"
 				"zpos"			"2"
-				"wide"			"18"
-				"tall"			"18"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -162,14 +177,14 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"5"
-				"ypos"			"4"
+				"xpos"			"3"
+				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
-				"visible"		"0"
+				"wide"			"17"
+				"tall"			"25"
+				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"		"Black"
+				"bgcolor_override"		"0 0 0 128"
 				"PaintBackgroundType"	"0"
 				
 				if_mvm
@@ -182,7 +197,7 @@
 			{
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
-				"xpos"				"22"
+				"xpos"				"23"
 				"ypos"				"-3"
 				"zpos"				"3"
 				"wide"				"150"
@@ -250,7 +265,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"VarsityText12"
-				"xpos"			"120"
+				"xpos"			"125"
 				"ypos"			"4"
 				"zpos"			"5"
 				"wide"			"23"
@@ -260,7 +275,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"235 226 202 255"
+				"fgcolor"		"white"
 				
 				if_mvm
 				{
@@ -273,7 +288,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
 				"font"			"VarsityText12"
-				"xpos"			"145"
+				"xpos"			"146"
 				"ypos"			"4"
 				"zpos"			"6"
 				"wide"			"30"
