@@ -97,7 +97,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override" "BGGrey"
+		"bgcolor_override" "BGBlack"
 		
 		if_mvm
 		{

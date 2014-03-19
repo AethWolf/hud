@@ -176,6 +176,7 @@ Scheme
 		"CrosshairColor" 			"255 255 255 128"
 		"LightBlue"					"26 235 224 255"
 		"BGGrey"					"64 64 64 128"
+		"BGBlack"					"0 0 0 192"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////

@@ -36,27 +36,25 @@
 	}		
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"editablePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"9999"
-		"xpos_minmode"	"9999"
-		"ypos"			"33"
+		"xpos"			"99999"
+		"xpos_minmode"	"83"
+		"ypos"			"50"
 		"zpos"			"3"
 		"wide"			"55"
 		"tall"			"55"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"	[$WIN32]
+		"xpos"			"99999"	[$WIN32]
 		"xpos_minmode"	"65"	[$WIN32]
 		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
+		"ypos"			"42"	[$WIN32]
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
@@ -88,7 +86,20 @@
 		"textAlignment"	"center"	
 		"font"			"VarsityText40"
 		"fgcolor"		"qualitycolorunique"
-	}								
+	}
+	"PlayerHealthValueBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayerHealthValueBG"
+		"xpos"			"95"
+		"ypos"			"55"
+		"wide"			"75"
+		"tall"			"35"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"comboboxborder"
+		"bgcolor_override"	"bgblack"
+	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"

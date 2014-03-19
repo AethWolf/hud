@@ -28,7 +28,7 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override"	"BGGrey"
+		"bgcolor_override"	"BGBlack"
 	}
 	"ItemEffectMeterBGHighlight"
 	{
@@ -43,7 +43,7 @@
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override"	"black"
+		"bgcolor_override"	"bgblack"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -95,7 +95,7 @@
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
 		"ypos_minmode"			"18"
-		"ypos"					"10"
+		"ypos"					"5"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -107,7 +107,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"VarsityText20"
+		"font"					"VarsityText24"
 		"font_minmode"			"HudFontSmall"
 	}
 }
