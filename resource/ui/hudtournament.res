@@ -259,7 +259,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override"	"BGGrey"
+		"bgcolor_override"	"BGBlack"
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
@@ -403,6 +403,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
 		"font"			"VarsityText12"
+		"fgcolor"		"white"
 		"xpos"			"175"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -426,6 +427,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
 		"font"			"VarsityText12"
+		"fgcolor"		"white"
 		"xpos"			"130"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -448,8 +450,8 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"TFFontSmall"
-		"fgcolor"		"TanLight"
+		"font"			"VarsityText12"
+		"fgcolor"		"White"
 		"xpos"			"8"
 		"ypos"			"42"
 		"zpos"			"1"
@@ -483,7 +485,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override"	"BGGrey"
+		"bgcolor_override"	"BGblack"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -502,6 +504,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
 		"font"			"VarsityText12"
+		"fgcolor"		"white"
 		"xpos"			"0"
 		"ypos"			"59"
 		"wide"			"250"
@@ -530,7 +533,8 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"TFFontSmall"
+		"font"			"VarsityText12"
+		"fgcolor"		"white"
 		"xpos"			"0"
 		"ypos"			"54"
 		"wide"			"250"
