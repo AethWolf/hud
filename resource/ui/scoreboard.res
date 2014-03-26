@@ -49,7 +49,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override" "hudblueteam"
+		"bgcolor_override" "hudblueteamsolid"
 		
 		if_mvm
 		{
@@ -73,7 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override" "hudredteam"
+		"bgcolor_override" "hudredteamsolid"
 		
 		if_mvm
 		{
@@ -528,7 +528,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"bgblack"
 		
 		if_mvm
 		{

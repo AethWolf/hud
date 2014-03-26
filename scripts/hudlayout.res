@@ -43,14 +43,14 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-100"
-		"ypos"	"0"
+		"ypos"	"-115"
 		"wide"	"200"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"16"
+		"blue_active_xpos"			"6"
 		"blue_active_xpos_minmode"	"55"
 	
-		"red_active_xpos"			"106"
+		"red_active_xpos"			"116"
 		"red_active_xpos_minmode"	"105"
 	}	
 

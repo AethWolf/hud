@@ -725,8 +725,11 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-		Animate CrossHairKonrWingsOutline FgColor "255 0 0 255" Accel 0.0 0.0
-		Animate CrossHairKonrWingsOutline FgColor "CrosshairColor" Accel 0.2 0.0
+		Animate KonrOutline FgColor "255 0 0 255" Accel 0.0 0.0
+		Animate KonrOutline FgColor "CrosshairColor" Accel 0.2 0.0
+		
+		//Animate	CrossHairKonrWingsOutline		FgColor "255 0 0 255"		Accel 0.0 0.0
+		//Animate	CrossHairKonrWingsOutline		FgColor "CrosshairKonr"		Accel 0.2 0.0
 }
 
 //===========================================

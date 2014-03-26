@@ -7,14 +7,14 @@
 		"xpos"				"c-55"
 		"xpos_hidef"		"c-150"
 		"xpos_lodef"		"c-150"
-		"ypos"				"-100"	[$WIN32]
+		"ypos"				"-115"	[$WIN32]
 		"ypos_minmode"		"-14"	[$WIN32]
 		"ypos"				"24"	[$X360]
 		"zpos"				"1"
 		"wide"				"110"
 		"wide_hidef"		"300"
 		"wide_lodef"		"300"
-		"tall"				"150"
+		"tall"				"800"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
@@ -33,7 +33,7 @@
 			"font"			"VarsityText24"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"White"
+			"fgcolor"		"qualitycolorunique"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
 			"xpos_hidef"	"114"
@@ -61,7 +61,7 @@
 			"xpos"		  "23"
 			"wide"		  "65"
 			"tall"		  "20"
-			"bgcolor_override"	"BGGrey"
+			"bgcolor_override"	"BGBlack"
 		}
 	}
 }
