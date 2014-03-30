@@ -1,14 +1,14 @@
-"Resource/UI/HudItemEffectMeter_Pomson.res"
+"Resource/UI/HudItemEffectMeter_Raygun.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r550"	[$WIN32]
-		"ypos"			"r125"	[$WIN32]
-		"xpos_minmode"	"r42"	[$WIN32]
-		"ypos_minmode"	"r68"	[$WIN32]
+		"xpos"			"r580"	[$WIN32]
+		"ypos"			"r130"	[$WIN32]
+		"xpos_minmode"	"r52"	[$WIN32]
+		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"200"
@@ -29,11 +29,11 @@
 		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
+		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
+		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
+		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
@@ -41,7 +41,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"45"
+		"xpos"					"43"
 		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"41"
@@ -60,7 +60,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"VarsityText12"
-		"fgcolor_override"				"qualitycolorunique"
 	}
 
 	"ItemEffectMeter"
@@ -68,7 +67,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"46"
+		"xpos"					"47"
 		"ypos"					"23"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
@@ -83,7 +82,5 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"	"0 255 0 128"
-		"fgcolor_override"	"0 0 0 255"
-	}
+	}					
 }

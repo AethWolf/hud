@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r325"	[$WIN32]
-		"ypos"			"r150"	[$WIN32]
+		"xpos"			"r360"	[$WIN32]
+		"ypos"			"r145"	[$WIN32]
 		"xpos_minmode"	"r70"	[$WIN32]
 		"ypos_minmode"	"r74"	[$WIN32]
 		"xpos"			"r194"	[$X360]
@@ -19,22 +19,18 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
+		"xpos"			"26"
+		"ypos"			"10"
 		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
-		"visible"		"0"
+		"wide"			"36"
+		"tall"			"30"
+		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"border"		"comboboxborder"
+		"bgcolor_override"	"bgblack"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -55,7 +51,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"VarsityText12"
 	}
 
 	"ItemEffectMeter"
@@ -97,6 +93,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"VarsityText24"
 	}
 }

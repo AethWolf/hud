@@ -13,30 +13,26 @@
 	
 	"AccountBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"AccountBG"
-		"xpos"			"5"
-		"ypos"			"103"
+		"xpos"			"30"
+		"ypos"			"113"
 		"zpos"			"0"
-		"wide"			"84"
-		"tall"			"42"
-		"visible"		"0"
+		"wide"			"50"
+		"tall"			"22"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
+		"border"		"comboboxborder"
+		"bgcolor_override"	"BGBlack"
 	}
 	
 	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
-		"xpos"			"19"
+		"xpos"			"32"
 		"xpos_lodef"	"12"
-		"ypos"			"116"
+		"ypos"			"118"
 		"ypos_lodef"	"112"
 		"zpos"			"1"
 		"wide"			"10"
@@ -54,7 +50,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"20"
+		"xpos"			"33"
 		"ypos"			"112"
 		"ypos_lodef"	"121"
 		"zpos"			"2"
@@ -71,5 +67,6 @@
 		"brighttext"	"0"
 		"font"			"VarsityText20"
 		"font_lodef"	"HudFontMedium"
+		"fgcolor"		"qualitycolorunique"
 	}
 }

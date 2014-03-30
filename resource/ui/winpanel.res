@@ -14,7 +14,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
-			"xpos"			"0"
+			"xpos"			"50"
 			"ypos"			"10"
 			"wide"			"240"
 			"tall"			"50"
@@ -23,22 +23,22 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"comboboxborder"
-			"bgcolor_override"	"BGGrey"
+			"bgcolor_override"	"hudblueteamsolid"
 		}
 		"RedScoreBG"
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RedScoreBG"
-			"xpos"			"140"
+			"xpos"			"200"
 			"ypos"			"10"
-			"wide"			"240"
+			"wide"			"125"
 			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"comboboxborder"
-			"bgcolor_override"	"BGGrey"
+			"bgcolor_override"	"hudredteamsolid"
 		}
 		"BlueTeamLabel"
 		{

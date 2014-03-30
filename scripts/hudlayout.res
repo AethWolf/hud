@@ -22,7 +22,7 @@
 		"ypos_minmode"	"r36"	[$WIN32]
 		"xpos"	"r131"	[$X360]
 		"ypos"	"r77"	[$X360]
-		"wide"	"94"
+		"wide"	"105"
 		"tall"	"45"
 	}
 	
@@ -82,8 +82,8 @@
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
-		"wide"			"210"
-		"tall"			"100"
+		"wide"			"225"
+		"tall"			"130"
 	}
 	
 	HudDemomanCharge
@@ -295,7 +295,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"200"
 		"wide"	 	"350"
 		"tall"	 	"75"
 		"tall_minmode"	 	"28"
@@ -332,7 +332,7 @@
 		"xpos"		"0"
 		"xpos_hidef"		"32"
 		"xpos_lodef"		"40"
-		"ypos"		"0"
+		"ypos"		"150"
 		"ypos_hidef"		"16"
 		"ypos_lodef"		"25"
 		"wide"		"640"
