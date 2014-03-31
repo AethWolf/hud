@@ -197,7 +197,7 @@
 		"wide"			"75"
 		"tall"			"35"
 		"border"		"comboboxborder"
-		"bgcolor_override"	"HUDRedTeam"
+		"bgcolor_override"	"red"
 	}
 	"BlueScoreBG"
 	{
@@ -208,7 +208,7 @@
 		"wide"			"75"
 		"tall"			"35"
 		"border"		"comboboxborder"
-		"bgcolor_override"	"HUDBlueTeam"
+		"bgcolor_override"	"blue"
 	}
 							
 	"RedScore"
@@ -308,7 +308,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-50"
-		"ypos"			"r137"	[$WIN32]
+		"ypos"			"r85"	[$WIN32]
 		"ypos"			"r158"	[$X360]
 		"zpos"			"10"
 		"wide"			"100"

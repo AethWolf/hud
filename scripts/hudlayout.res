@@ -24,6 +24,7 @@
 		"ypos"	"r77"	[$X360]
 		"wide"	"105"
 		"tall"	"45"
+		"zpos"	"2"
 	}
 	
 	HudObjectiveStatus
@@ -1159,7 +1160,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-320"
-		"ypos"					"300"
+		"ypos"					"350"
 		"wide"					"640"
 		"tall"					"100"
 	}
