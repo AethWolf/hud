@@ -49,7 +49,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override" "hudblueteamsolid"
+		"bgcolor_override" "bluesolid"
 		
 		if_mvm
 		{
@@ -73,7 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override" "hudredteamsolid"
+		"bgcolor_override" "redsolid"
 		
 		if_mvm
 		{
@@ -91,7 +91,7 @@
 		"wide"			"250"
 		"wide_lodef"	"570"
 		"wide_hidef"	"590"
-		"tall"			"440	"
+		"tall"			"435"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

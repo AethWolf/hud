@@ -214,9 +214,9 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
+		"xpos"					"310"
 		"xpos_minmode"			"61"
-		"ypos"					"r152"
+		"ypos"					"r250"
 		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
@@ -295,9 +295,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"200"
+		"ypos"		"285"
 		"wide"	 	"350"
-		"tall"	 	"75"
+		"tall"	 	"17"
 		"tall_minmode"	 	"28"
 		"priority"	"35"
 
@@ -493,7 +493,7 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r630"	[$WIN32]
+		"xpos"	 "r635"	[$WIN32]
 		"ypos"	 "3"	[$WIN32]
 		"xpos"	 "r672"	[$X360]
 		"ypos"	 "35"	[$X360]
@@ -507,10 +507,10 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"VarsityText12"
+		"TextFont"		"VarsityText10"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"BlueSolid"
+		"TeamRed"		"RedSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 

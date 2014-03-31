@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"15"
+		"xpos"			"152"
 		"xpos_minmode"			"11"
 		"ypos"			"1"
 		"ypos_minmode"			"11"
@@ -57,9 +57,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"30"
+		"xpos"			"153"
 		"xpos_minmode"			"40"
-		"ypos"			"30"
+		"ypos"			"0"
 		"ypos_minmode"			"11"
 		"zpos"			"2"
 		"wide"			"90"
@@ -74,7 +74,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"VarsityText12"
+		"font"			"VarsityText10"
+		"fgcolor"		"qualitycolorunique"
 	}
 	
 	"ChargeMeter"

@@ -44,7 +44,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override"	"BGGrey"
+		"bgcolor_override"	"BGBlack"
 	}
 	
 	"random"
@@ -75,7 +75,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "redsolid"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -157,7 +157,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "redsolid"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -216,7 +216,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "redsolid"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -275,7 +275,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "redsolid"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -357,7 +357,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "redsolid"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -416,7 +416,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "redsolid"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -475,7 +475,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "redsolid"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -557,7 +557,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "redsolid"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -616,7 +616,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "redsolid"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -675,7 +675,7 @@
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "White"
 		"depressedFgColor_override" "White"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "redsolid"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -750,8 +750,8 @@
 		
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "Red"
+		"depressedFgColor_override" "Red"
 		"selectedFgColor_override" "White"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
