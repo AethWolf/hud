@@ -111,7 +111,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabel"
-		"font"			"VarsityText16"
+		"font"			"VarsityText12"
 		"fgcolor"		"qualitycolorunique"
 		"xpos"			"34"
 		"ypos"			"17"
