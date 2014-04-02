@@ -28,7 +28,6 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"border"		"comboboxborder"
 
 		"itemmodelpanel"
 		{
@@ -46,8 +45,8 @@
 			"enabled"		"1"
 			"useparentbg"		"1"
 		
-			"inset_eq_x"	"0"
-			"inset_eq_y"	"0"
+			"inset_eq_x"	"2"
+			"inset_eq_y"	"2"
 
 			"fov"			"54"
 			"start_framed"		"1"
@@ -66,7 +65,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
-			"font"			"VarsityText16"
+			"font"			"ItemFontNameLarge"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -85,7 +84,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
-			"font"			"VarsityText16"
+			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -105,7 +104,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"VarsityText8"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
@@ -140,7 +139,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"VarsityText8"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -161,7 +160,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"VarsityText8"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -182,7 +181,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"matcheslabel"
-			"font"			"VarsityText8"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
