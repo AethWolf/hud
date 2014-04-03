@@ -2515,8 +2515,17 @@ Scheme
 				"antialias" "1"
 				"outline" "1"
 			}
-		}	
-
+		}
+		"xHairs"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall"	"24"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -4433,6 +4442,11 @@ Scheme
 		{
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
+		}
+		"9"
+		{
+			"font" "resource/fonts/Crosshairs.ttf"
+			"name" "Crosshairs"
 		}
 	}
 }

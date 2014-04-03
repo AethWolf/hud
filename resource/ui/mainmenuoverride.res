@@ -133,7 +133,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"130 130 130 125"
+		"fillcolor"		"BGBlack"
 	}
 	"Label1"
 	{
@@ -274,7 +274,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"		
+		"fillcolor"		"white"		
 	}
 	"Bar2"
 	{
@@ -289,7 +289,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"		
+		"fillcolor"		"white"		
 	}
 	"Bar3"
 	{
@@ -304,7 +304,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"		
+		"fillcolor"		"white"		
 	}
 	"Bar4"
 	{
@@ -319,7 +319,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"		
+		"fillcolor"		"white"		
 	}
 	"Bar5"
 	{
@@ -334,7 +334,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"		
+		"fillcolor"		"white"		
 	}
 	"Bar6"
 	{
@@ -349,7 +349,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"		
+		"fillcolor"		"white"		
 	}
 	"Bar7"
 	{
@@ -364,7 +364,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"		
+		"fillcolor"		"white"		
 	}
 	"Bar8"
 	{
@@ -379,7 +379,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 255"		
+		"fillcolor"		"white"		
 	}
 	"Background"
 	{
@@ -397,23 +397,23 @@
 		
 		if_halloween_0
 		{
-			"image"		"../console/background_upward"
+			"image"		"../console/title_team_halloween2011"
 		}
 		if_halloween_1
 		{
-			"image"		"../console/background_upward"
+			"image"		"../console/title_team_halloween2012"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/background_upward"
+			"image"		"../console/title_team_halloween2013"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/background_upward"
+			"image"		"../console/title_fullmoon"
 		}
 		if_christmas
 		{
-			"image"		"../console/background_upward"
+			"image"		"../console/background_xmas2011"
 		}
 	}
 					
@@ -421,8 +421,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"c150"
+		"ypos"			"0"
 		"zpos"			"-99"
 		"wide"			"256"
 		"tall"			"64"
