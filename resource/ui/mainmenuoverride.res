@@ -55,7 +55,7 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "35 35 35 255"
+				"armedFgColor_override" "redsolid"
 				"depressedFgColor_override" "46 43 42 255"
 				
 				"image_drawcolor"	"117 107 94 255"
@@ -476,7 +476,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"35 35 35 255"
+		"fgcolor_override"	"redsolid"
 	}
 	
 	"TooltipPanel"
@@ -491,7 +491,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"1"
 		"border"		"FluxsBorderTab"
-		"bgcolor_override"	"35 35 35 255"
+		"bgcolor_override"	"bgblack"
 		
 		"TipSubLabel"
 		{
@@ -573,7 +573,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -635,7 +635,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -697,7 +697,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -759,7 +759,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -856,7 +856,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"1"
 		"border"		"FluxsBorderTab"
-		"bgcolor_override"	"35 35 35 255"
+		"bgcolor_override"	"redsolid"
 		
 		"MOTD_HeaderContainer"
 		{
@@ -1105,7 +1105,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultBgColor_override"	"40 40 40 255"
-			"armedBgColor_override"		"35 35 35 255"
+			"armedBgColor_override"		"redsolid"
 			"depressedBgColor_override"	"40 40 40 255"
 			"defaultFgColor_override"	"230 230 230 255"
 			"armedFgColor_override" 	"230 230 230 255"
@@ -1226,7 +1226,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"35 35 35 255"
+			"fgcolor_override"	"redsolid"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -1287,7 +1287,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"1"
-		"bgcolor_override"		"35 35 35 255"
+		"bgcolor_override"		"redsolid"
 		"border"		"FluxsBorderTab"
 		
 		"Notifications_CloseButton"
@@ -1471,7 +1471,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1532,7 +1532,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1593,7 +1593,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1654,7 +1654,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1729,7 +1729,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1964,7 +1964,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -2026,7 +2026,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -2088,7 +2088,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -2150,7 +2150,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -2212,7 +2212,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -2274,7 +2274,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -2335,7 +2335,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -2396,7 +2396,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -2459,7 +2459,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "White"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "230 230 230 255"
 			
 			"image_drawcolor"	"235 226 202 255"
@@ -2782,7 +2782,7 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "35 35 35 255"
+		"armedFgColor_override" "redsolid"
 		"depressedFgColor_override" "230 230 230 255"
 		
 		"image_drawcolor"	"235 226 202 255"
@@ -2835,7 +2835,7 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "35 35 35 255"
+		"armedFgColor_override" "redsolid"
 		"depressedFgColor_override" "230 230 230 255"
 		
 		"image_drawcolor"	"235 226 202 255"
@@ -2887,7 +2887,7 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "35 35 35 255"
+		"armedFgColor_override" "redsolid"
 		"depressedFgColor_override" "230 230 230 255"
 		
 		"image_drawcolor"	"235 226 202 255"
@@ -2938,7 +2938,7 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "35 35 35 255"
+		"armedFgColor_override" "redsolid"
 		"depressedFgColor_override" "230 230 230 255"
 		
 		"image_drawcolor"	"235 226 202 255"
@@ -3101,7 +3101,7 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "35 35 35 255"
+				"armedFgColor_override" "redsolid"
 				"depressedFgColor_override" "46 43 42 255"
 				
 				"image_drawcolor"	"117 107 94 255"
@@ -3149,7 +3149,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3269,7 +3269,7 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "35 35 35 255"
+				"armedFgColor_override" "redsolid"
 				"depressedFgColor_override" "46 43 42 255"
 				
 				"image_drawcolor"	"117 107 94 255"
@@ -3317,7 +3317,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3429,7 +3429,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3541,7 +3541,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3653,7 +3653,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -3765,7 +3765,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "35 35 35 255"
+			"armedFgColor_override" "redsolid"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
