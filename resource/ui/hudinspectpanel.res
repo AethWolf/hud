@@ -38,7 +38,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"VarsityText10"
+			"font"			"Postface10"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

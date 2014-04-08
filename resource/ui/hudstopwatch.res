@@ -57,7 +57,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"VarsityText24"
+			"font"			"Postface24"
 			"font_minmode"		"HudFontMediumSmall"
 			"font_lodef"		"HudFontMedium"
 			"fgcolor"		"White"
@@ -83,7 +83,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"font"			"VarsityText24"
+		"font"			"Postface24"
 		"labelText"		"%scoretobeat%"
 		"textAlignment"		"east"
 		"fgcolor"		"white"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"east"
 		"fgcolor"		"white"
@@ -121,7 +121,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchLabel"
-		"font"			"VarsityText10"
+		"font"			"Postface10"
 		"labelText"		"%stopwatchlabel%"
 		"textAlignment"		"west"
 		"xpos"			"25"
@@ -163,7 +163,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchDescriptionLabel"
-		"font"			"VarsityText10"
+		"font"			"Postface10"
 		"labelText"		"%descriptionlabel%"
 		"textAlignment"		"center"
 		"fgcolor"		"white"

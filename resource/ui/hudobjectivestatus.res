@@ -24,13 +24,13 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"VarsityText16"
+		"delta_item_font"		"Postface16"
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"VarsityText24"
+			"font"			"Postface24"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMedium"
 			"fgcolor"		"qualitycolorunique"
@@ -61,6 +61,7 @@
 			"xpos"		  "23"
 			"wide"		  "65"
 			"tall"		  "20"
+			"visible"		"0"
 			"bgcolor_override"	"BGBlack"
 		}
 	}

@@ -2404,103 +2404,103 @@ Scheme
 		}
 		
 	// Thar be custom fonts here
-		VarsityText8
+		Postface8
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
+				"name"		"Postface"
 				"tall"		"8"
 				"antialias" "1"
 			}
 		}
-			VarsityText10
+			Postface10
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
+				"name"		"Postface"
 				"tall"		"10"
 				"antialias" "1"
 			}
 		}
-		VarsityText12
+		Postface12
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
+				"name"		"Postface"
 				"tall"		"12"
 				"antialias" "1"
 			}
 		}
-		VarsityText16
+		Postface16
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
+				"name"		"Postface"
 				"tall"		"16"
 				"antialias" "1"
 			}
 		}
-		VarsityText20
+		Postface20
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
+				"name"		"Postface"
 				"tall"		"20"
 				"antialias" "1"
 			}
 		}
-		VarsityText24
+		Postface24
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
+				"name"		"Postface"
 				"tall"		"24"
 				"antialias" "1"
 			}
 		}
-		VarsityText26
+		Postface26
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
+				"name"		"Postface"
 				"tall"		"26"
 				"antialias" "1"
 			}
 		}
-			VarsityText28
+			Postface28
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
+				"name"		"Postface"
 				"tall"		"28"
 				"antialias" "1"
 			}
 		}
-		VarsityText32
+		Postface32
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
+				"name"		"Postface"
 				"tall"		"32"
 				"antialias" "1"
 			}
 		}
-		VarsityText36
+		Postface36
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
+				"name"		"Postface"
 				"tall"		"36"
 				"antialias" "1"
 			}
 		}
-		VarsityText40
+		Postface40
 		{
 			"1"
 			{
-				"name"		"Varsity Regular"
-				"tall"		"40"
-				"antialias" "1"
+				"name"	"Postface"
+				"tall"	"40"
+				"antialias"	"1"
 			}
 		}
 		
@@ -4435,7 +4435,7 @@ Scheme
 		"7"
 		{
 			"font" "resource/fonts/varsity_regular.ttf"
-			"name" "Varsity Regular"
+			"name" "VarsityText"
 			
 		}
 		"8"
@@ -4447,6 +4447,11 @@ Scheme
 		{
 			"font" "resource/fonts/Crosshairs.ttf"
 			"name" "Crosshairs"
+		}
+		"10"
+		{
+			"font" "resource/fonts/Postface.otf"
+			"name" "Postface"
 		}
 	}
 }

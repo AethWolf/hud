@@ -202,7 +202,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"VarsityText10"		
+			"font"			"Postface10"		
 			"font_minmode"		"ItemFontAttribSmall"		
 			"xpos"			"35"
 			"xpos_minmode"		"23"			
@@ -424,7 +424,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"VarsityText10"
+			"font"			"Postface10"
 			"font_minmode"		"ItemFontAttribSmall"
 			"xpos"			"39"
 			"xpos_minmode"		"25"

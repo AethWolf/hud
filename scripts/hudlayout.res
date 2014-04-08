@@ -508,7 +508,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"VarsityText10"
+		"TextFont"		"Postface10"
 		
 		"TeamBlue"		"BlueSolid"
 		"TeamRed"		"RedSolid"

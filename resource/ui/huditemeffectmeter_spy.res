@@ -26,7 +26,7 @@
 		"zpos"			"0"
 		"wide"			"36"
 		"tall"			"30"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"border"		"comboboxborder"
@@ -51,7 +51,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"VarsityText12"
+		"font"					"Postface12"
 	}
 
 	"ItemEffectMeter"
@@ -93,6 +93,6 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"VarsityText24"
+		"font"					"Postface24"
 	}
 }

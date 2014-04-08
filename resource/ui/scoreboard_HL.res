@@ -110,7 +110,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"VarsityText32"
+		"font"			"Postface32"
 		"fgcolor"		"white"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
@@ -135,7 +135,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"VarsityText40"
+		"font"			"Postface40"
 		"fgcolor"		"white"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -162,7 +162,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"VarsityText40"
+		"font"			"Postface40"
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -189,7 +189,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"VarsityText16"
+		"font"			"Postface16"
 		"labelText"		"%blueteamplayercount%"
 		"fgcolor"		"white"
 		"textAlignment"		"west"
@@ -212,7 +212,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"VarsityText32"
+		"font"			"Postface32"
 		"fgcolor"		"white"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
@@ -238,7 +238,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"VarsityText40"
+		"font"			"Postface40"
 		"fgcolor"		"white"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"center"
@@ -265,7 +265,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"VarsityText40"
+		"font"			"Postface40"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"center"
@@ -292,7 +292,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"VarsityText16"
+		"font"			"Postface16"
 		"labelText"		"%redteamplayercount%"
 		"fgcolor"		"white"
 		"textAlignment"		"east"
@@ -316,7 +316,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"25"
@@ -340,7 +340,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"west"
 		"xpos"			"25"
@@ -444,7 +444,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"25"
@@ -468,7 +468,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -561,7 +561,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"VarsityText24"
+		"font"			"Postface24"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"65"
@@ -612,7 +612,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
-		"font"		"VarsityText24"
+		"font"		"Postface24"
 		"labelText"		"%playerscore%"
 		"textAlignment"	"east"
 		"xpos"			"5"
@@ -761,7 +761,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"VarsityText24"
+				"font"			"Postface24"
 			}
 		}
 
@@ -840,7 +840,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"VarsityText24"
+				"font"			"Postface24"
 			}
 		}
 	}
@@ -868,7 +868,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"VarsityText24"
+			"font"			"Postface24"
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"		"east"
 			"xpos"			"0"
@@ -890,7 +890,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"VarsityText24"
+			"font"			"Postface24"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
 			"xpos"			"0"
@@ -911,7 +911,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"			"0"
@@ -932,7 +932,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"			"0"
@@ -953,7 +953,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"VarsityText24"
+			"font"			"Postface24"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
 			"xpos"			"100"
@@ -974,7 +974,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"VarsityText24"
+			"font"			"Postface24"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"100"
@@ -996,7 +996,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"mapname"
-			"font"			"VarsityText16"
+			"font"			"Postface16"
 			"labelText"		"%mapname%"
 			"textAlignment"		"east"
 			"xpos"			"15"
@@ -1019,7 +1019,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"gametype"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
 			"xpos"			"15"
@@ -1042,7 +1042,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
 			"xpos"			"100"
@@ -1063,7 +1063,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
 			"xpos"			"100"
@@ -1084,7 +1084,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"			"-6"	[$WIN32]
@@ -1105,7 +1105,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"			"-6"	[$WIN32]
@@ -1127,7 +1127,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"			"-6"	[$WIN32]
@@ -1148,7 +1148,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"			"-6"	[$WIN32]
@@ -1169,7 +1169,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
 			"xpos"			"100"	[$WIN32]
@@ -1190,7 +1190,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
 			"xpos"			"100"	[$WIN32]
@@ -1211,7 +1211,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
 			"xpos"			"100"	[$WIN32]
@@ -1232,7 +1232,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
 			"xpos"			"100"	[$WIN32]
@@ -1253,7 +1253,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"			"0"	[$WIN32]
@@ -1274,7 +1274,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"			"0"	[$WIN32]
@@ -1295,7 +1295,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"			"0"	[$WIN32]
@@ -1316,7 +1316,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"			"0"	[$WIN32]
@@ -1337,7 +1337,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
 			"xpos"			"100"	[$WIN32]
@@ -1358,7 +1358,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%invulns%"
 			"textAlignment"	"west"
 			"xpos"			"100"	[$WIN32]
@@ -1379,7 +1379,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
 			"xpos"			"100"	[$WIN32]
@@ -1400,7 +1400,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
 			"xpos"			"100"	[$WIN32]
@@ -1421,7 +1421,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"north-east"
 			"xpos"			"-15"	[$WIN32]
@@ -1441,7 +1441,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"north-west"		[$WIN32]
 			"xpos"			"100"	[$WIN32]
@@ -1462,7 +1462,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"north-east"
 			"xpos"			"-15"	[$WIN32]
@@ -1483,7 +1483,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"labelText"		"%bonus%"
 			"textAlignment"		"north-west"		[$WIN32]
 			"xpos"			"100"	[$WIN32]
@@ -1560,7 +1560,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SelectHintLabel"
-			"font"			"VarsityText24"
+			"font"			"Postface24"
 			"xpos"			"25"
 			"xpos_lodef"	"37"
 			"ypos"			"2"
@@ -1602,7 +1602,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"GamerCardLabel"
-			"font"			"VarsityText24"
+			"font"			"Postface24"
 			"xpos"			"170"
 			"xpos_lodef"	"177"
 			"ypos"			"2"
@@ -1644,7 +1644,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ReputationLabel"
-			"font"			"VarsityText24"
+			"font"			"Postface24"
 			"xpos"			"403"
 			"xpos_lodef"	"377"
 			"ypos"			"2"

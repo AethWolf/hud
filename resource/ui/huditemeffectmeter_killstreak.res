@@ -64,7 +64,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"VarsityText10"
+		"font"					"Postface10"
 	}
 
 	"ItemEffectMeter"
@@ -107,7 +107,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"VarsityText24"
+		"font"					"Postface24"
 		"font_minmode"			"HudFontSmall"
 	}
 }

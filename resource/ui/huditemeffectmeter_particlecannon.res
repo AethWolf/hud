@@ -59,7 +59,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"VarsityText12"
+		"font"					"Postface12"
 	}
 
 	"ItemEffectMeter"

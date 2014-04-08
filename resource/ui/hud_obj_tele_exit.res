@@ -74,7 +74,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -225,7 +225,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"VarsityText12"
+				"font"			"Postface12"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"

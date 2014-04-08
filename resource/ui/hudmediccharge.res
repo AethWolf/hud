@@ -27,7 +27,7 @@
 		"ypos_minmode"			"11"
 		"zpos"			"2"
 		"wide"			"90"
-		"tall"			"17"
+		"tall"			"25"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -38,7 +38,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"VarsityText26"
+		"font"			"Postface26"
 		"fgcolor"		"qualitycolorunique"
 	}
 	"ChargeLabelBG"
@@ -49,6 +49,7 @@
 		"ypos"			"0"
 		"tall"			"20"
 		"wide"			"70"
+		"visible"		"0"
 		"border"		"comboboxborder"
 		"bgcolor_override"	"BGBlack"
 	}
@@ -57,12 +58,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"153"
+		"xpos"			"145"
 		"xpos_minmode"			"40"
 		"ypos"			"0"
 		"ypos_minmode"			"11"
 		"zpos"			"2"
-		"wide"			"90"
+		"wide"			"120"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -71,10 +72,10 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_IndividualUbercharges"
 		"labelText_minmode"		"#TF_IndividualUberchargesMinHUD"
-		"textAlignment"	"west"
+		"textAlignment"	"left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"VarsityText10"
+		"font"			"Postface10"
 		"fgcolor"		"qualitycolorunique"
 	}
 	
@@ -82,7 +83,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
-		"font"			"VarsityText10"
+		"font"			"Postface10"
 		"xpos"			"30"
 		"xpos_minmode"			"10"
 		"ypos"			"45"

@@ -47,7 +47,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"VarsityText16"
+		"font"			"Postface16"
 		"fgcolor"		"White"
 	}
 	
@@ -66,7 +66,7 @@
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
-		"font"			"VarsityText10"
+		"font"			"Postface10"
 		"fgcolor"		"White"
 	}	
 	
@@ -74,7 +74,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"VarsityText10"
+		"font"			"Postface10"
 		"xpos"			"c-170"
 		"ypos"			"c-70"
 		"zpos"			"3"
@@ -127,7 +127,7 @@
 		"brighttext"	"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"VarsityText16"
+		"font"			"Postface16"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"White"
@@ -156,7 +156,7 @@
 		"brighttext"	"0"
 		"command"		"intro"
 		"default"		"1"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"White"
@@ -184,7 +184,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"back"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"White"

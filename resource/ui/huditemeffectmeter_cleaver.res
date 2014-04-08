@@ -1,17 +1,17 @@
-"Resource/UI/HudItemEffectMeter_Raygun.res"
+"Resource/UI/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r580"	[$WIN32]
-		"ypos"			"r130"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
-		"wide"			"200"
+		"x_offset"		"40"
+		"xpos"			"r525"
+		"ypos"			"r150"
+		"xpos_minmode"	"r52"
+		"ypos_minmode"	"r68"
+		"x_offset_minmode"		"0"
+		"wide"			"150"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -29,11 +29,11 @@
 		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz1_blue"
+		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
+		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
 		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
+		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
@@ -41,7 +41,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"43"
+		"xpos"					"45"
 		"ypos"					"25"
 		"zpos"					"2"
 		"wide"					"41"
@@ -55,11 +55,11 @@
 		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"#TF_Cleaver"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Postface12"
+		"font"					"Postface10"
 	}
 
 	"ItemEffectMeter"
@@ -67,12 +67,12 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"47"
+		"xpos"					"45"
 		"ypos"					"23"
 		"ypos_minmode"			"0"
 		"xpos_minmode"			"0"
 		"zpos"					"2"
-		"wide"					"150"
+		"wide"					"130"
 		"wide_minmode"			"50"
 		"tall"					"5"				
 		"autoResize"			"0"

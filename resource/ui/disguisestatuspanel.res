@@ -53,7 +53,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"VarsityText16"
+		"font"			"Postface16"
 		"font_minmode"	"TFFontMedium"
 		"xpos"			"80"
 		"xpos_minmode"	"34"
@@ -76,7 +76,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"VarsityText16"
+		"font"			"Postface16"
 		"font_minmode"	"TFFontMedium"
 		"xpos"			"80"
 		"xpos_minmode"	"34"

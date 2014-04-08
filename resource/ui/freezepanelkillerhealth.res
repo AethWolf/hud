@@ -69,6 +69,6 @@
 		"textAlignment"	"center"
 		"Labeltext"		"%Health%"
 		"fgcolor"		"white"
-		"font"			"VarsityText16"
+		"font"			"Postface16"
 	}								
 }

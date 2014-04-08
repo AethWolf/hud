@@ -65,7 +65,7 @@
 		"textAlignment"		"center"
 		"Command"			"select 12"
 		"Default"			"1"
-		"font"				"VarsityText12"
+		"font"				"Postface12"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_random_inactive"
@@ -147,7 +147,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 1"
 		"Default"			"0"
-		"font"				"VarsityText12"
+		"font"				"Postface12"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_scout_inactive"
@@ -206,7 +206,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 3"
 		"Default"			"0"
-		"font"				"VarsityText12"
+		"font"				"Postface12"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_soldier_inactive"
@@ -265,7 +265,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 7"
 		"Default"			"0"
-		"font"				"VarsityText12"
+		"font"				"Postface12"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_pyro_inactive"
@@ -347,7 +347,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 4"
 		"Default"			"0"
-		"font"				"VarsityText12"
+		"font"				"Postface12"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_demo_inactive"
@@ -406,7 +406,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 6"
 		"Default"			"0"
-		"font"				"VarsityText12"
+		"font"				"Postface12"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_heavy_inactive"
@@ -465,7 +465,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 9"
 		"Default"			"0"
-		"font"				"VarsityText12"
+		"font"				"Postface12"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_engineer_inactive"
@@ -547,7 +547,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 5"
 		"Default"			"0"
-		"font"				"VarsityText12"
+		"font"				"Postface12"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_medic_inactive"
@@ -606,7 +606,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 2"
 		"Default"			"0"
-		"font"				"VarsityText12"
+		"font"				"Postface12"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_sniper_inactive"
@@ -665,7 +665,7 @@
 		"textAlignment"		"west"
 		"Command"			"select 8"
 		"Default"			"0"
-		"font"				"VarsityText12"
+		"font"				"Postface12"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_spy_inactive"
@@ -745,7 +745,7 @@
 		"labelText"		"Edit Loadout"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"White"
@@ -1159,7 +1159,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"east"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 	}	
 	
@@ -1179,7 +1179,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"east"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 	}		
 	
@@ -1199,7 +1199,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"east"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 	}			
 	
@@ -1219,7 +1219,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"east"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 	}				
 	
@@ -1239,7 +1239,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"east"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 	}					
 	
@@ -1259,7 +1259,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"east"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 	}						
 	
@@ -1279,7 +1279,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"east"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 	}							
 	
@@ -1299,7 +1299,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"east"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 	}						
 	
@@ -1319,7 +1319,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"east"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 	}								
 	

@@ -127,7 +127,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 		"labelText"		"BLU"
 		"textAlignment"	"center"
@@ -146,7 +146,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 		"labelText"		"RED"
 		"textAlignment"	"center"
@@ -165,7 +165,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RandomLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 		"labelText"		"Random"
 		"textAlignment"	"center"
@@ -184,7 +184,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SpectateLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 		"labelText"		"Spectate"
 		"textAlignment"	"center"
@@ -466,7 +466,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"VarsityText20"
+		"font"			"Postface20"
 		"fgcolor"		"White"
 	}		
 	
@@ -487,7 +487,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"VarsityText20"
+		"font"			"Postface20"
 		"fgcolor"		"White"
 	}	
 	

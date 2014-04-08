@@ -104,7 +104,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -230,7 +230,7 @@
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"VarsityText12"
+			"font"			"Postface12"
 			"xpos"			"13"
 			"ypos"			"3"
 			"wide"			"8"
@@ -258,7 +258,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"VarsityText12"
+				"font"			"Postface12"
 				"xpos"			"0"
 				"ypos"			"18"
 				"wide"			"200"
@@ -322,7 +322,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"KillsLabel"
-				"font"			"VarsityText12"
+				"font"			"Postface12"
 				"xpos"			"13"
 				"ypos"			"13"
 				"wide"			"205"

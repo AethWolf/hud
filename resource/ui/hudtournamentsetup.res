@@ -28,7 +28,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"xpos"			"8"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -47,7 +47,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"VarsityText10"
+		"font"			"Postface10"
 		"xpos"			"67"
 		"ypos"			"28"
 		"zpos"			"1"
@@ -123,7 +123,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"VarsityText10"
+		"font"			"Postface10"
 		"fgcolor"		"Red"
 	}
 
@@ -146,7 +146,7 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"VarsityText10"
+		"font"			"Postface10"
 		"fgcolor"		"FooterBGBlack"
 	}
 }

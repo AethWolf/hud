@@ -73,7 +73,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"VarsityText16"
+		"font"			"Postface16"
 		"fgcolor"		"qualitycolorunique"
 		"labeltext"		"%Health%"
 	}
@@ -89,7 +89,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"BGGrey"
 		"labeltext"		"%Health%"
 	}

@@ -118,7 +118,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"VarsityText10"
+			"font"			"Postface10"
 			"xpos"			"c6"			// No avatar image on X360
 			"xpos_hidef"		"c69"
 			"ypos"			"266"
@@ -151,7 +151,7 @@
 			"enabled"		"1"	
 			"HealthBonusPosAdj"	"9"
 			"HealthDeathWarning"	"0.49"
-			"TFFont"		"VarsityText12"
+			"TFFont"		"Postface12"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"		"White"
 		}	
@@ -241,7 +241,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"VarsityText10"
+			"font"			"Postface10"
 			"xpos"			"40"
 			"ypos"			"162"
 			"zpos"			"1"
@@ -270,7 +270,7 @@
 			"enabled"		"1"	
 			"HealthBonusPosAdj"	"9"
 			"HealthDeathWarning"	"0.49"
-			"TFFont"		"VarsityText10"
+			"TFFont"		"Postface10"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
 			"TextColor"		"HudOffWhite"
 		}	
@@ -279,7 +279,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"VarsityText10"
+			"font"			"Postface10"
 			"xpos"			"61"
 			"ypos"			"173"
 			"zpos"			"5"
@@ -353,7 +353,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
-				"font"			"VarsityText12"
+				"font"			"Postface12"
 				"xpos"			"134"
 				"ypos"			"10"
 				"zpos"			"6"
@@ -370,7 +370,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel2"
-				"font"			"VarsityText10"
+				"font"			"Postface10"
 				"xpos"			"134"
 				"ypos"			"10"
 				"zpos"			"6"

@@ -84,7 +84,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"VarsityText40"
+		"font"			"Postface40"
 		"fgcolor"		"qualitycolorunique"
 	}
 	"PlayerHealthValueBG"

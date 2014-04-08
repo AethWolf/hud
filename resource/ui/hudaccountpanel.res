@@ -20,7 +20,7 @@
 		"zpos"			"0"
 		"wide"			"50"
 		"tall"			"22"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"border"		"comboboxborder"
 		"bgcolor_override"	"BGBlack"
@@ -65,7 +65,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"VarsityText20"
+		"font"			"Postface20"
 		"font_lodef"	"HudFontMedium"
 		"fgcolor"		"qualitycolorunique"
 	}

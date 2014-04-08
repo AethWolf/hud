@@ -20,7 +20,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"VarsityText40"
+		"font"			"Postface40"
 		"xpos"			"20"			// align me to the left edge of the first selection
 		"ypos"			"5"
 		"zpos"			"3"
@@ -40,7 +40,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"VarsityText40"
+		"font"			"Postface40"
 		"fgcolor"		"Black"
 		"xpos"			"20"			// align me to the left edge of the first selection
 		"ypos"			"6"
@@ -61,7 +61,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"xpos"			"20"
 		"ypos"			"49"
 		"zpos"			"2"
@@ -81,7 +81,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"xpos"			"250"
 		"ypos"			"49"
 		"zpos"			"2"
@@ -351,7 +351,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"Black"
 		"xpos"			"75"
 		"ypos"			"140"
@@ -388,7 +388,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"Black"
 		"xpos"			"227"
 		"ypos"			"140"
@@ -425,7 +425,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"Black"
 		"xpos"			"379"
 		"ypos"			"140"

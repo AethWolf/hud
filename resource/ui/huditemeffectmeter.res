@@ -59,14 +59,14 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"VarsityText12"
+		"font"					"Postface10"
 	}
 
 	"ItemEffectMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"VarsityText12"
+		"font"					"Postface12"
 		"xpos"					"47"
 		"ypos"					"28"
 		"ypos_minmode"			"0"

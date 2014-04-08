@@ -105,8 +105,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"VarsityText12"
-		"font_hidef"		"VarsityText12"
+		"font"			"Postface12"
+		"font_hidef"		"Postface12"
 		"xpos"			"r260"	[$WIN32]
 		"ypos"			"16"	[$WIN32]
 		"xpos"			"r285"	[$X360]

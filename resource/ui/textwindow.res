@@ -50,7 +50,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"VarsityText16"
+		"font"			"Postface16"
 		"fgcolor"		"White"
 	}	
 
@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"xpos"			"c-170"
 		"ypos"			"c-84"
 		"zpos"			"1"
@@ -119,7 +119,7 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"VarsityText16"
+		"font"			"Postface16"
 		"paintbackground"	"0"
 		
 		"fgcolor"			"White"

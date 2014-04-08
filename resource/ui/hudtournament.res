@@ -276,7 +276,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"white"
 		"xpos"			"5"
 		"ypos"			"3"
@@ -328,7 +328,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"xpos"			"12"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -351,7 +351,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"xpos"			"56"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -402,7 +402,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"white"
 		"xpos"			"175"
 		"ypos"			"24"
@@ -426,7 +426,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"white"
 		"xpos"			"130"
 		"ypos"			"24"
@@ -450,7 +450,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"White"
 		"xpos"			"8"
 		"ypos"			"42"
@@ -503,7 +503,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"white"
 		"xpos"			"0"
 		"ypos"			"59"
@@ -533,7 +533,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"VarsityText12"
+		"font"			"Postface12"
 		"fgcolor"		"white"
 		"xpos"			"0"
 		"ypos"			"54"
@@ -586,7 +586,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"VarsityText24"
+		"font"			"Postface24"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -605,7 +605,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"VarsityText24"
+		"font"			"Postface24"
 		"xpos"			"231"
 		"ypos"			"r54"
 		"wide"			"40"

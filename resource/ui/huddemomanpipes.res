@@ -40,7 +40,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"VarsityText10"
+		"font"					"Postface10"
 	}
 
 	"ChargeMeter"
@@ -116,7 +116,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"VarsityText16"
+			"font"			"Postface16"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 		}
@@ -141,7 +141,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"VarsityText16"
+			"font"			"Postface16"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"
@@ -199,7 +199,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"VarsityText16"
+			"font"			"Postface16"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 		}
@@ -224,7 +224,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"VarsityText16"
+			"font"			"Postface16"
 			"font_minmode"	"HudFontSmall"
 			"font_lodef"	"HudFontMediumBig"
 			"fgcolor"		"black"
