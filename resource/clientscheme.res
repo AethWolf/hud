@@ -178,6 +178,7 @@ Scheme
 		"LightBlue"					"26 235 224 255"
 		"BGGrey"					"64 64 64 128"
 		"BGBlack"					"0 0 0 192"
+		"FullBlack"					"0 0 0 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////

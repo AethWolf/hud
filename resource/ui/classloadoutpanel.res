@@ -54,7 +54,7 @@
 			
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
+				"font"			"Postface16"
 				"visible"		"0"
 			}
 			
@@ -78,7 +78,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
-			"font"			"HudFontSmallBold"
+			"font"			"Postface12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -92,7 +92,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Postface10"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -110,7 +110,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"Postface16"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"c-280"
@@ -127,7 +127,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrentlyEquippedLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Postface10"
 		"labelText"		"#CurrentlyEquipped"
 		"textAlignment"	"south-west"
 		"xpos"			"c-55"
@@ -174,7 +174,7 @@
 		
 		"render_texture"	"0"
 		"fov"			"30"
-		"allow_manip"		"1"
+		"allow_rot"		"1"
 				
 		"model"
 		{
@@ -273,7 +273,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"Postface16"
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"	
@@ -331,7 +331,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Postface12"
 			"labelText"		"#ItemPresetsExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -380,7 +380,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"Postface12"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
