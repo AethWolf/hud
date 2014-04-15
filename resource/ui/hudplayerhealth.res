@@ -6,9 +6,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"225"		[$WIN32]
-		"xpos_minmode"	"-5"		[$WIN32]
 		"ypos"			"r225"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
@@ -25,7 +23,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"75"
-		"xpos_minmode"	"60"
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"51"
@@ -39,7 +36,6 @@
 		"ControlName"	"editablePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"99999"
-		"xpos_minmode"	"83"
 		"ypos"			"50"
 		"zpos"			"3"
 		"wide"			"55"
@@ -52,17 +48,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"99999"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
 		"xpos"			"83"	[$X360]
 		"ypos"			"42"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
 		"wide"			"35"	[$X360]
 		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
 		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
@@ -74,7 +66,6 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"95"
-		"xpos_minmode"	"61"
 		"ypos"			"52"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
@@ -86,6 +77,23 @@
 		"textAlignment"	"center"	
 		"font"			"Postface40"
 		"fgcolor"		"qualitycolorunique"
+	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValue"
+		"xpos"			"96"
+		"ypos"			"54"	[$WIN32]
+		"ypos"			"55"	[$X360]
+		"zpos"			"5"
+		"wide"			"70"
+		"tall"			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"Postface40"
+		"fgcolor"		"black"
 	}
 	"PlayerHealthValueBG"
 	{
@@ -105,7 +113,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -121,7 +128,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMilkImage"
 		"xpos"			"117"
-		"xpos_minmode"	"102"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -137,7 +143,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -153,7 +158,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -169,7 +173,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -185,7 +188,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBlastResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -201,7 +203,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberFireResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -218,7 +219,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBulletResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -234,7 +234,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallBlastResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -250,7 +249,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicSmallFireResistImage"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -268,9 +266,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
 		"xpos"			"115"
-		"xpos_minmode"	"115"
 		"ypos"			"75"
-		"ypos_minmode"	"55"
 		"zpos"			"7"
 		"wide"			"32"
 		"tall"			"32"
@@ -286,7 +282,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierOffenseBuff"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -303,7 +298,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierDefenseBuff"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -320,7 +314,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_SoldierHealOnHitBuff"
 		"xpos"			"85"
-		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"

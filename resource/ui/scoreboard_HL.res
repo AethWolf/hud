@@ -372,7 +372,7 @@
 		"wide"			"250"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
-		"tall"			"280"	[$WIN32]
+		"tall"			"100"	[$WIN32]
 		"tall"			"255"	[$X360]
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -399,7 +399,7 @@
 		"wide"			"250"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
-		"tall"			"280"	[$WIN32]
+		"tall"			"100"	[$WIN32]
 		"tall"			"255"	[$X360]
 		"pinCorner"		"0"
 		"visible"		"1"

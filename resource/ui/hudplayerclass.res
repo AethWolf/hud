@@ -7,7 +7,6 @@
 		"fieldName"		"HudPlayerClass"
 		"xpos"			"0"
 		"ypos"			"0"
-		"ypos_minmode"	"18"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -19,16 +18,12 @@
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"25"	[$WIN32]
-		"xpos_minmode"	"15"	[$WIN32]
 		"ypos"			"r88"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
 		"wide"			"75"
-		"wide_minmode"	"37"
 		"tall"			"75"
-		"tall_minmode"	"37"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -39,16 +34,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"3"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
-		"wide_minmode"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
@@ -61,16 +52,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
-		"wide_minmode"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spy_outline"
@@ -81,9 +68,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"9"		[$WIN32]
-		"xpos_minmode"	"-10"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
@@ -104,9 +89,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"9999"		[$WIN32]
-		"xpos_minmode"	"-15"		[$WIN32]
 		"ypos"			"9999"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
@@ -128,14 +111,10 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"0"	[$WIN32]
-		"xpos_minmode"	"0"	[$WIN32]
 		"ypos"			"r200"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
 		"zpos"			"2"		
 		"wide"			"100"
-		"wide_minmode"	"52"
 		"tall"			"200"
-		"tall_minmode"	"102"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -224,110 +203,91 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
 				"angles_y"		"220"
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"-1"
 				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
 			}
 			"Sniper"
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
 				"angles_y"		"220"
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"-1"
 				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
 			}
 			"Soldier"
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_x_minmode"	"-3"
 				"angles_y"		"170"
 				"angles_z"		"0"
 				"origin_x"		"145"
 				"origin_y"		"-5"
-				"origin_y_minmode"	"-8"
 				"origin_z"		"-90"
-				"origin_z_minmode"	"-50"
 			}
 			"Demoman"
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
 				"angles_y"		"220"
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"-1"
 				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
 			}
 			"Medic"
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
 				"angles_y"		"220"
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"-1"
 				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
 			}
 			"Heavy"
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
 				"angles_y"		"220"
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"-1"
 				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
 			}
 			"Pyro"
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
 				"angles_y"		"220"
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"-1"
 				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
 			}
 			"Spy"
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
 				"angles_y"		"220"
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"-1"
 				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
 			}
 			"Engineer"
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_x_minmode"	"-10"
 				"angles_y"		"220"
 				"angles_z"		"-10"
 				"origin_x"		"105"
 				"origin_y"		"-1"
 				"origin_z"		"-82"
-				"origin_z_minmode"	"-52"
 			}
 		}
 	}

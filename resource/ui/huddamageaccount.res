@@ -28,10 +28,5 @@
 		"textAlignment"	"center"	
 		"labelText"		"%metal%"
 		
-		"font_minmode"	"HudFontMedium"
-		"xpos_minmode"	"c-110"
-		"ypos_minmode"	"c46"
-		"wide_minmode"	"91"
-		"tall_minmode"	"25"
 	}
 }

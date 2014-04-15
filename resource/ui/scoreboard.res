@@ -40,6 +40,7 @@
 		"xpos"			"625"
 		"xpos_hidef"	"18"
 		"ypos"			"20"
+		"ypos_minmode"	"89"
 		"wide"			"250"
 		"wide_lodef"	"284"
 		"wide_hidef"	"294"
@@ -87,11 +88,13 @@
 		"xpos"			"625"
 		"xpos_hidef"	"14"
 		"ypos"			"20"
+		"ypos_minmode"	"90"
 		"zpos"			"-1"
 		"wide"			"250"
 		"wide_lodef"	"570"
 		"wide_hidef"	"590"
 		"tall"			"435"
+		"tall_minmode"	"281"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -114,10 +117,11 @@
 		"fgcolor"		"white"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"675" [!$OSX]
+		"xpos"			"665" [!$OSX]
 		"xpos"			"15" [$OSX]
 		"xpos_hidef"		"40"
 		"ypos"			"23"	[$WIN32]
+		"ypos_minmode"	"93"
 		"ypos"			"29"	[$X360]
 		"wide"			"140"
 		"tall"			"34"
@@ -142,7 +146,8 @@
 		"xpos"			"725"
 		"xpos_lodef"		"170"
 		"xpos_hidef"		"190"
-		"ypos"			"12" 
+		"ypos"			"12"
+		"ypos_minmode"	"85"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -170,6 +175,7 @@
 		"xpos_lodef"	"171"
 		"xpos_hidef"	"191"
 		"ypos"			"12" 
+		"ypos_minmode"	"86"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
@@ -196,6 +202,7 @@
 		"xpos"			"730"
 		"xpos_hidef"		"100"
 		"ypos"			"30"
+		"ypos_minmode"	"100"
 		"wide"			"100"
 		"tall"			"29"
 		"autoResize"		"0"
@@ -320,8 +327,10 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"25"
+		"xpos_minmode"	"625"
 		"xpos_hidef"	"31"
 		"ypos"			"60"
+		"ypos_minmode"	"370"
 		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
@@ -345,7 +354,9 @@
 		"textAlignment"		"west"
 		"xpos"			"25"
 		"xpos_hidef"	"31"
+		"xpos_minmode"	"625"
 		"ypos"			"70	"
+		"ypos_minmode"	"380"
 		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
@@ -368,12 +379,14 @@
 		"xpos_lodef"	"10"
 		"xpos_hidef"	"30"
 		"ypos"			"50"
+		"ypos_minmode"			"119"
 		"zpos"			"20"
 		"wide"			"250"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
 		"tall"			"255"	[$X360]
+		"tall_minmode"	"100"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -401,6 +414,7 @@
 		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
 		"tall"			"255"	[$X360]
+		"tall_minmode"	"100"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -448,9 +462,11 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"25"
+		"xpos_minmode"	"625"
 		"xpos_hidef"	"135"
 		"ypos"			"80"	[$WIN32]
 		"ypos"			"277"	[$X360]
+		"ypos_minmode"	"395"
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
@@ -494,6 +510,7 @@
 		"fieldName"		"ShadedBar"
 		"xpos"			"24"
 		"xpos_hidef"	"30"
+		"xpos_minmode"	"9999"
 		"ypos"			"125"	[$WIN32]
 		"ypos"			"297"	[$X360]
 		"zpos"			"2"
@@ -520,6 +537,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AvaNameShader"
 		"xpos"			"24"
+		"xpos_minmode"	"9999"
 		"ypos"			"125"
 		"wide"			"175"
 		"tall"			"75"
@@ -540,6 +558,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
+		"xpos_minmode"	"9999"
 		"xpos_lodef"	"12"
 		"ypos"			"125"	[$WIN32]
 		"ypos"			"275"	[$X360]
@@ -565,6 +584,7 @@
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"65"
+		"xpos_minmode"	"9999"
 		"xpos_lodef"	"105"
 		"ypos"			"150"	[$WIN32]
 		"ypos"			"302"	[$X360]
@@ -587,6 +607,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HorizontalLine"
 		"xpos"			"115"
+		"xpos_minmode"	"9999"
 		"xpos_lodef"	"105"
 		"ypos"			"397"	[$WIN32]
 		"ypos"			"322"	[$X360]
@@ -618,6 +639,7 @@
 		"xpos"			"5"
 		"xpos_lodef"	"399"
 		"xpos_hidef"	"439"
+		"xpos_minmode"	"9999"
 		"ypos"			"175"	[$WIN32]
 		"ypos"			"302"	[$X360]
 		"zpos"			"3"
@@ -639,6 +661,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
+		"xpos_minmode"	"9999"
 		"ypos"			"395"
 		"zpos"			"3"
 		"wide"			"600"
@@ -850,6 +873,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
+		"xpos_minmode"	"9999"
 		"ypos"			"200"
 		"zpos"			"3"
 		"wide"			"600"

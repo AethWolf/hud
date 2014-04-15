@@ -7,8 +7,6 @@
 		"enabled"		"1"
 		"xpos"			"85"	[$WIN32]
 		"ypos"			"r60"	[$WIN32]
-		"xpos_minmode"	"68"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -25,7 +23,6 @@
 		"wide"			"50"
 		"tall"			"24"
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"border"		"comboboxborder"
 		"bgcolor_override"	"BGBlack"
@@ -40,7 +37,6 @@
 		"wide"			"50"
 		"tall"			"15"
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"border"		"comboboxborder"
 		"bgcolor_override"	"bgblack"
@@ -74,11 +70,8 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -94,7 +87,6 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"25"
-		"ypos_minmode"			"18"
 		"ypos"					"5"
 		"zpos"					"2"
 		"wide"					"40"
@@ -108,6 +100,5 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Postface24"
-		"font_minmode"			"HudFontSmall"
 	}
 }
