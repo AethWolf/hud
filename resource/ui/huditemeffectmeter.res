@@ -7,8 +7,6 @@
 		"enabled"		"1"
 		"xpos"			"r565"	[$WIN32]
 		"ypos"			"r162"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
 		"wide"			"300"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -29,9 +27,7 @@
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
 		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
 	
 	"ItemEffectMeterLabel"

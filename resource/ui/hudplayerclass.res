@@ -19,8 +19,6 @@
 		"fieldName"		"PlayerStatusClassImage"
 		"xpos"			"25"	[$WIN32]
 		"ypos"			"r88"	[$WIN32]
-		"xpos"			"57"	[$X360]
-		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
 		"wide"			"75"
 		"tall"			"75"
@@ -35,8 +33,6 @@
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"55"
@@ -53,8 +49,6 @@
 		"fieldName"		"PlayerStatusSpyOutlineImage"
 		"xpos"			"3"		[$WIN32]
 		"ypos"			"r67"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
 		"wide"			"55"
 		"tall"			"55"
@@ -69,8 +63,6 @@
 		"fieldName"		"PlayerStatusClassImageBG"
 		"xpos"			"9"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"
@@ -79,9 +71,7 @@
 		"scaleImage"	"1"
 		"image"			"../hud/character_red_bg"	
 		"teambg_2"		"../hud/character_red_bg"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
 		"teambg_3"		"../hud/character_blue_bg"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
 	}
 
 	"classmodelpanelBG"
@@ -90,8 +80,6 @@
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"9999"		[$WIN32]
 		"ypos"			"9999"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"109"
 		"tall"			"50"
@@ -100,9 +88,7 @@
 		"scaleImage"	"1"
 		"image"				"../hud/character_red_bg_clipped"	
 		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
 		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
 	}
 
 	"classmodelpanel"

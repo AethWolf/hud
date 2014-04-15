@@ -97,11 +97,7 @@
 		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"275"
-		"wide_hidef"			"225"
-		"wide_lodef"	"225"
 		"tall"			"275"
-		"tall_hidef"			"225"
-		"tall_lodef"	"225"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
@@ -217,8 +213,6 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "310"
 			"origin_y" "0"
 			"origin_z" "-39"
 		}
@@ -233,8 +227,6 @@
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
-		"tall_lodef"			"74"
-		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -245,21 +237,16 @@
 		"PaintBackgroundType"	"0"
 	}	
 
-	"Footer" [$X360]
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
 		"zpos"				"6"
 		"tall"				"80"
 		"button_separator"	"10"
-		"button_separator_lodef"	"5"
 		"buttongap"			"50"
 		"textadjust"		"3"
 		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
 		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
 		"fgcolor"			"HudOffWhite" 	
 		
 		"button"

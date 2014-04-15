@@ -7,8 +7,6 @@
 		"fieldName"		"HudPlayerHealth"
 		"xpos"			"225"		[$WIN32]
 		"ypos"			"r225"	[$WIN32]
-		"xpos"			"32"	[$X360]
-		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"150"
@@ -48,14 +46,10 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"99999"	[$WIN32]
-		"xpos"			"83"	[$X360]
 		"ypos"			"42"	[$WIN32]
-		"ypos"			"43"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
-		"wide"			"35"	[$X360]
 		"tall"			"55"	[$WIN32]
-		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -67,7 +61,6 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"95"
 		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"70"
 		"tall"			"38"
@@ -84,7 +77,6 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"96"
 		"ypos"			"54"	[$WIN32]
-		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"70"
 		"tall"			"38"
