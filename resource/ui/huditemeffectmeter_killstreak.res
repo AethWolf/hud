@@ -9,7 +9,7 @@
 		"ypos"			"r60"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"qualitycolorunique"
 		"MeterBG"		"Gray"
 	}
 	
@@ -22,7 +22,7 @@
 		"zpos"			"0"
 		"wide"			"50"
 		"tall"			"24"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"border"		"comboboxborder"
 		"bgcolor_override"	"BGBlack"
@@ -36,7 +36,7 @@
 		"zpos"			"0"
 		"wide"			"50"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"border"		"comboboxborder"
 		"bgcolor_override"	"bgblack"
@@ -61,6 +61,28 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Postface10"
+		"fgcolor_override"		"qualitycolorunique"
+	}
+	"ItemEffectMeterLabelShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"26"
+		"ypos"					"30"
+		"zpos"					"2"
+		"wide"					"41"
+		"tall"					"15"
+		"autoResize"			"1"
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"#TF_KillStreak"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Postface10"
+		"fgcolor_override"		"black"
 	}
 
 	"ItemEffectMeter"
@@ -100,5 +122,26 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Postface24"
+		"fgcolor"				"qualitycolorunique"
+	}
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"26"
+		"ypos"					"6"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"20"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"Postface24"
+		"fgcolor"				"black"
 	}
 }

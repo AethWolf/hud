@@ -10,7 +10,7 @@
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
-		"wide"			"300"
+		"wide"			"500"
 		"tall"			"150"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -69,12 +69,12 @@
 		"ypos"			"52"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"70"
+		"wide"			"170"
 		"tall"			"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"west"	
 		"font"			"Postface40"
 		"fgcolor"		"qualitycolorunique"
 	}
@@ -86,12 +86,12 @@
 		"ypos"			"54"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
-		"wide"			"70"
+		"wide"			"170"
 		"tall"			"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"west"	
 		"font"			"Postface40"
 		"fgcolor"		"black"
 	}
