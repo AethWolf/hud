@@ -7,6 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"r360"	[$WIN32]
 		"ypos"			"r145"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"

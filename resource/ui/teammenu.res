@@ -214,6 +214,7 @@
 		"enabled"		"1"
 		"tabPosition"	"3"
 		"labelText"		"&3"	[$WIN32]
+		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -241,6 +242,7 @@
 		"enabled"		"1"
 		"tabPosition"	"4"
 		"labelText"		"&4"	[$WIN32]
+		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -268,6 +270,7 @@
 		"enabled"		"1"
 		"tabPosition"	"1"
 		"labelText"		"&1"	[$WIN32]
+		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -293,6 +296,7 @@
 		"enabled"		"1"
 		"tabPosition"	"2"
 		"labelText"		"&2"	[$WIN32]
+		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -337,6 +341,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
+		"visible_lodef"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_SelectATeam"
 		"textAlignment"	"west"
@@ -354,6 +359,7 @@
 		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"102" [$WIN32] 
+		"wide"			"94" [$X360]
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -376,6 +382,7 @@
 		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"44"
+		"wide_lodef"	"70"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -387,6 +394,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"MenuSmallestFont"
+		"font_lodef"	"MenuSmallFont"
 		"fgcolor"		"white"
 	}
 
@@ -413,6 +421,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
+			"origin_x_hidef" "305"
+			"origin_x_lodef" "320"
 			"origin_y" "0"
 			"origin_z" "-34"
 		}
@@ -427,6 +437,8 @@
 		"zpos"			"5"
 		"wide"			"f0"
 		"tall"			"50"
+		"tall_lodef"			"74"
+		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -502,6 +514,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
+			"origin_x_lodef" "320"
+			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -573,6 +587,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
+			"origin_x_lodef" "320"
+			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -644,6 +660,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
+			"origin_x_lodef" "320"
+			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -691,6 +709,8 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "290"
+			"origin_x_lodef" "320"
+			"origin_x_hidef" "305"
 			"origin_y" "0"
 			"origin_z" "-34"
 			
@@ -715,17 +735,26 @@
 		}
 	}			
 	
+	"Footer" [$X360]
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
 		"zpos"				"6"
 		"tall"				"80"
 		"button_separator"	"10"
+		"button_separator_lodef"	"5"
 		"buttongap"			"50"
+		"buttongap_hidef"		"35"
+		"buttongap_lodef"			"18"
 		"textadjust"		"3"
+		"textadjust_lodef"		"0"
 		"buttonoffsety"		"20"
+		"buttonoffsety_hidef"		"0"
+		"buttonoffsety_lodef"		"18"
 		"center"			"0"
+		"button_pin_right_lodef"	"55"
 		"fonttext"			"MatchmakingDialogMenuLarge"
+		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
 		"fgcolor"			"HudOffWhite" 	
 		
 		"button"

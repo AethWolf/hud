@@ -18,6 +18,8 @@
 		"enabled" "1"
 		"xpos"	"r400"	[$WIN32]
 		"ypos"	"r175"	[$WIN32]
+		"xpos"	"r131"	[$X360]
+		"ypos"	"r77"	[$X360]
 		"wide"	"105"
 		"tall"	"45"
 		"zpos"	"2"
@@ -56,6 +58,8 @@
 		"enabled"		"1"
 		"xpos"			"r162"	[$WIN32]
 		"ypos"			"r52"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -69,6 +73,8 @@
 		"enabled"		"1"
 		"xpos"			"r550"	[$WIN32]
 		"ypos"			"r165"	[$WIN32]
+		"xpos"			"r174"	[$X360]
+		"ypos"			"r90"	[$X360]
 		"wide"			"225"
 		"tall"			"130"
 	}
@@ -80,6 +86,8 @@
 		"enabled"		"1"
 		"xpos"			"r510"	[$WIN32]
 		"ypos"			"r121"	[$WIN32]
+		"xpos"			"r112"	[$X360]
+		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"150"
 		"tall"			"8"
@@ -94,6 +102,8 @@
 		"enabled"		"1"
 		"xpos"			"r450"	[$WIN32]
 		"ypos"			"r121"	[$WIN32]
+		"xpos"			"r112"	[$X360]
+		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"tall"			"8"
@@ -108,6 +118,8 @@
 		"enabled"		"1"
 		"xpos"			"r80"	[$WIN32]
 		"ypos"			"r21"	[$WIN32]
+		"xpos"			"r112"	[$X360]
+		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"60"
 		"tall"			"8"
@@ -137,6 +149,8 @@
 		"ypos" 	"0"
 		"tall"	"480"
 		"RightMargin" "0"
+		"RightMargin_hidef" "32"
+		"RightMargin_lodef" "38"
 		"visible" "1"
 		"enabled" "1"
 		"SmallBoxWide" "72"
@@ -147,11 +161,13 @@
 		"LargeBoxWide" "110"
 		"LargeBoxTall" "77"
 		"BoxGap" "4"	[$WIN32]
+		"BoxGap" "4"	[$X360]
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
 		"TextYPos" "70"		[$WIN32]
+		"TextYPos" "65"		[$X360]
 		"ErrorYPos" "48"
 		"TextColor" "SelectionTextFg"
 		"MaxSlots"	"6"
@@ -169,6 +185,8 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"r475"	[$WIN32]
 		"ypos"					"r250"	[$WIN32]
+		"xpos"					"r194"	[$X360]
+		"ypos"					"r174"	[$X360]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -208,8 +226,11 @@
 		"enabled"	"1"
 		"xpos"		"10"	[$WIN32]
 		"ypos"		"r70"	[$WIN32]
+		"xpos"		"50"	[$X360]
+		"ypos"		"330"	[$X360]
 		"wide"		"500"
 		"tall"		"200"
+		"TextFont"	"Default"	[$X360]
 	}
 
 	CMainTargetID
@@ -222,6 +243,7 @@
 		"wide"	 	"300"
 		"tall"	 	"28"
 		"priority"	"40"
+		"priority_lodef"	"5"
 
 		if_vr
 		{
@@ -240,6 +262,7 @@
 		"wide"	 	"300"
 		"tall"	 	"60"
 		"priority"	"40"
+		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -271,6 +294,8 @@
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
 		"ypos"		"200"	[$WIN32]
+		"xpos"		"32"	[$X360]
+		"ypos"		"16"	[$X360]		
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -283,7 +308,11 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
+		"xpos_hidef"		"32"
+		"xpos_lodef"		"40"
 		"ypos"		"150"
+		"ypos_hidef"		"16"
+		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -444,6 +473,8 @@
 		"enabled" "1"
 		"xpos"	 "r635"	[$WIN32]
 		"ypos"	 "3"	[$WIN32]
+		"xpos"	 "r672"	[$X360]
+		"ypos"	 "35"	[$X360]
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -463,6 +494,8 @@
 
 		"BaseBackgroundColor"	"46 43 42 75"		[$WIN32]
 		"LocalBackgroundColor"	"White"	[$WIN32]
+		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
+		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
 
 	HudVehicle
@@ -556,8 +589,10 @@
 		"enabled"	"1"
 		"xpos"		"c-250"
 		"ypos"		"276"	[$WIN32]
+		"ypos"		"236"	[$X360]
 		"wide"		"500"
 		"tall"		"136"	[$WIN32]
+		"tall"		"176"	[$X360]
 
 		"BgAlpha"	"128"
 
@@ -574,6 +609,7 @@
 		"visible" "0"
 		"enabled" "0"
 		"xpos"	 "r640"	[$WIN32]
+		"xpos"	 "r672"	[$X360]
 		"wide"	 "640"
 		"tall"	 "330"
 		"history_gap" "55"
@@ -679,6 +715,8 @@
 		"enabled" "1"
 		"xpos" "r42" 	[$WIN32]
 		"ypos" "355"	[$WIN32]
+		"xpos" "r75"	[$X360]
+		"ypos" "375"	[$X360]
 		"wide" "32"
 		"tall" "32"
 	}
@@ -690,6 +728,8 @@
 		"enabled" "1"
 		"xpos" "r145" [$WIN32]
 		"ypos" "0" [$WIN32]
+		"xpos" "r210" [$X360]
+		"ypos" "0" [$X360]
 		"wide" "145"
 		"tall" "400"
 
@@ -778,6 +818,7 @@
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
+		"height_offset"			"26"	[$X360]
 	}
 
 	HudCapturePanel
@@ -841,9 +882,13 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-133"
+		"xpos_lodef"			"c-190"
 		"ypos"				"270"
+		"ypos_lodef"			"250"
 		"wide"					"266"
+		"wide_lodef"			"400"
 		"tall"					"120"
+		"tall_lodef"			"190"
 	}
 	
 	FreezePanel
@@ -913,6 +958,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
+		"xpos"			"42"	[$X360]
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
@@ -950,8 +996,11 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-82"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"	[$WIN32]
+		"tall"			"180"	[$X360]
 		"PaintBackgroundType"	"0"
 	}	
 	
@@ -962,6 +1011,8 @@
 		"enabled"		"1"
 		"xpos"			"r475"	[$WIN32]
 		"ypos"			"r165"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
 	}	
@@ -973,6 +1024,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
+		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -985,6 +1037,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"15"
+		"ypos_lodef"			"75"
 		"wide"					"320"
 		"tall"					"245"
 	}
@@ -996,6 +1049,8 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
+		"ypos_hidef"				"90"
+		"ypos_lodef"			"90"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1007,6 +1062,8 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"75"
+		"ypos_hidef"				"90"
+		"ypos_lodef"				"90"
 		"wide"					"320"
 		"tall"					"150"
 	}
@@ -1030,6 +1087,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"65"
+		"ypos_lodef"				"75"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1040,6 +1098,7 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
+		"ypos_lodef"				"75"
 		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
@@ -1052,6 +1111,7 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
+		"ypos_lodef"				"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1063,6 +1123,7 @@
 		"enabled"				"1"
 		"xpos"					"c-160"
 		"ypos"					"5"
+		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"55"
 	}
@@ -1086,6 +1147,7 @@
 		"xpos"					"0"
 		"ypos"					"180"
 		"wide"					"f10"	[$WIN32]
+		"wide"					"f60"	[$X360]
 		"tall"					"100"
 	}
 

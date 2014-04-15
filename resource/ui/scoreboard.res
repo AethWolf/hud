@@ -5,8 +5,12 @@
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
 		"xpos"			"c-300"
+		"xpos_lodef"	"34"
+		"xpos_hidef"	"4"
 		"ypos"			"31"
 		"wide"			"900"
+		"wide_lodef"	"560"
+		"wide_hidef"	"620"
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -14,21 +18,32 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"avatar_width"		"57"	[$WIN32]
+		"avatar_width"		"0"		[$X360]
 		"name_width"		"80"	[$WIN32]
+		"name_width"		"150"	[$X360]
 		"status_width"		"15"	[$WIN32]
+		"status_width"		"12"	[$X360]
 		"nemesis_width"		"15"	[$WIN32]
+		"nemesis_width"		"20"	[$X360]
 		"class_width"		"15"	[$WIN32]
+		"class_width"		"20"	[$X360]
 		"score_width"		"25"
+		"score_width_lodef"	"35"
+		"score_width_hidef"	"50"
 		"ping_width"		"23"	[$WIN32]
+		"ping_width"		"50"	[$X360]		// Larger to push the value off the edge
 	}
 	"BlueScoreBG"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"625"
+		"xpos_hidef"	"18"
 		"ypos"			"20"
 		"ypos_minmode"	"89"
 		"wide"			"250"
+		"wide_lodef"	"284"
+		"wide_hidef"	"294"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -47,8 +62,12 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"625"
+		"xpos_lodef"	"276"
+		"xpos_hidef"	"306"
 		"ypos"			"220"
 		"wide"			"250"
+		"wide_lodef"	"284"
+		"wide_hidef"	"294"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -67,10 +86,13 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"625"
+		"xpos_hidef"	"14"
 		"ypos"			"20"
 		"ypos_minmode"	"90"
 		"zpos"			"-1"
 		"wide"			"250"
+		"wide_lodef"	"570"
+		"wide_hidef"	"590"
 		"tall"			"435"
 		"tall_minmode"	"281"
 		"autoResize"	"0"
@@ -97,8 +119,10 @@
 		"textAlignment"		"west"
 		"xpos"			"665" [!$OSX]
 		"xpos"			"15" [$OSX]
+		"xpos_hidef"		"40"
 		"ypos"			"23"	[$WIN32]
 		"ypos_minmode"	"93"
+		"ypos"			"29"	[$X360]
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"		"0"
@@ -120,11 +144,15 @@
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"725"
+		"xpos_lodef"		"170"
+		"xpos_hidef"		"190"
 		"ypos"			"12"
 		"ypos_minmode"	"85"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
+		"tall_hidef"	"75"
+		"tall_lodef"	"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -144,11 +172,15 @@
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"725"
+		"xpos_lodef"	"171"
+		"xpos_hidef"	"191"
 		"ypos"			"12" 
 		"ypos_minmode"	"86"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
+		"tall_hidef"	"75"
+		"tall_lodef"	"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -168,6 +200,7 @@
 		"fgcolor"		"white"
 		"textAlignment"		"west"
 		"xpos"			"730"
+		"xpos_hidef"		"100"
 		"ypos"			"30"
 		"ypos_minmode"	"100"
 		"wide"			"100"
@@ -192,7 +225,10 @@
 		"textAlignment"		"east"
 		"xpos"			"582" [!$OSX]
 		"xpos"			"445" [$OSX]
+		"xpos_lodef"	"446"
+		"xpos_hidef"	"488"
 		"ypos"			"225"	[$WIN32]
+		"ypos"			"29"	[$X360]
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"	"0"
@@ -214,10 +250,14 @@
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"805"
+		"xpos_lodef"	"290"
+		"xpos_hidef"	"330"
 		"ypos"			"215" 
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
+		"tall_hidef"	"75"
+		"tall_lodef"	"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -237,10 +277,14 @@
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"805"
+		"xpos_lodef"	"291"
+		"xpos_hidef"	"331"
 		"ypos"			"215"
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"55"
+		"tall_hidef"	"75"
+		"tall_lodef"	"75"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -260,6 +304,8 @@
 		"fgcolor"		"white"
 		"textAlignment"		"east"
 		"xpos"			"700"
+		"xpos_lodef"	"376"
+		"xpos_hidef"	"418"
 		"ypos"			"232"
 		"wide"			"100"
 		"tall"			"29"
@@ -282,13 +328,16 @@
 		"textAlignment"		"west"
 		"xpos"			"25"
 		"xpos_minmode"	"625"
+		"xpos_hidef"	"31"
 		"ypos"			"60"
 		"ypos_minmode"	"370"
+		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		
 		if_mvm
@@ -304,14 +353,17 @@
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"west"
 		"xpos"			"25"
+		"xpos_hidef"	"31"
 		"xpos_minmode"	"625"
 		"ypos"			"70	"
 		"ypos_minmode"	"380"
+		"ypos_lodef"	"62"
 		"wide"			"300"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"	[$WIN32]
+		"visible"		"0"	[$X360]
 		"enabled"		"1"
 		
 		if_mvm
@@ -324,11 +376,16 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
 		"xpos"			"625"
+		"xpos_lodef"	"10"
+		"xpos_hidef"	"30"
 		"ypos"			"50"
 		"ypos_minmode"			"119"
 		"zpos"			"20"
 		"wide"			"250"
+		"wide_lodef"	"267"
+		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
+		"tall"			"255"	[$X360]
 		"tall_minmode"	"100"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -348,10 +405,15 @@
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
 		"xpos"			"625"
+		"xpos_lodef"	"284"
+		"xpos_hidef"	"314"
 		"ypos"			"250"
 		"zpos"			"20"
 		"wide"			"250"
+		"wide_lodef"	"267"
+		"wide_hidef"	"277"
 		"tall"			"280"	[$WIN32]
+		"tall"			"255"	[$X360]
 		"tall_minmode"	"100"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -371,10 +433,14 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VerticalLine"
 		"xpos"			"9999"
+		"xpos_lodef"	"279"
+		"xpos_hidef"	"309"
 		"ypos"			"70"
 		"zpos"			"2"
 		"wide"			"2"
 		"tall"			"292"
+		"tall_lodef"	"206"
+		"tall_hidef"	"212"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -397,7 +463,9 @@
 		"textAlignment"		"west"
 		"xpos"			"25"
 		"xpos_minmode"	"625"
+		"xpos_hidef"	"135"
 		"ypos"			"80"	[$WIN32]
+		"ypos"			"277"	[$X360]
 		"ypos_minmode"	"395"
 		"zpos"			"4"
 		"wide"			"424"
@@ -420,7 +488,9 @@
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"115"
+		"xpos_hidef"	"135"
 		"ypos"			"348"	[$WIN32]
+		"ypos"			"277"	[$X360]
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
@@ -439,10 +509,14 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"24"
+		"xpos_hidef"	"30"
 		"xpos_minmode"	"9999"
 		"ypos"			"125"	[$WIN32]
+		"ypos"			"297"	[$X360]
 		"zpos"			"2"
 		"wide"			"175"
+		"wide_lodef"	"539"
+		"wide_hidef"	"559"
 		"tall"			"300"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -485,7 +559,9 @@
 		"fieldName"		"ClassImage"
 		"xpos"			"22"
 		"xpos_minmode"	"9999"
+		"xpos_lodef"	"12"
 		"ypos"			"125"	[$WIN32]
+		"ypos"			"275"	[$X360]
 		"zpos"			"3"
 		"wide"			"50"
 		"tall"			"50"
@@ -509,9 +585,12 @@
 		"textAlignment"		"west"
 		"xpos"			"65"
 		"xpos_minmode"	"9999"
+		"xpos_lodef"	"105"
 		"ypos"			"150"	[$WIN32]
+		"ypos"			"302"	[$X360]
 		"zpos"			"3"
 		"wide"			"325"	[$WIN32]
+		"wide"			"410"	[$X360]
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -529,9 +608,13 @@
 		"fieldName"		"HorizontalLine"
 		"xpos"			"115"
 		"xpos_minmode"	"9999"
+		"xpos_lodef"	"105"
 		"ypos"			"397"	[$WIN32]
+		"ypos"			"322"	[$X360]
 		"zpos"			"3"
 		"wide"			"465"
+		"wide_lodef"	"434"
+		"wide_hidef"	"464"
 		"tall"			"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -554,8 +637,11 @@
 		"labelText"		"%playerscore%"
 		"textAlignment"	"east"
 		"xpos"			"5"
+		"xpos_lodef"	"399"
+		"xpos_hidef"	"439"
 		"xpos_minmode"	"9999"
 		"ypos"			"175"	[$WIN32]
+		"ypos"			"302"	[$X360]
 		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"20"
@@ -938,6 +1024,7 @@
 			"labelText"		"%mapname%"
 			"textAlignment"		"east"
 			"xpos"			"15"
+			"xpos_lodef"		"105"
 			"ypos"			"160"
 			"zpos"			"3"
 			"wide"			"145"
@@ -960,6 +1047,7 @@
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
 			"xpos"			"15"
+			"xpos_lodef"	"105"
 			"ypos"			"175"
 			"zpos"			"3"
 			"wide"			"145"
@@ -1438,13 +1526,16 @@
 		}
 	}
 
+	"ButtonLegendBG"		[$X360]
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ButtonLegendBG"
 		"xpos"			"10"
+		"xpos_hidef"	"30"
 		"ypos"			"373"
 		"zpos"			"0"
 		"wide"			"539"
+		"wide_hidef"	"559"
 		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -1455,13 +1546,16 @@
 		"PaintBackgroundType"	"0"
 	}
 	
+	"ButtonLegend"		[$X360]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ButtonLegend"
 		"xpos"			"10"
+		"xpos_hidef"	"35"
 		"ypos"			"373"
 		"zpos"			"1"
 		"wide"			"539"
+		"wide_hidef"	"595"
 		"tall"			"150"
 		"visible"		"1"
 										
@@ -1471,6 +1565,7 @@
 			"fieldName"		"SelectHintIcon"
 			"font"			"GameUIButtons"
 			"xpos"			"10"
+			"xpos_hidef"	"0"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"300"
@@ -1491,6 +1586,7 @@
 			"fieldName"		"SelectHintLabel"
 			"font"			"Postface24"
 			"xpos"			"25"
+			"xpos_lodef"	"37"
 			"ypos"			"2"
 			"zpos"			"1"
 			"wide"			"300"
@@ -1511,6 +1607,7 @@
 			"fieldName"		"GamerCardIcon"
 			"font"			"GameUIButtons"
 			"xpos"			"150"
+			"xpos_hidef"	"145"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"300"
@@ -1531,6 +1628,7 @@
 			"fieldName"		"GamerCardLabel"
 			"font"			"Postface24"
 			"xpos"			"170"
+			"xpos_lodef"	"177"
 			"ypos"			"2"
 			"zpos"			"1"
 			"wide"			"300"
@@ -1551,6 +1649,7 @@
 			"fieldName"		"ReputationIcon"
 			"font"			"GameUIButtons"
 			"xpos"			"350"
+			"xpos_hidef"	"378"
 			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"300"
@@ -1571,6 +1670,7 @@
 			"fieldName"		"ReputationLabel"
 			"font"			"Postface24"
 			"xpos"			"403"
+			"xpos_lodef"	"377"
 			"ypos"			"2"
 			"zpos"			"1"
 			"wide"			"300"

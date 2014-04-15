@@ -25,6 +25,7 @@
 		"fieldName"		"LeftSideBG"
 		"xpos"			"c-140"
 		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r96"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
@@ -55,6 +56,7 @@
 		"fieldName"		"RightSideBG"
 		"xpos"			"c-140"
 		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r96"	[$X360]
 		"zpos"			"1"
 		"wide"			"280"
 		"tall"			"80"
@@ -85,6 +87,7 @@
 		"fieldName"		"OutlineBG"
 		"xpos"			"c-140"
 		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r96"	[$X360]
 		"zpos"			"2"
 		"wide"			"280"
 		"tall"			"80"
@@ -115,14 +118,20 @@
 		"fieldName"		"BlueScore"
 		"xpos"			"c-130"
 		"ypos"			"r47"
+		"ypos_lodef"	"r88"
+		"ypos_hidef"	"r93"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
+		"tall_hidef"	"100"
+		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
 		"font"			"Postface40"
+		"font_hidef"	"HudFontGiant"
+		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -147,14 +156,20 @@
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"c-128"
 		"ypos"			"r46"
+		"ypos_lodef"	"r87"
+		"ypos_hidef"	"r92"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
+		"tall_hidef"	"100"
+		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
 		"font"			"Postface40"
+		"font_hidef"	"HudFontGiant"
+		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -202,14 +217,20 @@
 		"fieldName"		"RedScore"
 		"xpos"			"c57"
 		"ypos"			"r47"
+		"ypos_lodef"	"r88"
+		"ypos_hidef"	"r93"
 		"zpos"			"8"
 		"wide"			"75"
 		"tall"			"35"
+		"tall_hidef"	"100"
+		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"Postface40"
+		"font_hidef"	"HudFontGiant"
+		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -234,14 +255,20 @@
 		"fieldName"		"RedScoreShadow"
 		"xpos"			"c59"
 		"ypos"			"r46"
+		"ypos_lodef"	"r87"
+		"ypos_hidef"	"r92"
 		"zpos"			"7"
 		"wide"			"75"
 		"tall"			"35"
+		"tall_hidef"	"100"
+		"tall_lodef"	"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"Postface40"
+		"font_hidef"	"HudFontGiant"
+		"font_lodef"	"HudFontGiant"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"
@@ -266,6 +293,7 @@
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
 		"ypos"			"r127"	[$WIN32]
+		"ypos"			"r148"	[$X360]
 		"zpos"			"9"
 		"wide"			"100"
 		"tall"			"50"
@@ -281,6 +309,7 @@
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-50"
 		"ypos"			"r85"	[$WIN32]
+		"ypos"			"r158"	[$X360]
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"
@@ -305,9 +334,12 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
+		"xpos"			"c-60"	[$X360]
 		"ypos"			"r33"	[$WIN32]
+		"ypos"			"r48"	[$X360]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
+		"wide"			"120"	[$X360]
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -339,10 +371,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-50"	[$WIN32]
+		"xpos"			"c-70"	[$X360]
 		"ypos"			"r31"	[$WIN32]
+		"ypos"			"r51"	[$X360]
 		"zpos"			"3"
 		"wide"			"100"	[$WIN32]
+		"wide"			"140"	[$X360]
 		"tall"			"27"	[$WIN32]
+		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
 		"border"		"comboboxborder"
@@ -370,6 +406,7 @@
 		"fieldName"		"BlueFlag"
 		"xpos"			"c-150"
 		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -409,6 +446,7 @@
 		"fieldName"		"RedFlag"
 		"xpos"			"c-10"
 		"ypos"			"r75"	[$WIN32]
+		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -448,6 +486,7 @@
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-40"
 		"ypos"			"r95"	[$WIN32]
+		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
 		"wide"			"80"
 		"tall"			"80"
@@ -471,6 +510,7 @@
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"c-50"
 		"ypos"			"r137"	[$WIN32]
+		"ypos"			"r158"	[$X360]
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"

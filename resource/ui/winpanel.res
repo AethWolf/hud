@@ -51,6 +51,8 @@
 			"ypos"			"25"
 			"wide"			"100"
 			"tall"			"20"
+			"tall_lodef"	"24"
+			"tall_hidef"	"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -68,6 +70,8 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
+			"tall_lodef"	"80"
+			"tall_hidef"	"75"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -86,6 +90,8 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
+			"tall_lodef"	"80"
+			"tall_hidef"	"75"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -102,6 +108,8 @@
 			"ypos"			"25"
 			"wide"			"100"
 			"tall"			"20"
+			"tall_lodef"	"24"
+			"tall_hidef"	"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -119,6 +127,8 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
+			"tall_lodef"	"80"
+			"tall_hidef"	"75"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -137,6 +147,8 @@
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"50"
+			"tall_lodef"	"80"
+			"tall_hidef"	"75"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -288,6 +300,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 150"
+		"fillcolor_lodef"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
@@ -365,9 +378,11 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player1Name"
 		"xpos"			"50"	[$WIN32]
+		"xpos"			"14"	[$X360]
 		"ypos"			"132"
 		"zpos"			"3"
 		"wide"			"128"	[$WIN32]
+		"wide"			"150"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -434,9 +449,11 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player2Name"
 		"xpos"			"50"	[$WIN32]
+		"xpos"			"14"	[$X360]
 		"ypos"			"154"
 		"zpos"			"3"
 		"wide"			"128"	[$WIN32]
+		"wide"			"150"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -503,9 +520,11 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"Player3Name"
 		"xpos"			"50"	[$WIN32]
+		"xpos"			"14"	[$X360]
 		"ypos"			"176"
 		"zpos"			"3"
 		"wide"			"128"	[$WIN32]
+		"wide"			"150"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -629,9 +648,11 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillStreakPlayer1Name"
 		"xpos"			"50"	[$WIN32]
+		"xpos"			"14"	[$X360]
 		"ypos"			"213"
 		"zpos"			"3"
 		"wide"			"128"	[$WIN32]
+		"wide"			"150"	[$X360]
 		"tall"			"20"
 		"autoResize"		"0"
 		"pinCorner"		"0"
