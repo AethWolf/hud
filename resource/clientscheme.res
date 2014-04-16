@@ -2504,6 +2504,36 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Class24"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Class32"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Class48"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		
 		//Crosshairs
 		"KonrOutline"
@@ -4453,6 +4483,11 @@ Scheme
 		{
 			"font" "resource/fonts/Postface.otf"
 			"name" "Postface"
+		}
+		"11"
+		{
+			"font" "resource/fonts/HudasIscariote2.otf"
+			"Name"	"Hudas Iscariote"
 		}
 	}
 }
