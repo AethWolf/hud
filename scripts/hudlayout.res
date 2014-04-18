@@ -1009,11 +1009,11 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r475"	[$WIN32]
-		"ypos"			"r165"	[$WIN32]
+		"xpos"			"r525"	[$WIN32]
+		"ypos"			"r155"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"wide"			"175"
 		"tall"			"50"
 	}	
 
