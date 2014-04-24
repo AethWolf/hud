@@ -179,6 +179,10 @@ Scheme
 		"BGGrey"					"64 64 64 128"
 		"BGBlack"					"0 0 0 192"
 		"FullBlack"					"0 0 0 255"
+		"BluTeamTransparent"		"91 122 140 128"
+		"BluTeamSolid"				"91 122 140 255"
+		"RedTeamTransparent"		"189 59 59 128"
+		"RedTeamSolid"				"189 59 59 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////

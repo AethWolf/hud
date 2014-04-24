@@ -49,8 +49,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		"bgcolor_override" "bluesolid"
+		//"border"		"comboboxborder"
+		"bgcolor_override" "BluTeamTransparent"
 		
 		if_mvm
 		{
@@ -73,8 +73,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		"bgcolor_override" "redsolid"
+		//"border"		"comboboxborder"
+		"bgcolor_override" "RedTeamTransparent"
 		
 		if_mvm
 		{
@@ -99,8 +99,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		"bgcolor_override" "BGBlack"
+		//"border"		"comboboxborder"
+		"bgcolor_override" "0 0 0 92"
 		
 		if_mvm
 		{
@@ -523,9 +523,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"0 0 0 64"
 		"PaintBackgroundType"	"0"
-		"border"		"comboboxborder"
+		//"border"		"comboboxborder"
 		
 		if_mvm
 		{
@@ -546,7 +546,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fillcolor"		"bgblack"
+		"fillcolor"		"0 0 0 92"
 		
 		if_mvm
 		{

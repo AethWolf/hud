@@ -93,7 +93,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override"		"BlueSolid"
+		"bgcolor_override"		"BluTeamSolid"
 		
 		
 		"src_corner_height"		"23"
@@ -115,7 +115,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"comboboxborder"
-		"bgcolor_override"		"redsolid"
+		"bgcolor_override"		"redteamsolid"
 		
 		"src_corner_height"		"23"
 		"src_corner_width"		"23"

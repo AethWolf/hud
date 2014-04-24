@@ -117,7 +117,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"c-130"
-		"ypos"			"r47"
+		"ypos"			"r45"
 		"ypos_lodef"	"r88"
 		"ypos_hidef"	"r93"
 		"zpos"			"8"
@@ -155,7 +155,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"c-128"
-		"ypos"			"r46"
+		"ypos"			"r44"
 		"ypos_lodef"	"r87"
 		"ypos_hidef"	"r92"
 		"zpos"			"7"
@@ -197,7 +197,7 @@
 		"wide"			"75"
 		"tall"			"35"
 		"border"		"comboboxborder"
-		"bgcolor_override"	"red"
+		"bgcolor_override"	"RedTeamTransparent"
 	}
 	"BlueScoreBG"
 	{
@@ -208,7 +208,7 @@
 		"wide"			"75"
 		"tall"			"35"
 		"border"		"comboboxborder"
-		"bgcolor_override"	"blue"
+		"bgcolor_override"	"BluTeamTransparent"
 	}
 							
 	"RedScore"
@@ -216,7 +216,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"c57"
-		"ypos"			"r47"
+		"ypos"			"r45"
 		"ypos_lodef"	"r88"
 		"ypos_hidef"	"r93"
 		"zpos"			"8"
@@ -254,7 +254,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
 		"xpos"			"c59"
-		"ypos"			"r46"
+		"ypos"			"r44"
 		"ypos_lodef"	"r87"
 		"ypos_hidef"	"r92"
 		"zpos"			"7"
