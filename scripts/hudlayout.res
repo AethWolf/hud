@@ -487,12 +487,12 @@
 		
 		"TextFont"		"Postface10"
 		
-		"TeamBlue"		"BlueSolid"
-		"TeamRed"		"RedSolid"
+		"TeamBlue"		"BluTeamSolid"
+		"TeamRed"		"RedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 75"		[$WIN32]
+		"BaseBackgroundColor"	"46 43 42 255"		[$WIN32]
 		"LocalBackgroundColor"	"White"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
