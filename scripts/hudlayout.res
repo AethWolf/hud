@@ -587,10 +587,10 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
+		"xpos"		"c125"
+		"ypos"		"200"	[$WIN32]
 		"ypos"		"236"	[$X360]
-		"wide"		"500"
+		"wide"		"100"
 		"tall"		"136"	[$WIN32]
 		"tall"		"176"	[$X360]
 
