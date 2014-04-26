@@ -17,7 +17,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CDamageAccountValue"
 		"font"			"Postface16"
-		"fgcolor"		"redsolid"
+		"fgcolor"		"0 255 0 255"
 		"xpos"			"c-150"
 		"ypos"			"c47"
 		"zpos"			"5"

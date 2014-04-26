@@ -41,8 +41,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"0"
-		"border"		"comboboxborder"
-		"bgcolor_override"	"BGBlack"
+		"bgcolor_override"	"LightBlackTransparent"
 	}
 	
 	"Icon_Dispenser"

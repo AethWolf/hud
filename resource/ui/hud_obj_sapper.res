@@ -26,8 +26,7 @@
 		"tall"			"31"
 		"visible"		"0"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		"bgcolor_override"	"Bgblack"
+		"bgcolor_override"	"LightBlackTransparent"
 	}
 	"BackgroundPanel"
 	{
@@ -40,8 +39,7 @@
 		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		"bgcolor_override"	"bgblack"
+		"bgcolor_override"	"LightBlackTransparent"
 	}
 	
 	"Icon"

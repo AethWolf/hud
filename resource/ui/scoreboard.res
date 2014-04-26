@@ -100,7 +100,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"border"		"comboboxborder"
-		"bgcolor_override" "0 0 0 92"
+		"bgcolor_override" "LightBlackTransparent"
 		
 		if_mvm
 		{
@@ -546,7 +546,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fillcolor"		"0 0 0 92"
+		"fillcolor"		"LightBlackTransparent"
 		
 		if_mvm
 		{

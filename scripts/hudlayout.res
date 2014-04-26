@@ -994,7 +994,7 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
+		"xpos"			"c-200"
 		"ypos"			"c-82"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"

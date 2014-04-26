@@ -41,8 +41,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		"bgcolor_override"	"bgblack"
+		"bgcolor_override"	"LightBlackTransparent"
 	}
 
 	"DisguiseNameLabel"
