@@ -78,10 +78,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Postface10"
-		"xpos"			"30"
+		"xpos"			"10"
 		"ypos"			"45"
 		"zpos"			"2"
-		"wide"			"180"
+		"wide"			"200"
 		"tall"			"8"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -90,8 +90,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"bgcolor_override"	"0 0 0 128"
-		"fgcolor_override"	"255 0 0 255"
+		//"bgcolor_override"	"255 255 255 128"
+		//"fgcolor_override"	"255 0 0 255"
 	}		
 	"MeterPanel"
 	{
@@ -103,6 +103,7 @@
 		"ypos"			"45"
 		"wide"			"180"
 		"tall"			"8"
+		"visible"		"0"
 	}
 
 	"ChargeMeter1"

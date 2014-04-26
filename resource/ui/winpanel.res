@@ -23,22 +23,22 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"comboboxborder"
-			"bgcolor_override"	"hudblueteamsolid"
+			"bgcolor_override"	"BluTeamSolid"
 		}
 		"RedScoreBG"
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RedScoreBG"
-			"xpos"			"200"
+			"xpos"			"195"
 			"ypos"			"10"
-			"wide"			"125"
+			"wide"			"135"
 			"tall"			"50"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"comboboxborder"
-			"bgcolor_override"	"hudredteamsolid"
+			"bgcolor_override"	"redteamsolid"
 		}
 		"BlueTeamLabel"
 		{
@@ -62,7 +62,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"ScoreboardTeamScore"
+			"font"			"Postface40"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -81,7 +81,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"ScoreboardTeamScore"
+			"font"			"Postface40"
 			"fgcolor"		"Black"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
@@ -119,7 +119,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"ScoreboardTeamScore"
+			"font"			"Postface40"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"202"
@@ -138,7 +138,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"ScoreboardTeamScore"
+			"font"			"Postface40"
 			"fgcolor"		"Black"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
