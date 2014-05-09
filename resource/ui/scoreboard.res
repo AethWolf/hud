@@ -343,6 +343,7 @@
 		if_mvm
 		{
 			"ypos"			"15"
+			"visible"		"0"
 		}
 	}
 	"ServerTimeLeft"
@@ -369,6 +370,7 @@
 		if_mvm
 		{
 			"ypos"			"0"
+			"visible"		"0"
 		}
 	}							
 	"BluePlayerList"
