@@ -94,7 +94,7 @@
 		"wide_lodef"	"570"
 		"wide_hidef"	"590"
 		"tall"			"435"
-		"tall_minmode"	"281"
+		"tall_minmode"	"265"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -422,7 +422,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"12"
+		"linespacing"	"10"
 		"textcolor"		"red"
 		
  		if_mvm
