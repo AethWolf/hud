@@ -119,8 +119,8 @@
 	//Custom buttons below here
 		"PCWButton"
 	{
-		"label"		"PFAD Party Server"
-		"command"		"engine connect 74.91.120.113:27015; password pfad"
+		"label"		"Elysian Fields"
+		"command"		"engine connect 74.91.126.110:27015"
 	}
 	"DMButton"
 	{
