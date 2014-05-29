@@ -183,6 +183,7 @@ Scheme
 		"BluTeamSolid"				"91 122 140 255"
 		"RedTeamTransparent"		"189 59 59 128"
 		"RedTeamSolid"				"189 59 59 255"
+		"LightBlackTransparent"		"0 0 0 92"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -1332,7 +1333,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Postface"
+				"name"		"Tahoma"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1343,7 +1344,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Postface"
+				"name"		"Tahoma"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1355,7 +1356,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Postface"
+				"name"		"Tahoma"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -1366,7 +1367,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Postface"
+				"name"		"Tahoma"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -1378,7 +1379,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Postface"
+				"name"		"Tahoma"
 				"tall"		"16"
 				"tall_hidef"	"24"
 				"weight"	"900"
