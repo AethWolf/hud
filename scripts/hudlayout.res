@@ -22,7 +22,7 @@
 		"ypos"	"r77"	[$X360]
 		"wide"	"105"
 		"tall"	"45"
-		"zpos"	"2"
+		"zpos"	"-500"
 	}
 	
 	HudObjectiveStatus
@@ -1375,7 +1375,7 @@
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
 		"wide"			"470"
-		"tall"			"200"
+		"tall"			"250"
 		"PaintBackgroundType"	"0"
 	}
 	

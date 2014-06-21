@@ -603,7 +603,30 @@
 		{
 			"visible"		"0"
 		}
-	}							
+	}
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"Postface16"
+		"labelText"		"%mapname%"
+		"textAlignment"		"east"
+		"xpos"			"15"
+		"xpos_lodef"		"105"
+		"ypos"			"400"
+		"zpos"			"3"
+		"wide"			"145"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"236 227 203 255"
+		if_mvm
+		{
+			"visible"		"0"
+		}	
+	}
 	"HorizontalLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -638,20 +661,19 @@
 		"font"		"Postface24"
 		"labelText"		"%playerscore%"
 		"textAlignment"	"east"
-		"xpos"			"5"
+		"xpos"			"30"
 		"xpos_lodef"	"399"
 		"xpos_hidef"	"439"
-		"xpos_minmode"	"9999"
 		"ypos"			"175"	[$WIN32]
 		"ypos"			"302"	[$X360]
 		"zpos"			"3"
-		"wide"			"150"
+		"wide"			"140"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -663,7 +685,6 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
-		"xpos_minmode"	"9999"
 		"ypos"			"395"
 		"zpos"			"3"
 		"wide"			"600"
@@ -786,7 +807,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"Postface24"
+				"font"			"ScoreboardMedium"
 			}
 		}
 
@@ -865,7 +886,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"Postface24"
+				"font"			"ScoreboardMedium"
 			}
 		}
 	}
@@ -906,11 +927,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"DeathsLabel"
 		{
@@ -928,10 +944,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"AssistsLabel"
 		{
@@ -940,7 +952,7 @@
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
-			"xpos"			"0"
+			"xpos"			"5"
 			"ypos"			"35"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
@@ -949,10 +961,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}
 		"DestructionLabel"
 		{
@@ -961,7 +969,7 @@
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
-			"xpos"			"0"
+			"xpos"			"5"
 			"ypos"			"45"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
@@ -970,10 +978,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}												
 		"Kills"
 		{
@@ -982,19 +986,15 @@
 			"font"			"Postface24"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
-			"xpos"			"100"
+			"xpos"			"105"
 			"ypos"			"0"	[$WIN32]
 			"zpos"			"3"
-			"wide"			"50"
+			"wide"			"35"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"Deaths"
 		{
@@ -1003,8 +1003,8 @@
 			"font"			"Postface24"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
-			"xpos"			"100"
-			"ypos"			"20"	[$WIN32]
+			"xpos"			"105"
+			"ypos"			"21"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1012,34 +1012,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
-		}
-		
-		"MapName"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"mapname"
-			"font"			"Postface16"
-			"labelText"		"%mapname%"
-			"textAlignment"		"east"
-			"xpos"			"15"
-			"xpos_lodef"		"105"
-			"ypos"			"160"
-			"zpos"			"3"
-			"wide"			"145"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"236 227 203 255"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}	
 		"GameType"
 		{
@@ -1050,19 +1022,15 @@
 			"textAlignment"		"east"
 			"xpos"			"15"
 			"xpos_lodef"	"105"
-			"ypos"			"175"
+			"ypos"			"500"
 			"zpos"			"3"
 			"wide"			"145"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"185 177 153 255"
-			if_mvm
-		{
 			"visible"		"0"
-		}
+			"enabled"		"0"
+			"fgcolor"		"185 177 153 255"
 		}							
 		"Assists"
 		{
@@ -1071,8 +1039,8 @@
 			"font"			"Postface12"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
-			"xpos"			"100"
-			"ypos"			"35"	[$WIN32]
+			"xpos"			"105"
+			"ypos"			"36"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1080,10 +1048,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"Destruction"
 		{
@@ -1092,8 +1056,8 @@
 			"font"			"Postface12"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
-			"xpos"			"100"
-			"ypos"			"45"	[$WIN32]
+			"xpos"			"105"
+			"ypos"			"46"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1101,10 +1065,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"CapturesLabel"
 		{
@@ -1113,7 +1073,7 @@
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
-			"xpos"			"-6"	[$WIN32]
+			"xpos"			"-1"	[$WIN32]
 			"ypos"			"55"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"100"
@@ -1122,10 +1082,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"DefensesLabel"
 		{
@@ -1134,7 +1090,7 @@
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
-			"xpos"			"-6"	[$WIN32]
+			"xpos"			"-1"	[$WIN32]
 			"ypos"			"65"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"100"
@@ -1143,11 +1099,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
-			
 		}						
 		"DominationLabel"
 		{
@@ -1156,7 +1107,7 @@
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
-			"xpos"			"-6"	[$WIN32]
+			"xpos"			"-1"	[$WIN32]
 			"ypos"			"75"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"100"
@@ -1165,10 +1116,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"RevengeLabel"
 		{
@@ -1177,7 +1124,7 @@
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
-			"xpos"			"-6"	[$WIN32]
+			"xpos"			"-1"	[$WIN32]
 			"ypos"			"85"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"100"
@@ -1186,10 +1133,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"Captures"
 		{
@@ -1198,8 +1141,8 @@
 			"font"			"Postface12"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
-			"xpos"			"100"	[$WIN32]
-			"ypos"			"55"	[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"56"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1207,10 +1150,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"Defenses"
 		{
@@ -1219,8 +1158,8 @@
 			"font"			"Postface12"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
-			"xpos"			"100"	[$WIN32]
-			"ypos"			"65"	[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"66"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1228,10 +1167,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"Domination"
 		{
@@ -1240,8 +1175,8 @@
 			"font"			"Postface12"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
-			"xpos"			"100"	[$WIN32]
-			"ypos"			"75"	[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"76"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1249,10 +1184,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"Revenge"
 		{
@@ -1261,8 +1192,8 @@
 			"font"			"Postface12"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
-			"xpos"			"100"	[$WIN32]
-			"ypos"			"85"	[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"86"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1270,10 +1201,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"HealingLabel"
 		{
@@ -1282,7 +1209,7 @@
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"			"0"	[$WIN32]
+			"xpos"			"5"	[$WIN32]
 			"ypos"			"95"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
@@ -1291,10 +1218,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"InvulnLabel"
 		{
@@ -1303,7 +1226,7 @@
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
-			"xpos"			"0"	[$WIN32]
+			"xpos"			"5"	[$WIN32]
 			"ypos"			"105"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
@@ -1312,10 +1235,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"TeleportsLabel"
 		{
@@ -1324,7 +1243,7 @@
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
-			"xpos"			"0"	[$WIN32]
+			"xpos"			"5"	[$WIN32]
 			"ypos"			"115"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
@@ -1333,10 +1252,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"HeadshotsLabel"
 		{
@@ -1345,7 +1260,7 @@
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
-			"xpos"			"0"	[$WIN32]
+			"xpos"			"5"	[$WIN32]
 			"ypos"			"125"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"	[$WIN32]
@@ -1354,10 +1269,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"Healing"
 		{
@@ -1366,8 +1277,8 @@
 			"font"			"Postface12"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"100"	[$WIN32]
-			"ypos"			"95"	[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"96"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1375,10 +1286,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"Invuln"
 		{
@@ -1386,9 +1293,9 @@
 			"fieldName"		"Invuln"
 			"font"			"Postface12"
 			"labelText"		"%invulns%"
-			"textAlignment"	"west"
-			"xpos"			"100"	[$WIN32]
-			"ypos"			"105"	[$WIN32]
+			"textAlignment"		"west"
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"106"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1396,10 +1303,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"Teleports"
 		{
@@ -1408,8 +1311,8 @@
 			"font"			"Postface12"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
-			"xpos"			"100"	[$WIN32]
-			"ypos"			"115"	[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"116"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1417,10 +1320,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"Headshots"
 		{
@@ -1429,8 +1328,8 @@
 			"font"			"Postface12"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"100"	[$WIN32]
-			"ypos"			"125"	[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"126"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1438,10 +1337,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}						
 		"BackstabsLabel"
 		{
@@ -1449,19 +1344,16 @@
 			"fieldName"		"BackstabsLabel"
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
-			"textAlignment"		"north-east"
-			"xpos"			"-15"	[$WIN32]
-			"ypos"			"140"	[$WIN32]
+			"textAlignment"		"east"
+			"xpos"			"5"	[$WIN32]
+			"ypos"			"135"	[$WIN32]
 			"zpos"			"3"
-			"wide"			"110"
+			"wide"			"95"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}
 		"Backstabs"
 		{
@@ -1469,9 +1361,9 @@
 			"fieldName"		"Backstabs"
 			"font"			"Postface12"
 			"labelText"		"%backstabs%"
-			"textAlignment"		"north-west"		[$WIN32]
-			"xpos"			"100"	[$WIN32]
-			"ypos"			"140"	[$WIN32]
+			"textAlignment"		"west"		[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"136"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1479,10 +1371,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}		
 		"BonusLabel"
 		{
@@ -1490,20 +1378,17 @@
 			"fieldName"		"BonusLabel"
 			"font"			"Postface12"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
-			"textAlignment"		"north-east"
-			"xpos"			"-15"	[$WIN32]
-			"ypos"			"150"	[$WIN32]
+			"textAlignment"		"east"
+			"xpos"			"5"	[$WIN32]
+			"ypos"			"145"	[$WIN32]
 			"zpos"			"3"
 			"zpos"			"3"
-			"wide"			"110"
+			"wide"			"95"
+			"tall"			"20"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
-		}
 		}
 		"Bonus"
 		{
@@ -1511,9 +1396,9 @@
 			"fieldName"		"Bonus"
 			"font"			"Postface12"
 			"labelText"		"%bonus%"
-			"textAlignment"		"north-west"		[$WIN32]
-			"xpos"			"100"	[$WIN32]
-			"ypos"			"150"	[$WIN32]
+			"textAlignment"		"west"		[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"146"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1521,10 +1406,74 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			if_mvm
-		{
-			"visible"		"0"
 		}
+		"SupportLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"SupportLabel"
+			"font"			"Postface12"
+			"labelText"		"#TF_Scoreboard_Support"
+			"textAlignment"	"east"
+			"xpos"			"5"	[$WIN32]
+			"ypos"			"155"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Support"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Support"
+			"font"			"Postface12"
+			"labelText"		"%support%"
+			"textAlignment"	"west"		[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"156"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"DamageLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DamageLabel"
+			"font"			"Postface12"
+			"labelText"		"#TF_Scoreboard_Damage"
+			"textAlignment"	"east"
+			"xpos"			"5"	[$WIN32]
+			"ypos"			"165"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+		}
+		"Damage"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Damage"
+			"font"			"Postface12"
+			"labelText"		"%damage%"
+			"textAlignment"	"west"		[$WIN32]
+			"xpos"			"105"	[$WIN32]
+			"ypos"			"166"	[$WIN32]
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 		}
 	}
 
@@ -1586,7 +1535,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SelectHintLabel"
-			"font"			"Postface24"
+			"font"			"ScoreboardMedium"
 			"xpos"			"25"
 			"xpos_lodef"	"37"
 			"ypos"			"2"
@@ -1628,7 +1577,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"GamerCardLabel"
-			"font"			"Postface24"
+			"font"			"ScoreboardMedium"
 			"xpos"			"170"
 			"xpos_lodef"	"177"
 			"ypos"			"2"
@@ -1670,7 +1619,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ReputationLabel"
-			"font"			"Postface24"
+			"font"			"ScoreboardMedium"
 			"xpos"			"403"
 			"xpos_lodef"	"377"
 			"ypos"			"2"
