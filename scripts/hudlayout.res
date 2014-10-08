@@ -485,7 +485,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Postface10"
+		"TextFont"		"Adventuring12"
 		
 		"TeamBlue"		"BluTeamSolid"
 		"TeamRed"		"RedTeamSolid"
@@ -1377,6 +1377,18 @@
 		"wide"			"470"
 		"tall"			"250"
 		"PaintBackgroundType"	"0"
+	}
+	
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
 	}
 	
 	//Custom Crosshair shit

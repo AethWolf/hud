@@ -2562,6 +2562,33 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		Adventuring8
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		Adventuring10
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+		Adventuring12
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -4493,6 +4520,11 @@ Scheme
 		{
 			"font" "resource/fonts/HudasIscariote2.otf"
 			"Name"	"Hudas Iscariote"
+		}
+		"12"
+		{
+			"font" "resource/fonts/Adventuring.ttf"
+			"Name" "Adventuring"
 		}
 	}
 }

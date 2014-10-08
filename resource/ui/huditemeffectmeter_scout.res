@@ -6,11 +6,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"x_offset"		"40"
-		"xpos"			"r508"	[$WIN32]
-		"ypos"			"r150"	[$WIN32]
+		"xpos"			"r493"	[$WIN32]
+		"ypos"			"r140"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
-		"wide"			"200"
+		"wide"			"250"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -64,7 +64,7 @@
 		"xpos"					"15"
 		"ypos"					"23"
 		"zpos"					"2"
-		"wide"					"130"
+		"wide"					"175"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
