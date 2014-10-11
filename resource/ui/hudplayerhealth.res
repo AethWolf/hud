@@ -76,7 +76,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Postface40"
-		"fgcolor"		"qualitycolorunique"
+		"fgcolor"		"White"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
