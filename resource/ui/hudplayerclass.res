@@ -67,7 +67,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9999"		[$WIN32]
+		"xpos"			"9"		[$WIN32]
 		"ypos"			"r60"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
@@ -88,21 +88,19 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"9999"		[$WIN32]
-		"ypos"			"9999"	[$WIN32]
+		"xpos"			"0"		[$WIN32]
+		"ypos"			"r80"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"109"
-		"tall"			"50"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"image"				"../hud/character_red_bg_clipped"	
-		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
-		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		//"image"				"replay/thumbnails/bg_black"	
+		"teambg_2"			"replay/thumbnails/bg_red"
+		"teambg_3"			"replay/thumbnails/bg_blue"
 	}
 
 	"classmodelpanel"
