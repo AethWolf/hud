@@ -92,13 +92,12 @@
 		"ypos"			"r80"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
-		"zpos"			"1"		
+		"zpos"			"10"		
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		//"image"				"replay/thumbnails/bg_black"	
 		"teambg_2"			"replay/thumbnails/bg_red"
 		"teambg_3"			"replay/thumbnails/bg_blue"
 	}
