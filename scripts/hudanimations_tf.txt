@@ -222,7 +222,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate PlayerStatusHealthValue FgColor "qualitycolorunique" Accel 0.2 0.0
+	Animate PlayerStatusHealthValue FgColor "white" Accel 0.2 0.0
 }
 
 //===========================================
@@ -231,9 +231,7 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	
-	
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.075 0.15
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -248,7 +246,7 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate PlayerStatusHealthValue FgColor "qualitycolorunique" Accel 0.2 0.0
+	Animate PlayerStatusHealthValue FgColor "white" Accel 0.2 0.0
 }
 
 //===========================================
