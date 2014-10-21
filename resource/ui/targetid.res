@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TargetBG"
-		"xpos"			"30"
+		"xpos"			"0"
 		"ypos"			"12"
 		"zpos"			"-1"
 		"wide"			"640"
