@@ -40,18 +40,20 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-		}
-		"TimePanelValueBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"TimePanelValueBG"
 			"border"		"comboboxborder"
-			"bgcolor_override"	"hudblueteamsolid"
-			"wide"			"55"
-			"tall"			"20"
-			"xpos"			"23"
-			"ypos"			"117"
+			"bgcolor_override" "BluTeamTransparent"
 		}
+		//"TimePanelValueBG"
+		//{
+		//	"ControlName"	"EditablePanel"
+		//	"fieldName"		"TimePanelValueBG"
+		//	"border"		"comboboxborder"
+		//	"bgcolor_override"	"hudblueteamsolid"
+		//	"wide"			"55"
+		//	"tall"			"20"
+		//	"xpos"			"23"
+		//	"ypos"			"117"
+		//}
 	}
 
 	"RedTimer"
@@ -94,18 +96,20 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-		}	
-		"TimePanelValueBG"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"TimePanelValueBG"
 			"border"		"comboboxborder"
-			"bgcolor_override"	"hudredteamsolid"
-			"wide"			"55"
-			"tall"			"20"
-			"xpos"			"23"
-			"ypos"			"117"
-		}
+			"bgcolor_override" 	"RedTeamTransparent"
+		}	
+		//"TimePanelValueBG"
+		//{
+		//	"ControlName"	"EditablePanel"
+		//	"fieldName"		"TimePanelValueBG"
+		//	"border"		"comboboxborder"
+		//	"bgcolor_override"	"hudredteamsolid"
+		//	"wide"			"55"
+		//	"tall"			"20"
+		//	"xpos"			"23"
+		//	"ypos"			"117"
+		//}
 	}
 	
 	"ActiveTimerBG"

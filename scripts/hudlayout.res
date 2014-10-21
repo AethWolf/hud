@@ -239,9 +239,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"250"
+		"ypos"		"255"
 		"wide"	 	"300"
-		"tall"	 	"28"
+		"tall"	 	"50"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -260,7 +260,7 @@
 		"xpos"		"c-126"
 		"ypos"		"350"
 		"wide"	 	"300"
-		"tall"	 	"60"
+		"tall"	 	"40"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -274,9 +274,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"280"
+		"ypos"		"380"
 		"wide"	 	"350"
-		"tall"	 	"28"
+		"tall"	 	"100"
 		"priority"	"35"
 
 		if_vr

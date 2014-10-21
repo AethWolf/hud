@@ -2589,6 +2589,60 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		Adventuring14
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		Adventuring16
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		Adventuring20
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		Adventuring22
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"22"
+				"antialias" "1"
+			}
+		}
+		Adventuring24
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		Adventuring32
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//

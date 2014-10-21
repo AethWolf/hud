@@ -113,7 +113,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"Postface32"
+		"font"			"Adventuring32"
 		"fgcolor"		"white"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
@@ -219,11 +219,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"Postface32"
+		"font"			"Adventuring32"
 		"fgcolor"		"white"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
-		"xpos"			"582" [!$OSX]
+		"xpos"			"575" [!$OSX]
 		"xpos"			"445" [$OSX]
 		"xpos_lodef"	"446"
 		"xpos_hidef"	"488"
@@ -323,7 +323,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring12"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"25"
@@ -350,7 +350,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"Postface12"
+		"font"			"Adventuring12"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"west"
 		"xpos"			"25"
@@ -460,7 +460,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"Postface12"
+		"font"			"Adventuring12"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"25"
@@ -486,7 +486,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"Postface12"
+		"font"			"Adventuring12"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -562,7 +562,7 @@
 		"xpos"			"22"
 		"xpos_minmode"	"9999"
 		"xpos_lodef"	"12"
-		"ypos"			"125"	[$WIN32]
+		"ypos"			"145"	[$WIN32]
 		"ypos"			"275"	[$X360]
 		"zpos"			"3"
 		"wide"			"50"
@@ -582,13 +582,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"Postface24"
+		"font"			"Adventuring24"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"65"
 		"xpos_minmode"	"9999"
 		"xpos_lodef"	"105"
-		"ypos"			"150"	[$WIN32]
+		"ypos"			"160"	[$WIN32]
 		"ypos"			"302"	[$X360]
 		"zpos"			"3"
 		"wide"			"325"	[$WIN32]
@@ -608,10 +608,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"Postface16"
+		"font"			"Adventuring16"
 		"labelText"		"%mapname%"
 		"textAlignment"		"east"
 		"xpos"			"15"
+		"xpos_minmode"	"99999"
 		"xpos_lodef"		"105"
 		"ypos"			"400"
 		"zpos"			"3"
@@ -671,7 +672,7 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 
 		if_mvm
@@ -915,7 +916,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"Postface24"
+			"font"			"Adventuring32"
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"		"east"
 			"xpos"			"6"
@@ -932,7 +933,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"Postface24"
+			"font"			"Adventuring24"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
 			"xpos"			"6"
@@ -949,7 +950,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"			"5"
@@ -966,7 +967,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
 			"xpos"			"5"
@@ -983,7 +984,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"Postface24"
+			"font"			"Adventuring32"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
 			"xpos"			"105"
@@ -1000,7 +1001,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"Postface24"
+			"font"			"Adventuring32"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"105"
@@ -1017,7 +1018,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"gametype"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
 			"xpos"			"15"
@@ -1070,7 +1071,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"			"-1"	[$WIN32]
@@ -1087,7 +1088,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"			"-1"	[$WIN32]
@@ -1104,7 +1105,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
 			"xpos"			"-1"	[$WIN32]
@@ -1121,7 +1122,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
 			"xpos"			"-1"	[$WIN32]
@@ -1206,7 +1207,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
 			"xpos"			"5"	[$WIN32]
@@ -1223,7 +1224,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
 			"xpos"			"5"	[$WIN32]
@@ -1240,7 +1241,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
 			"xpos"			"5"	[$WIN32]
@@ -1257,7 +1258,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
 			"xpos"			"5"	[$WIN32]
@@ -1342,7 +1343,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"			"5"	[$WIN32]
@@ -1376,7 +1377,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
 			"xpos"			"5"	[$WIN32]
@@ -1411,7 +1412,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"east"
 			"xpos"			"5"	[$WIN32]
@@ -1445,7 +1446,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"Postface12"
+			"font"			"Adventuring12"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
 			"xpos"			"5"	[$WIN32]

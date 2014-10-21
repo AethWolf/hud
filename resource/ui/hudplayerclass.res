@@ -92,7 +92,7 @@
 		"ypos"			"r80"	[$WIN32]
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
-		"zpos"			"10"		
+		"zpos"			"0"		
 		"wide"			"30"
 		"tall"			"30"
 		"visible"		"0"
