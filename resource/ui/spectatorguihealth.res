@@ -69,7 +69,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"fgcolor"		"White"
 		"labeltext"		"%Health%"
 	}
@@ -85,7 +85,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"fgcolor"		"BGblack"
 		"labeltext"		"%Health%"
 	}

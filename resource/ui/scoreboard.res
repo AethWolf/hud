@@ -139,7 +139,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"Postface32"
+		"font"			"Adventuring36"
 		"fgcolor"		"white"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -167,7 +167,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"Postface32"
+		"font"			"Adventuring36"
 		"fgcolor"		"Black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -195,11 +195,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"Postface16"
+		"font"			"Adventuring20"
 		"labelText"		"%blueteamplayercount%"
 		"fgcolor"		"white"
 		"textAlignment"		"west"
-		"xpos"			"730"
+		"xpos"			"720"
 		"xpos_hidef"		"100"
 		"ypos"			"30"
 		"ypos_minmode"	"100"
@@ -245,7 +245,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"Postface32"
+		"font"			"Adventuring36"
 		"fgcolor"		"white"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -272,7 +272,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"Postface32"
+		"font"			"Adventuring36"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -299,7 +299,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"Postface16"
+		"font"			"Adventuring20"
 		"labelText"		"%redteamplayercount%"
 		"fgcolor"		"white"
 		"textAlignment"		"east"

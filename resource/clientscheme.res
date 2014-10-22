@@ -2643,6 +2643,33 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		Adventuring36
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		Adventuring40
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		Adventuring46
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"46"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
