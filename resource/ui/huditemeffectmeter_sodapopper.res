@@ -7,7 +7,7 @@
 		"enabled"		"1"
 //		"x_offset"		"40"
 		"xpos"			"r565"	[$WIN32]
-		"ypos"			"r115"	[$WIN32]
+		"ypos"			"r125"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"250"

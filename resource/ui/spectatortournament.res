@@ -126,10 +126,10 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Postface10"
+				"font"			"Adventuring12"
 				"xpos"			"22"
 				"ypos"			"5"
-				"zpos"			"5"
+				"zpos"			"-2"
 				"wide"			"100"
 				"tall"			"15"
 				"autoResize"	"1"

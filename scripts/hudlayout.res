@@ -276,7 +276,7 @@
 		"xpos"		"c-126"
 		"ypos"		"380"
 		"wide"	 	"350"
-		"tall"	 	"100"
+		"tall"	 	"50"
 		"priority"	"35"
 
 		if_vr
