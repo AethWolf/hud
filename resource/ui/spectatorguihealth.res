@@ -69,7 +69,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"Adventuring14"
+		"font"			"Adventuring12"
 		"fgcolor"		"White"
 		"labeltext"		"%Health%"
 	}
@@ -85,7 +85,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"Adventuring14"
+		"font"			"Adventuring12"
 		"fgcolor"		"BGblack"
 		"labeltext"		"%Health%"
 	}

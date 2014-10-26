@@ -241,7 +241,7 @@
 		"xpos"		"c-126"
 		"ypos"		"255"
 		"wide"	 	"300"
-		"tall"	 	"50"
+		"tall"	 	"35"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -260,7 +260,7 @@
 		"xpos"		"c-126"
 		"ypos"		"350"
 		"wide"	 	"300"
-		"tall"	 	"40"
+		"tall"	 	"35"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -276,7 +276,7 @@
 		"xpos"		"c-126"
 		"ypos"		"380"
 		"wide"	 	"350"
-		"tall"	 	"50"
+		"tall"	 	"35"
 		"priority"	"35"
 
 		if_vr
