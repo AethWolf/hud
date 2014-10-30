@@ -1391,6 +1391,17 @@
 		"priority"		"40"
 	}
 	
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}
+	
 	//Custom Crosshair shit
 	"CrossHairKonrWingsOutline"
 		{
