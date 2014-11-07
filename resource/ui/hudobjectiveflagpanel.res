@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -117,7 +117,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"c-130"
-		"ypos"			"r45"
+		"ypos"			"r55"
 		"ypos_lodef"	"r88"
 		"ypos_hidef"	"r93"
 		"zpos"			"8"
@@ -132,7 +132,7 @@
 		"font"			"Postface40"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
-		"fgcolor"		"White"
+		"fgcolor"		"BluTeamSolid"
 		
 		"if_hybrid"
 		{
@@ -155,7 +155,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
 		"xpos"			"c-128"
-		"ypos"			"r44"
+		"ypos"			"r54"
 		"ypos_lodef"	"r87"
 		"ypos_hidef"	"r92"
 		"zpos"			"7"
@@ -193,22 +193,54 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"c60"
-		"ypos"			"r47"
+		"ypos"			"r57"
 		"wide"			"75"
 		"tall"			"35"
 		"border"		"comboboxborder"
 		"bgcolor_override"	"RedTeamTransparent"
+		"visible"		"0"
+		
+			"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 	"BlueScoreBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"c-135"
-		"ypos"			"r47"
+		"ypos"			"r57"
 		"wide"			"75"
 		"tall"			"35"
 		"border"		"comboboxborder"
 		"bgcolor_override"	"BluTeamTransparent"
+		"visible"		"0"
+		
+			"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 							
 	"RedScore"
@@ -216,7 +248,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
 		"xpos"			"c57"
-		"ypos"			"r45"
+		"ypos"			"r55"
 		"ypos_lodef"	"r88"
 		"ypos_hidef"	"r93"
 		"zpos"			"8"
@@ -231,7 +263,7 @@
 		"font"			"Postface40"
 		"font_hidef"	"HudFontGiant"
 		"font_lodef"	"HudFontGiant"
-		"fgcolor"		"White"		
+		"fgcolor"		"RedTeamSolid"		
 		
 		"if_hybrid"
 		{
@@ -254,7 +286,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
 		"xpos"			"c59"
-		"ypos"			"r44"
+		"ypos"			"r54"
 		"ypos_lodef"	"r87"
 		"ypos_hidef"	"r92"
 		"zpos"			"7"
@@ -292,11 +324,11 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OutlineImage"
 		"xpos"			"c-50"
-		"ypos"			"r127"	[$WIN32]
+		"ypos"			"r137"	[$WIN32]
 		"ypos"			"r148"	[$X360]
 		"zpos"			"9"
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"500"
+		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_outline"
@@ -307,12 +339,12 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
-		"xpos"			"c-50"
-		"ypos"			"r85"	[$WIN32]
+		"xpos"			"c-25"
+		"ypos"			"r70"	[$WIN32]
 		"ypos"			"r158"	[$X360]
 		"zpos"			"10"
-		"wide"			"100"
-		"tall"			"100"
+		"wide"			"50"
+		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_red"
@@ -335,9 +367,9 @@
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
 		"xpos"			"c-60"	[$X360]
-		"ypos"			"r33"	[$WIN32]
+		"ypos"			"r43"	[$WIN32]
 		"ypos"			"r48"	[$X360]
-		"zpos"			"4"
+		"zpos"			"25"
 		"wide"			"140"	[$WIN32]
 		"wide"			"120"	[$X360]
 		"tall"			"30"
@@ -364,7 +396,43 @@
 		{
 			"visible"	"0"
 		}
-	}	
+	}
+	"PlayingToShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayingToShadow"
+		"xpos"			"c-69"	[$WIN32]
+		"xpos"			"c-60"	[$X360]
+		"ypos"			"r42"	[$WIN32]
+		"ypos"			"r48"	[$X360]
+		"zpos"			"24"
+		"wide"			"140"	[$WIN32]
+		"wide"			"120"	[$X360]
+		"tall"			"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_PlayingTo"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"font"			"Postface16"
+		"fgcolor"		"FullBlack"
+		
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}		
 			
 	"PlayingToBG"
 	{
@@ -372,12 +440,12 @@
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-50"	[$WIN32]
 		"xpos"			"c-70"	[$X360]
-		"ypos"			"r31"	[$WIN32]
+		"ypos"			"r41"	[$WIN32]
 		"ypos"			"r51"	[$X360]
 		"zpos"			"3"
-		"wide"			"100"	[$WIN32]
-		"wide"			"140"	[$X360]
-		"tall"			"27"	[$WIN32]
+		"wide"			"0"	[$WIN32]
+		"wide"			"0"	[$X360]
+		"tall"			"0"	[$WIN32]
 		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
@@ -404,9 +472,9 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-150"
-		"ypos"			"r75"	[$WIN32]
-		"ypos"			"r116"	[$X360]
+		"xpos"			"c-160"
+		"ypos"			"r80"	[$WIN32]
+		"ypos"			"r126"	[$X360]
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -444,8 +512,8 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c-10"
-		"ypos"			"r75"	[$WIN32]
+		"xpos"			"c-0"
+		"ypos"			"r80"	[$WIN32]
 		"ypos"			"r116"	[$X360]
 		"zpos"			"5"
 		"wide"			"160"
@@ -510,7 +578,7 @@
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"c-50"
 		"ypos"			"r137"	[$WIN32]
-		"ypos"			"r158"	[$X360]
+		"ypos"			"r148"	[$X360]
 		"zpos"			"10"
 		"wide"			"100"
 		"tall"			"100"
