@@ -164,8 +164,8 @@
 		"xpos"			"r270"
 		"ypos"			"300"
 		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
@@ -224,17 +224,23 @@
 
 		"FreezePanelBG"
 		{
-			"ControlName"		"EditablePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"4"
 			"ypos"			"160"
 			"zpos"			"0"
-			"wide"			"150"
+			"wide"			"200"
 			"tall"			"33"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"comboboxborder"
-			"bgcolor_override" "BGGrey"
+			"bgcolor_override" "BGBlack"
+			"scaleImage"		"1"	
+			
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+				
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		
 		"FreezeLabel"
@@ -261,7 +267,7 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"8"
+			"xpos"			"10"
 			"ypos"			"160"
 			"zpos"			"1"
 			"wide"			"31"

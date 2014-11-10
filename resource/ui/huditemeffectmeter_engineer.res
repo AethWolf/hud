@@ -7,8 +7,6 @@
 		"enabled"		"1"
 		"xpos"			"r415"	[$WIN32]
 		"ypos"			"r150"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"120"
@@ -27,7 +25,6 @@
 		"wide"			"80"
 		"tall"			"20"
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"border"		"comboboxborder"
 		"bgcolor_override"		"bgblack"
@@ -62,11 +59,8 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"

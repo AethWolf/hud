@@ -137,7 +137,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				"fgcolor"		"235 226 202 255"
+				"fgcolor"		"White"
 					
 				if_mvm
 				{
@@ -287,7 +287,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"Postface12"
+				"font"			"Adventuring12"
 				"xpos"			"148"
 				"ypos"			"5"
 				"zpos"			"6"
