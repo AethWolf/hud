@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"5"
+		"xpos"			"10"
 		"ypos"			"5"
 		"zpos"			"3"
 		"wide"			"22"
@@ -88,10 +88,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpec"
-		"xpos"			"-20"
+		"xpos"			"-15"
 		"ypos"			"1"
 		"zpos"			"5"
-		"wide"			"70"
+		"wide"			"75"
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
@@ -104,7 +104,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueSpecShadow"
-		"xpos"			"-19"
+		"xpos"			"-12"
 		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"70"

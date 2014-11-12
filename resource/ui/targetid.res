@@ -133,7 +133,7 @@
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"3"
 		"ypos"			"8"
-		"wide"			"35"
+		"wide"			"50"
 		"tall"			"35"
 		"visible"		"0"
 		"enabled"		"0"	
@@ -163,7 +163,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"45"
+		"xpos"			"55"
 		"ypos"			"25"
 		"zpos"			"12"
 		"wide"			"8"

@@ -13,7 +13,7 @@
 		"wide"				"110"
 		"wide_hidef"		"300"
 		"wide_lodef"		"300"
-		"tall"				"800"
+		"tall"				"145"
 		"visible"			"0"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
@@ -24,6 +24,7 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"Postface16"
+		"bgcolor_override" 		"BGGrey"
 		
 		"TimePanelValue"
 		{
@@ -31,7 +32,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"Postface24"
 			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"qualitycolorunique"
+			"fgcolor"		"White"
 			"xpos"			"23"
 			"xpos_hidef"	"114"
 			"xpos_lodef"	"114"
@@ -47,17 +48,17 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 		}
-		"TimeBGPanel"
-		{
-			"ControlName" "EditablePanel"
-			"fieldName"	  "TimeBGPanel"
-			"border"	  "comboboxborder"
-			"ypos"		  "120"
-			"xpos"		  "23"
-			"wide"		  "65"
-			"tall"		  "20"
-			"visible"		"0"
-			"bgcolor_override"	"BGBlack"
-		}
+		//"TimeBGPanel"
+		//{
+		//	"ControlName" "EditablePanel"
+		//	"fieldName"	  "TimeBGPanel"
+		//	"border"	  "comboboxborder"
+		//	"ypos"		  "120"
+		//	"xpos"		  "23"
+		//	"wide"		  "65"
+		//	"tall"		  "20"
+		//	"visible"		"0"
+		//	"bgcolor_override"	"BGBlack"
+		//}
 	}
 }

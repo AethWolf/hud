@@ -127,7 +127,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"fgcolor"		"White"
 		"labelText"		"BLU"
 		"textAlignment"	"center"
@@ -146,7 +146,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"fgcolor"		"White"
 		"labelText"		"RED"
 		"textAlignment"	"center"
@@ -165,7 +165,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RandomLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"fgcolor"		"White"
 		"labelText"		"Random"
 		"textAlignment"	"center"
@@ -184,7 +184,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SpectateLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"fgcolor"		"White"
 		"labelText"		"Spectate"
 		"textAlignment"	"center"

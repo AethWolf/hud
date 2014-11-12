@@ -2607,6 +2607,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		Adventuring18
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
 		Adventuring20
 		{
 			"1"
