@@ -119,8 +119,8 @@
 	//Custom buttons below here
 		"PCWButton"
 	{
-		"label"		"Elysian Fields"
-		"command"		"engine connect 74.91.126.110:27015"
+		"label"		"PF2 Ponyville"
+		"command"		"engine connect 162.248.89.187:27015"
 	}
 	"DMButton"
 	{
@@ -131,5 +131,10 @@
 	{
 		"label" "DemoUI"
 		"command"		"engine demoui"
+	}
+	"MinButton"
+	{
+		"label" "MinMode"
+		"command"		"engine toggle cl_hud_minmode"
 	}
 }
