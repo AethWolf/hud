@@ -46,7 +46,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Postface24"
+		"font"			"Adventuring24"
 		"xpos"			"200"			// align me to the left edge of the first selection
 		"ypos"			"20"
 		"zpos"			"3"
@@ -66,7 +66,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"Postface24"
+		"font"			"Adventuring24"
 		"fgcolor"		"Black"
 		"xpos"			"201"			// align me to the left edge of the first selection
 		"ypos"			"21"
@@ -87,7 +87,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WeaponTauntLabel"
-		"font"			"Postface10"
+		"font"			"Adventuring12"
 		"xpos"			"135"
 		"ypos"			"49"
 		"zpos"			"6"
@@ -107,7 +107,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"Postface10"
+		"font"			"Adventuring12"
 		"xpos"			"75"
 		"ypos"			"205"
 		"zpos"			"6"
