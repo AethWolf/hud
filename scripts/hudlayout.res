@@ -1133,10 +1133,10 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"5"
+		"xpos"					"c-200"
+		"ypos"					"-5"
 		"ypos_lodef"				"75"
-		"wide"					"125"
+		"wide"					"350"
 		"tall"					"55"
 	}
 	
@@ -1407,7 +1407,7 @@
 		{
 			"controlName" "CExLabel"
 			"fieldName" "KonrOutline"
-			"visible" "1"
+			"visible" "0"
 			"enabled" "1"
 			"zpos" "-1"
 			"xpos" 		 "c-108"
