@@ -9,7 +9,7 @@
 		"ypos"			"r60"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"qualitycolorunique"
+		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
 	
@@ -49,7 +49,7 @@
 		"xpos"					"25"
 		"ypos"					"29"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"45"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -60,8 +60,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Postface10"
-		"fgcolor_override"		"qualitycolorunique"
+		"font"					"Adventuring14"
+		"fgcolor_override"		"White"
 	}
 	"ItemEffectMeterLabelShadow"
 	{
@@ -70,7 +70,7 @@
 		"xpos"					"26"
 		"ypos"					"30"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"45"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -81,7 +81,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Postface10"
+		"font"					"Adventuring14"
 		"fgcolor_override"		"black"
 	}
 
@@ -122,7 +122,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Postface24"
-		"fgcolor"				"qualitycolorunique"
+		"fgcolor"				"White"
 	}
 	"ItemEffectMeterCountShadow"
 	{

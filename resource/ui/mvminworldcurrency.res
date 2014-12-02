@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"Postface12"
+		"font"			"Postface16"
 		"fgcolor"		"White"
 		"xpos"			"9"
 		"ypos"			"1"
@@ -66,8 +66,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"Postface12"
-		"fgcolor"		"TanDarker"
+		"font"			"Postface16"
+		"fgcolor"		"FullBlack"
 		"xpos"			"9"
 		"ypos"			"1"
 		"zpos"			"4"

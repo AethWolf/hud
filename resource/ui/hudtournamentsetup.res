@@ -13,8 +13,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		bgcolor_override "BGGrey"
+		
+		bgcolor_override "LightBlackTransparent"
 
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -28,7 +28,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"xpos"			"8"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -41,13 +41,14 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"west"
+		"fgcolor_override"		"white"
 	}
 
 	"TournamentTeamNameLabel"
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"Postface10"
+		"font"			"Adventuring12"
 		"xpos"			"67"
 		"ypos"			"28"
 		"zpos"			"1"
@@ -60,6 +61,7 @@
 		"wrap"			"0"
 		"labelText"		"#Tournament_TeamNamePanel"
 		"textAlignment"		"west"
+		"fgcolor_override"		"white"
 	}
 
 	"TournamentNameEdit"
@@ -81,7 +83,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"		"235 226 202 255"
+		"fgcolor_override"		"White"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
@@ -123,8 +125,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"Postface10"
-		"fgcolor"		"Red"
+		"font"			"Adventuring12"
 	}
 
 	"TournamentReadyButton"
@@ -146,7 +147,7 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"Postface10"
+		"font"			"Adventuring12"
 		"fgcolor"		"FooterBGBlack"
 	}
 }

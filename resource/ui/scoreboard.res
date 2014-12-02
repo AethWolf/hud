@@ -910,6 +910,7 @@
 		if_mvm
 		{
 			"visible"		"0"
+			"xpos"			"9999"
 		}
 
 		"KillsLabel"
@@ -928,7 +929,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-		}						
+		}
+						
 		"DeathsLabel"
 		{
 			"ControlName"		"CExLabel"

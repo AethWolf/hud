@@ -250,16 +250,16 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"6"
 		"zpos"			"-1"
 		"wide"			"250"
-		"tall"			"55"
+		"tall"			"48"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		"bgcolor_override"	"BGBlack"
+		
+		"bgcolor_override"	"LightBlackTransparent"
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
@@ -276,8 +276,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
-		"font"			"Postface12"
-		"fgcolor"		"white"
+		"font"			"Adventuring14"
+		"fgcolor_override"		"white"
 		"xpos"			"5"
 		"ypos"			"3"
 		"zpos"			"1"
@@ -310,8 +310,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		"bgcolor_override"	"hudblueteam"
+		
+		"bgcolor_override"	"BLUTeamTransparent"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -328,7 +328,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"xpos"			"12"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -341,6 +341,7 @@
 		"wrap"			"0"
 		"labelText"		"%bluenamelabel%"
 		"textAlignment"		"west"
+		"fgcolor_override" "white"
 		
 		if_mvm
 		{
@@ -351,7 +352,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"xpos"			"56"
 		"ypos"			"24"
 		"zpos"			"1"
@@ -364,6 +365,7 @@
 		"wrap"			"0"
 		"labelText"		"%bluestate%"
 		"textAlignment"		"east"
+		"fgcolor_override" "white"
 		
 		if_mvm
 		{
@@ -384,8 +386,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		"bgcolor_override"	"hudredteam"
+		"bgcolor_override"	"REDTeamTransparent"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -402,7 +403,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"fgcolor"		"white"
 		"xpos"			"175"
 		"ypos"			"24"
@@ -416,6 +417,7 @@
 		"wrap"			"0"
 		"labelText"		"%rednamelabel%"
 		"textAlignment"		"east"
+		"fgcolor_override" "white"
 		
 		if_mvm
 		{
@@ -426,7 +428,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"fgcolor"		"white"
 		"xpos"			"130"
 		"ypos"			"24"
@@ -440,6 +442,7 @@
 		"wrap"			"0"
 		"labelText"		"%redstate%"
 		"textAlignment"		"west"
+		"fgcolor_override" "white"
 		
 		if_mvm
 		{
@@ -450,10 +453,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"fgcolor"		"White"
-		"xpos"			"8"
-		"ypos"			"42"
+		"xpos"			"5"
+		"ypos"			"30"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"35"
@@ -463,7 +466,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%winconditions%"
-		"textAlignment"		"north-west"
+		"textAlignment"		"Center"
 		
 		if_mvm
 		{
@@ -484,8 +487,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"comboboxborder"
-		"bgcolor_override"	"BGblack"
+		
+		
 
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -503,7 +506,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"fgcolor"		"white"
 		"xpos"			"0"
 		"ypos"			"59"
@@ -533,10 +536,10 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
-		"font"			"Postface12"
-		"fgcolor"		"white"
-		"xpos"			"0"
-		"ypos"			"54"
+		"font"			"Adventuring14"
+		"fgcolor"		"BGBlack"
+		"xpos"			"1"
+		"ypos"			"60"
 		"wide"			"250"
 		"tall"			"10"
 		"zpos"			"2"

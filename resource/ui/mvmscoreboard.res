@@ -4,8 +4,8 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"0"
-		"ypos"				"8"
+		"xpos"				"150"
+		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
@@ -19,14 +19,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"Postface12"
+		"font"			"Adventuring14"
 		"labelText"		"%popfile%"
-		"textAlignment"	"east"
-		"xpos"			"290"
-		"ypos"			"377"
+		"textAlignment"	"west"
+		"xpos"			"30"
+		"ypos"			"320"
 		"wide"			"290"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"White"
 	}
 
 	"DifficultyContainer"
@@ -43,28 +43,28 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"Postface16"
+			"font"			"Adventuring18"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"15"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 		
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"Postface16"
+			"font"			"Adventuring18"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"15"
 			"wide"			"150"
 			"tall"			"15"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 	}
 	
@@ -72,11 +72,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"25"
-		"ypos"			"75"
+		"xpos"			"240"
+		"ypos"			"93"
 		"zpos"			"-1"
 		"wide"			"550"
-		"tall"			"150"
+		"tall"			"90"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"BGBlack"
@@ -86,8 +86,8 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"35"
-		"ypos"			"79"
+		"xpos"			"250"
+		"ypos"			"95"
 		"wide"			"530"
 		"tall"			"150"
 		"pinCorner"		"0"
@@ -95,7 +95,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"22"
+		"linespacing"	"12"
 		"textcolor"		"White"
 	}
 	
@@ -103,10 +103,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"100"
-		"ypos"			"230"
+		"xpos"			"20"
+		"ypos"			"50"
 		"wide"			"400"
-		"tall"			"205"
+		"tall"			"405"
 		"visible"		"1"
 		
 		"CreditStatsBackground"
@@ -135,14 +135,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"Postface20"
+			"font"			"Adventuring22"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
 			"xpos"			"8"
 			"ypos"			"8"
 			"wide"			"100"
 			"tall"			"25"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
@@ -161,8 +161,8 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"TotalGameCreditInfoPanel"
-			"xpos"			"208"
-			"ypos"			"30"
+			"xpos"			"8"
+			"ypos"			"150"
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
@@ -185,8 +185,8 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"208"
-			"ypos"			"75"
+			"xpos"			"8"
+			"ypos"			"195"
 			"wide"			"184"
 			"tall"			"60"
 			"wide"			"200"
@@ -197,14 +197,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecStatusLabel"
-			"font"			"HudFontSmall"
+			"font"			"Adventuring16"
 			"labelText"		"%respecstatus%"
-			"textAlignment" "north-east"
-			"xpos"			"115"
-			"ypos"			"8"
+			"textAlignment" "west"
+			"xpos"			"10"
+			"ypos"			"250"
 			"wide"			"275"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"White"
 		}
 	}
 }

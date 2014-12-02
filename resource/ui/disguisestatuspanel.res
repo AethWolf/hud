@@ -48,8 +48,8 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"Postface16"
-		"xpos"			"80"
+		"font"			"Adventuring18"
+		"xpos"			"90"
 		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"110"
@@ -62,14 +62,15 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override"		"white"
 	}
 	
 	"WeaponNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Postface16"
-		"xpos"			"80"
+		"font"			"Adventuring18"
+		"xpos"			"90"
 		"ypos"			"45"
 		"zpos"			"1"
 		"wide"			"110"
@@ -82,6 +83,7 @@
 		"textAlignment"		"North-West"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"fgcolor_override"		"white"
 	}
 	
 	"SpectatorGUIHealth"
@@ -90,7 +92,7 @@
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"50"
 		"ypos"			"30"
-		"wide"			"32"
+		"wide"			"40"
 		"tall"			"32"
 		"visible"		"1"
 		"enabled"		"1"	

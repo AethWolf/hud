@@ -8,23 +8,23 @@
 		"ypos"			"12"
 		"zpos"			"-1"
 		"wide"			"640"
-		"tall"			"15"
+		"tall"			"11"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"FullBlack"
 	}
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
-		"ypos"			"23"
-		"zpos"			"-1"
+		"ypos"			"20"
+		"zpos"			"-10"
 		"wide"			"25"
 		"tall"	 		"2"
-		"autoResize"		"0"
+		"autoResize"		"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -36,8 +36,8 @@
 		"teambg_3"		"../hud/color_panel_blu"
 		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"20"				// pixels inside the image
+		"src_corner_width"		"20"
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
