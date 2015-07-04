@@ -17,6 +17,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"15"
 		"avatar_width"		"57"	[$WIN32]
 		"avatar_width"		"0"		[$X360]
 		"name_width"		"80"	[$WIN32]

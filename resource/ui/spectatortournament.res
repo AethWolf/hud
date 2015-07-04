@@ -10,12 +10,12 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-425"
-		"team1_player_base_y"				"150"
+		"team1_player_base_offset_x"		"-5"
+		"team1_player_base_y"				"0"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"15"
-		"team2_player_base_offset_x"		"-425"
-		"team2_player_base_y"				"10"
+		"team2_player_base_offset_x"		"-300"
+		"team2_player_base_y"				"0"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"15"
 		
@@ -342,7 +342,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"0"
+		"tall"			"33"
 	}
 	"BottomBar"
 	{
@@ -363,7 +363,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"0"
+		"xpos"			"c-150"
 		"ypos"			"32"
 		"wide"			"300"
 		"tall"			"18"
@@ -465,33 +465,34 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"9999"
-		"ypos"			"300"
-		"zpos"			"1"
-		"wide"			"270"
-		"tall"			"180"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10"
+		"wide"			"190"
+		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		
-		"model_xpos"		"10"
-		"model_center_y"	"1"
+		"model_ypos"		"10"
+		"model_center_x"	"1"
 		"model_wide"		"90"
-		"model_tall"		"55"
+		"model_tall"		"60"
 		
-		"text_xpos"		"90"
+		"text_xpos"		"10"
+		"text_ypos"		"10"
 		"text_wide"		"170"
 		"text_center"	"1"
 		
-		"max_text_height"	"90"
-		"padding_height"	"40"
+		"max_text_height"	"100"
+		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
 		
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		
@@ -535,4 +536,17 @@
 			"centerwrap"	"1"
 		}
 	}	
+	"spectator_extras"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"spectator_extras"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}		
 }

@@ -42,13 +42,15 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-100"
-		"ypos"	"-115"
+		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"6"
+		"blue_active_xpos"			"16"
+		"blue_active_xpos_minmode"	"55"
 	
-		"red_active_xpos"			"116"
+		"red_active_xpos"			"106"
+		"red_active_xpos_minmode"	"105"
 	}	
 
 	HudItemEffectMeter
@@ -197,8 +199,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"310"
-		"ypos"					"r250"
+		"xpos"					"76"
+		"xpos_minmode"			"61"
+		"ypos"					"r152"
+		"ypos_minmode"			"r134"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -240,7 +244,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"240"
-		"wide"	 	"300"
+		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
 		"priority_lodef"	"5"
@@ -258,8 +262,8 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"350"
-		"wide"	 	"300"
+		"ypos"		"270"
+		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"40"
 		"priority_lodef" "35"
@@ -275,7 +279,7 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"270"
-		"wide"	 	"350"
+		"wide"	 	"252"
 		"tall"	 	"35"
 		"priority"	"35"
 
@@ -285,6 +289,7 @@
 			"x_offset"	"20"
 		}
 
+	
 	}
 	
 	BuildingStatus_Spy
@@ -293,7 +298,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
-		"ypos"		"200"	[$WIN32]
+		"ypos"		"0"	[$WIN32]
 		"xpos"		"32"	[$X360]
 		"ypos"		"16"	[$X360]		
 		"wide"		"640"
@@ -310,7 +315,7 @@
 		"xpos"		"0"
 		"xpos_hidef"		"32"
 		"xpos_lodef"		"40"
-		"ypos"		"150"
+		"ypos"		"0"
 		"ypos_hidef"		"16"
 		"ypos_lodef"		"25"
 		"wide"		"640"
@@ -402,16 +407,7 @@
 
 	HudDamageIndicator
 	{
-		 "fieldname" "HudDamageIndicator"
-        "visible"   "1"
-        "enabled"   "1"
-        "MinimumWidth"  "20"
-        "MaximumWidth"  "20"    
-        "StartRadius"   "100"
-        "EndRadius"     "100"    
-        "MinimumHeight" "30"
-        "MaximumHeight" "30"
-        "MinimumTime"   "1"
+
 	}
 
 	HudCommentary
@@ -466,7 +462,7 @@
 		"tall"	 "480"
 	}
 
-	HudDeathNotice
+HudDeathNotice
 	{
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
@@ -480,20 +476,20 @@
 
 		"MaxDeathNotices" "4"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
+		"LineHeight"	  "13"
 		"LineSpacing"	  "4"
-		"CornerRadius"	  "0"
+		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Adventuring12"
+		"TextFont"		"fontstoreprice"
 		
 		"TeamBlue"		"BluTeamSolid"
 		"TeamRed"		"RedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 255"		[$WIN32]
-		"LocalBackgroundColor"	"White"	[$WIN32]
+		"BaseBackgroundColor"	"46 43 42 96"		[$WIN32]
+		"LocalBackgroundColor"	"255 255 255 96"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 255"		[$X360]
 		"LocalBackgroundColor"	"0 0 0 255"		[$X360]
 	}
@@ -574,8 +570,8 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"475"
-		"ypos"			"r215"
+		"xpos"			"130"
+		"ypos"			"r61"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -587,14 +583,14 @@
 		"fieldName" "HudCloseCaption"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c125"
-		"ypos"		"200"	[$WIN32]
+		"xpos"		"c-250"
+		"ypos"		"276"	[$WIN32]
 		"ypos"		"236"	[$X360]
-		"wide"		"100"
+		"wide"		"500"
 		"tall"		"136"	[$WIN32]
 		"tall"		"176"	[$X360]
 
-		"BgAlpha"	"192"
+		"BgAlpha"	"128"
 
 		"GrowTime"		"0.25"
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
@@ -733,23 +729,23 @@
 		"wide" "145"
 		"tall" "400"
 
-		"item_wide"	"150"
+		"item_wide"	"135"
 		
-		"show_avatar"		"1"
+		"show_avatar"		"0"
 		
 		"show_dead_icon"	"1"
-		"dead_xpos"			"125"
+		"dead_xpos"			"1"
 		"dead_ypos"			"0"
 		"dead_wide"			"16"
 		"dead_tall"			"16"
 		
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
-		"icon_xpos"			"0"
+		"icon_xpos"			"15"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		
-		"text_xpos"			"50"
+		"text_xpos"			"33"
 	}
 
 	HudHintDisplay
@@ -970,7 +966,7 @@
 		"fieldName" 	"HudMenuEngyBuild"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-200"
+		"xpos"			"c-225"
 		"ypos"			"c-55"
 		"wide"			"450"
 		"tall"			"195"
@@ -982,20 +978,20 @@
 		"fieldName" 	"HudMenuEngyDestroy"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-200"
+		"xpos"			"c-225"
 		"ypos"			"c-59"
 		"wide"			"450"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
 	}
-	
+
 	"HudEurekaEffectTeleportMenu"
 	{
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-112"
-		"ypos"			"c-85"
+		"xpos"			"c-125"
+		"ypos"			"c-55"
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
@@ -1027,7 +1023,7 @@
 		"ypos"			"r74"	[$X360]
 		"wide"			"175"
 		"tall"			"50"
-	}	
+	}
 
 	HudTeamGoal
 	{
@@ -1133,10 +1129,11 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-200"
-		"ypos"					"-5"
+		"xpos"					"c-160"
+		"ypos"					"5"
+		"ypos_minmode"				"15"
 		"ypos_lodef"				"75"
-		"wide"					"350"
+		"wide"					"125"
 		"tall"					"55"
 	}
 	
@@ -1146,7 +1143,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-320"
-		"ypos"					"350"
+		"ypos"					"300"
 		"wide"					"640"
 		"tall"					"100"
 	}
@@ -1215,7 +1212,7 @@
 		"NormalY"		"10"
 		"EngineerY"		"170"
 		"zpos"			"2"
-		"wide"			"200"
+		"wide"			"280"
 		"tall"			"280"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -1246,12 +1243,12 @@
 	{
 		"fieldName"				"HudInspectPanel"
 		"visible"				"0"
-		"enabled"				"0"
-		"xpos"					"r270"
-		"ypos"					"300"
+		"enabled"				"1"
+		"xpos"					"r200"
+		"ypos"					"rs1"
 		"zpos"					"10"
-		"wide"					"270"
-		"tall"					"180"
+		"wide"					"190"
+		"tall"					"f0"
 	}
 	
 	HudTFCrosshair
@@ -1352,10 +1349,10 @@
 	}
 
 
-	"CTFKillStreakNotice"
+	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFKillStreakNotice"
-		"xpos"			"0"			
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -1364,21 +1361,7 @@
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
-	
-	"HudMenuTauntSelection"
-	{
-		"fieldName" 	"HudMenuTauntSelection"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"250"
-		"PaintBackgroundType"	"0"
-	}
-	
+
 	CTFFlagCalloutPanel
 	{
 		"fieldName"		"CTFFlagCalloutPanel"
@@ -1390,7 +1373,33 @@
 		"tall"	 		"40"
 		"priority"		"40"
 	}
-	
+
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
+
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
+
 	HudMiniGame
 	{
 		"fieldName" "HudMiniGame"
@@ -1400,6 +1409,29 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
 	}
 	
 	//Custom Crosshair shit
@@ -1723,4 +1755,5 @@
 			"textAlignment" "center"
 			"fgcolor" "CrosshairColor"
 		}
+	}
 }
