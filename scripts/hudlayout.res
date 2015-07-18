@@ -1439,7 +1439,7 @@ HudDeathNotice
 		{
 			"controlName" "CExLabel"
 			"fieldName" "KonrOutline"
-			"visible" "1"
+			"visible" "0"
 			"enabled" "1"
 			"zpos" "-1"
 			"xpos" 		 "c-108"
@@ -1755,5 +1755,21 @@ HudDeathNotice
 			"textAlignment" "center"
 			"fgcolor" "CrosshairColor"
 		}
+	"CrosshairName"
+	{
+		"controlName"					"CExLabel"
+		"fieldName"					"CrosshairName"
+		"visible"					"1"
+		"enabled"					"1"
+		"zpos"						"1"
+		"xpos"						"c-25"
+		"ypos"						"c-25"
+		"wide"						"50"
+		"tall"						"50"
+		"font"						"size:25,outline:on"
+		"labelText"					"N"
+		"textAlignment"					"center"
+		"fgcolor"					"CrosshairColor"
+	}
 	}
 }

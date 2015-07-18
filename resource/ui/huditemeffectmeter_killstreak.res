@@ -60,7 +60,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Adventuring14"
+		"font"					"HudFontSmallestBold"
 		"fgcolor_override"		"White"
 	}
 	"ItemEffectMeterLabelShadow"
@@ -81,7 +81,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Adventuring14"
+		"font"					"HudFontSmallestBold"
 		"fgcolor_override"		"black"
 	}
 
@@ -121,7 +121,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Postface24"
+		"font"					"HudFontMediumBold"
 		"fgcolor"				"White"
 	}
 	"ItemEffectMeterCountShadow"
@@ -141,7 +141,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Postface24"
+		"font"					"HudFontMediumBold"
 		"fgcolor"				"black"
 	}
 }

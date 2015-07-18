@@ -77,7 +77,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Postface40"
+		"font"			"HudFontGiantBold"
 		"fgcolor"		"White"
 	}
 	"PlayerStatusHealthValueShadow"
@@ -94,7 +94,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Postface40"
+		"font"			"HudFontGiantBold"
 		"fgcolor"		"black"
 	}
 	"PlayerHealthValueBG"

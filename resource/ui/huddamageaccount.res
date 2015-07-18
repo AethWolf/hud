@@ -9,14 +9,14 @@
 		"PositiveColor"			"White"
 		"NegativeColor"			"0 255 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Postface20"
-		"delta_item_font_big"	"Postface20"
+		"delta_item_font"		"HudFontMediumSmallBold"
+		"delta_item_font_big"	"HudFontMediumBold"
 	}
 	"CDamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CDamageAccountValue"
-		"font"			"Postface16"
+		"font"			"HudFontMediumSmallBold"
 		"fgcolor"		"0 255 0 255"
 		"xpos"			"c-150"
 		"ypos"			"c47"
