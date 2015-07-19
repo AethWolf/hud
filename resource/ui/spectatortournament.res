@@ -2,7 +2,7 @@
 {
 	"specgui"
 	{
-		"ControlName"		"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"specgui"
 		"wide"			"f0"
 		"tall"			"480"
@@ -10,12 +10,12 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-5"
-		"team1_player_base_y"				"0"
+		"team1_player_base_offset_x"		"-25"
+		"team1_player_base_y"				"345"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"15"
-		"team2_player_base_offset_x"		"-300"
-		"team2_player_base_y"				"0"
+		"team2_player_base_offset_x"		"250"
+		"team2_player_base_y"				"345"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"15"
 		
