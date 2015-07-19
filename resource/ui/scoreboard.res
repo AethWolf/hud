@@ -36,23 +36,21 @@
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"610"
-		"xpos_hidef"	"18"
-		"ypos"			"20"
-		"ypos_minmode"	"89"
-		"wide"			"275"
-		"wide_lodef"	"284"
-		"wide_hidef"	"294"
-		"tall"			"40"
-		"autoResize"	"0"
+		"xpos"			"603"
+		"ypos"			"7"
+		"ypos_minmode"  "76"
+		"wide"			"278"
+		"tall"			"78"
+		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//"border"		"comboboxborder"
-		"bgcolor_override" "BluTeamTransparent"
-		
+		"image"			"../hud/score_panel_blue_bg"
+		"image_lodef"	"../hud/score_panel_blue_bg_lodef"
+		"scaleImage"		"1"
+
 		if_mvm
 		{
 			"visible"		"0"
@@ -60,33 +58,32 @@
 	}
 	"RedScoreBG"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"610"
-		"xpos_lodef"	"276"
-		"xpos_hidef"	"306"
-		"ypos"			"220"
-		"wide"			"275"
-		"wide_lodef"	"284"
-		"wide_hidef"	"294"
-		"tall"			"40"
+		"xpos"			"603"
+		"ypos"			"207"
+		"wide"			"278"
+		"tall"			"78"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//"border"		"comboboxborder"
-		"bgcolor_override" "RedTeamTransparent"
-		
+		"image"			"../hud/score_panel_red_bg"
+		"image_lodef"	"../hud/score_panel_red_bg_lodef"
+		"scaleImage"		"1"
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
+		
+
 	"MainBG"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"MainBG"
-		"xpos"			"610"
+		"xpos"			"605"
 		"xpos_hidef"	"14"
 		"ypos"			"20"
 		"ypos_minmode"	"90"
@@ -94,22 +91,23 @@
 		"wide"			"275"
 		"wide_lodef"	"570"
 		"wide_hidef"	"590"
-		"tall"			"435"
-		"tall_minmode"	"265"
+		"tall"			"645"
+		"tall_minmode"	"420"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		//"border"		"comboboxborder"
-		"bgcolor_override" "LightBlackTransparent"
-		
+		"image"			"../hud/score_panel_black_bg"
+		"image_lodef"	"../hud/score_panel_black_bg_lodef"
+		"scaleImage"		"1"
+
 		if_mvm
 		{
 			"ypos"			"0"
 			"tall"			"448"
 			"visible"		"0"
 		}
-	}							
+	}	
 	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -200,7 +198,7 @@
 		"labelText"		"%blueteamplayercount%"
 		"fgcolor"		"white"
 		"textAlignment"		"west"
-		"xpos"			"700"
+		"xpos"			"710"
 		"xpos_hidef"		"100"
 		"ypos"			"30"
 		"ypos_minmode"	"100"
@@ -304,7 +302,7 @@
 		"labelText"		"%redteamplayercount%"
 		"fgcolor"		"white"
 		"textAlignment"		"east"
-		"xpos"			"690"
+		"xpos"			"700"
 		"xpos_lodef"	"376"
 		"xpos_hidef"	"418"
 		"ypos"			"232"
@@ -378,16 +376,16 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"610"
+		"xpos"			"608"
 		"xpos_lodef"	"10"
 		"xpos_hidef"	"30"
 		"ypos"			"50"
-		"ypos_minmode"			"119"
+		"ypos_minmode"	"119"
 		"zpos"			"20"
-		"wide"			"275"
+		"wide"			"270"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
-		"tall"			"280"	[$WIN32]
+		"tall"			"168"	[$WIN32]
 		"tall"			"255"	[$X360]
 		"tall_minmode"	"100"
 		"pinCorner"		"0"
@@ -397,6 +395,7 @@
 		"autoresize"	"3"
 		"linespacing"	"10"
 		"fgcolor"		"blue"
+		"show_columns"	"0"
 		
 		if_mvm
 		{
@@ -407,15 +406,15 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"610"
+		"xpos"			"608"
 		"xpos_lodef"	"284"
 		"xpos_hidef"	"314"
 		"ypos"			"250"
 		"zpos"			"20"
-		"wide"			"275"
+		"wide"			"270"
 		"wide_lodef"	"267"
 		"wide_hidef"	"277"
-		"tall"			"280"	[$WIN32]
+		"tall"			"168"	[$WIN32]
 		"tall"			"255"	[$X360]
 		"tall_minmode"	"100"
 		"pinCorner"		"0"
@@ -511,51 +510,30 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"ShadedBar"
-		"xpos"			"24"
-		"xpos_hidef"	"30"
-		"xpos_minmode"	"9999"
-		"ypos"			"125"	[$WIN32]
-		"ypos"			"297"	[$X360]
-		"zpos"			"2"
+		"xpos"			"21"
+		"xpos_hidef"	"14"
+		"ypos"			"125"
+		"ypos_minmode"	"99999"
+		"zpos"			"-1"
 		"wide"			"175"
-		"wide_lodef"	"539"
-		"wide_hidef"	"559"
-		"tall"			"300"
+		"wide_lodef"	"570"
+		"wide_hidef"	"590"
+		"tall"			"500"
+		"tall_minmode"	"265"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 64"
-		"PaintBackgroundType"	"0"
-		//"border"		"comboboxborder"
-		
+		"image"			"../hud/score_panel_black_bg"
+		"image_lodef"	"../hud/score_panel_black_bg_lodef"
+		"scaleImage"		"1"
+
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
-	"AvaNameShader"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AvaNameShader"
-		"xpos"			"24"
-		"xpos_minmode"	"9999"
-		"ypos"			"125"
-		"wide"			"175"
-		"tall"			"75"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"fillcolor"		"LightBlackTransparent"
-		
-		if_mvm
-		{
-			"visible"	"0"
-		}	
-	}
+	
 	"ClassImage"
 	{
 		"ControlName"		"ImagePanel"

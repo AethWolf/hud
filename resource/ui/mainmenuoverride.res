@@ -407,6 +407,10 @@
 		{
 			"image"		"../console/title_team_halloween2013"
 		}
+		if_halloween_3
+		{
+			"image"		"../console/title_team_halloween2014"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -414,6 +418,14 @@
 		if_christmas
 		{
 			"image"		"../console/background_xmas2011"
+		}
+		if_eotl_launch
+		{
+			"image"		"../console/title_eotl01"
+		}
+		if_operation
+		{
+			"image"		"../console/title_summer_operation_2015"
 		}
 	}
 					
@@ -1447,13 +1459,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
-		"ypos"			"28"
+		"xpos"			"105"
+		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
 		"autoResize"	"0"
-		"pinCorner"		"3"
+		"pinCorner"		"1"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
