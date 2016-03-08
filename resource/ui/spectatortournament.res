@@ -10,11 +10,11 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-25"
-		"team1_player_base_y"				"345"
+		"team1_player_base_offset_x"		"0"
+		"team1_player_base_y"				"5"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"15"
-		"team2_player_base_offset_x"		"250"
+		"team2_player_base_offset_x"		"0"
 		"team2_player_base_y"				"345"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"15"
@@ -342,7 +342,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"33"
+		"tall"			"0"
 	}
 	"BottomBar"
 	{

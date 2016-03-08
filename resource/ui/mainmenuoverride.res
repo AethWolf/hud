@@ -411,6 +411,10 @@
 		{
 			"image"		"../console/title_team_halloween2014"
 		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -419,14 +423,19 @@
 		{
 			"image"		"../console/background_xmas2011"
 		}
-		if_eotl_launch
-		{
-			"image"		"../console/title_eotl01"
-		}
-		if_operation
-		{
-			"image"		"../console/title_summer_operation_2015"
-		}
+//		if_eotl_launch
+//		{
+//			"image"		"../console/title_eotl01"
+//		}
+//		if_operation
+//		{
+//			"image"		"../console/title_team_halloween2015"
+//		}
+//		
+//		if_community_update
+//		{
+//			"image"		"../console/title_invasion"
+//		}
 	}
 					
 	"TFLogoImage"
@@ -578,7 +587,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
 			
 			"border_default"	""
 			"border_armed"		""
@@ -1459,13 +1468,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"105"
-		"ypos"			"420"
+		"xpos"			"c228"
+		"ypos"			"28"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
 		"autoResize"	"0"
-		"pinCorner"		"1"
+		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
@@ -1496,7 +1505,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_released"	"vo/null.mp3"
 			"actionsignallevel" "2"
 			"proportionaltoparent"	"1"
 				
@@ -2120,6 +2129,36 @@
 			"fgcolor"		"137 134 127 255"
 		}
 	}
+	
+	"CompetitiveBetaImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldname"		"CompetitiveBetaImage"
+		// Competitive button, plus offset.
+		"xpos"			"c-285+218"
+		"ypos"			"178"
+		"zpos"			"12"
+		"wide"			"30"
+		"tall"			"30"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"beta"
+		"scaleImage"	"1"
+		if_competitive
+ 		{
+				"visible"		"1"
+				"enabled"		"1"
+		}
+		if_competitive_stress_event
+		{
+			// Move up/left 10px, bump up to 20x20
+			"ypos"	"165"
+			"xpos"	"c-285+205"
+			"wide"	"56"
+			"tall"	"56"
+			"image"	"beta_stress"
+ 		}
+ 	}
 
 	"QuickplayButton"
 	{
