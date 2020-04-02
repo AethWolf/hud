@@ -1423,8 +1423,43 @@ HudDeathNotice
 	}
 
 	"QuestNotificationPanel"
+    {
+		"fieldName"        "QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"        "0"
+		"ypos"        "0"
+		"wide"        "f0"
+		"tall"        "f0"
+    }
+
+    "QuestLogContainer"
+    {
+		"ControlName"                "EditablePanel"
+		"fieldName"                 "QuestLogContainer"
+		"visible"                 "1"
+		"enabled"                 "1"
+		"xpos"                        "0"
+		"ypos"                        "0"
+		"wide"                         "f0"
+		"tall"                         "f0"
+    }
+	
+	"MatchMakingContainer"
 	{
-		"fieldName"	"QuestNotificationPanel"
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
@@ -1433,16 +1468,27 @@ HudDeathNotice
 		"tall"	"f0"
 	}
 
-	"QuestLogContainer"
+	MatchSummary
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"QuestLogContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"f0"
-		"tall"	 		"f0"
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 	
 	//Custom Crosshair shit
@@ -1450,7 +1496,7 @@ HudDeathNotice
 		{
 			"controlName" "CExLabel"
 			"fieldName" "KonrOutline"
-			"visible" "0"
+			"visible" "1"
 			"enabled" "1"
 			"zpos" "-1"
 			"xpos" 		 "c-108"
@@ -1466,7 +1512,7 @@ HudDeathNotice
 	{
 		"controlName"					"CExLabel"
 		"fieldName"					"CrosshairName"
-		"visible"					"1"
+		"visible"					"0"
 		"enabled"					"1"
 		"zpos"						"1"
 		"xpos"						"c-25"

@@ -1,131 +1,29 @@
 "GameMenu" [$WIN32]
 {
-	"ResumeGameButton"
-	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
-	"QuickplayButton"
-	{
-		"label" "#MMenu_PlayMultiplayer" 
-		"command" "quickplay"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "#MMenu_NewGame" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "#MMenu_PlayCoop" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
 	"ServerBrowserButton"
 	{
-		"label" "#MMenu_Servers" 
+		"label" "Browse Servers" 
 		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
+		"subimage" ""
+		"OnlyAtMenu" "0"
 	} 
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}
 	"ReplayBrowserButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
+		"label" "Replays"
 		"command" "engine replay_reloadbrowser"
 		"subimage" "glyph_tv"
 	}
-	"SteamWorkshopButton"
+	"WatchStreamButton"
 	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
+		"label" "Streams"
+		"command" "watch_stream"
 	}
-	"VRModeButton"
-	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
-	}
-	"TrainingButton"
-	{
-		"label" "#TF_Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-	}
-	
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer"
+		"label" "Localhost"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
-	}
-	"GeneralStoreButton"
-	{
-		"label" "#MMenu_Shop"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
-	}	
-	"CharacterSetupButton"
-	{
-		"label" "#MMenu_CharacterSetup"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
-	}
-
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
-	"CallVoteButton"
-	{
-		"label"			"Call a vote"
-		"command"		"callvote"
-		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
-	}
-	"MutePlayersButton"
-	{
-		"label"			"Mute players"
-		"command"		"OpenPlayerListDialog"
-		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
-	}
-	"RequestCoachButton"
-	{
-		"label"			"Request a coach"
-		"command"		"engine cl_coach_find_coach"
-		"OnlyInGame"	"1"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
-	}
-	//Custom buttons below here
-		"PCWButton"
-	{
-		"label"		"PF2 Ponyville"
-		"command"		"engine connect 162.248.89.187:27015"
-	}
-	"DMButton"
-	{
-		"label"		"Tartarus"
-		"command"		"engine connect 74.91.120.40:27015"
 	}
 	"DemoUIButton"
 	{
@@ -134,7 +32,48 @@
 	}
 	"MinButton"
 	{
-		"label" "MinMode"
+		"label" "min_mode"
 		"command"		"engine toggle cl_hud_minmode"
+	}
+	//Custom buttons below here
+		"PCWButton"
+	{
+		"label"		"New Cloudsdale"
+		"command"		"engine connect 66.151.244.122:27019"
+	}
+	"DMButton"
+	{
+		"label"		"Tartarus"
+		"command"		"engine connect 66.151.244.122:27017"
+	}
+	
+	"GeneralStoreButton"
+	{
+		"label" "Store"
+		"command" "engine open_store"
+		"subimage" "glyph_store"
+	}	
+	"CharacterSetupButton"
+	{
+		"label" "Backpack"
+		"command" "engine open_charinfo"
+		"subimage" "glyph_items"
+	}
+
+	// These buttons are only shown while in-game
+	// and also are positioned by the .res file
+	"CallVoteButton"
+	{
+		"label"			"Call Vote"
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+		"subimage" "icon_checkbox"
+	}
+	"MutePlayersButton"
+	{
+		"label"			"Mute Players"
+		"command"		"OpenPlayerListDialog"
+		"OnlyInGame"	"1"
+		"subimage" "glyph_muted"
 	}
 }
