@@ -1499,7 +1499,7 @@ HudDeathNotice
 			"visible" "1"
 			"enabled" "1"
 			"zpos" "-1"
-			"xpos" 		 "c-108"
+			"xpos" 		 "c-104"
 			"ypos" 		 "c-99"
 			"wide" 		 "200"
 			"tall" 		 "200"

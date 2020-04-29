@@ -4079,6 +4079,276 @@ Scheme
 				"antialias" "0"
 			}
 		}
+		// Thar be custom fonts here
+		Postface8
+		{
+			"1"
+			{
+				"name"		"Postface"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+			Postface10
+		{
+			"1"
+			{
+				"name"		"Postface"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+		Postface12
+		{
+			"1"
+			{
+				"name"		"Postface"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		Postface16
+		{
+			"1"
+			{
+				"name"		"Postface"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		Postface20
+		{
+			"1"
+			{
+				"name"		"Postface"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		Postface24
+		{
+			"1"
+			{
+				"name"		"Postface"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		Postface26
+		{
+			"1"
+			{
+				"name"		"Postface"
+				"tall"		"26"
+				"antialias" "1"
+			}
+		}
+			Postface28
+		{
+			"1"
+			{
+				"name"		"Postface"
+				"tall"		"28"
+				"antialias" "1"
+			}
+		}
+		Postface32
+		{
+			"1"
+			{
+				"name"		"Postface"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		Postface36
+		{
+			"1"
+			{
+				"name"		"Postface"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		Postface40
+		{
+			"1"
+			{
+				"name"	"Postface"
+				"tall"	"40"
+				"antialias"	"1"
+			}
+		}
+		"Class24"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Class32"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"32"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"Class48"
+		{
+			"1"
+			{
+				"name"		"Hudas Iscariote"
+				"tall"		"48"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		
+		//Crosshairs
+		"KonrOutline"
+		{
+			"1"
+			{
+				"name" "Garm3nFont"
+				"tall" "24"
+				"weight" "0"
+				"antialias" "1"
+				"outline" "1"
+			}
+		}
+		"xHairs"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall"	"24"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		Adventuring8
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		Adventuring10
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+		Adventuring12
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		Adventuring14
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
+		Adventuring16
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		Adventuring18
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		Adventuring20
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		Adventuring22
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"22"
+				"antialias" "1"
+			}
+		}
+		Adventuring24
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		Adventuring32
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		Adventuring36
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		Adventuring40
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		Adventuring46
+		{
+			"1"
+			{
+				"name"		"Adventuring"
+				"tall"		"46"
+				"antialias" "1"
+			}
+		}
 	}
 
 	//
@@ -6823,13 +7093,11 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		//Misc
 		"7"
 		{
 			"font" "resource/fonts/HudasIscariote2.otf"
 			"name" "Hudas Iscariote"
 		}
-		//Goat fonts
 		"8"
 		{
 			"font" "resource/fonts/Roboto-Regular.ttf"
@@ -6855,7 +7123,6 @@ Scheme
 			"font" "resource/fonts/Roboto-BoldCondensed.ttf"
 			"name" "Roboto Bold Cn"
 		}
-		//Crosshair fonts
 		"13"
 		{
 			"font" "resource/fonts/crosshairs.ttf"
